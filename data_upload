@@ -1,0 +1,300 @@
+-- uploading data from gcp
+USE RAW_MSDB;
+-- create integration object that contains the access information
+CREATE OR REPLACE STORAGE INTEGRATION gcp_ms_integration
+  TYPE = EXTERNAL_STAGE
+  STORAGE_PROVIDER = GCS
+  ENABLED = TRUE
+  STORAGE_ALLOWED_LOCATIONS = ('gcs://ms-project-bucket');
+
+  
+-- Describe integration object to provide access
+DESC STORAGE integration gcp_ms_integration;
+
+-- create file format
+create or replace file format RAW_MSDB.public.fileformat_gcp
+    TYPE = CSV
+    FIELD_DELIMITER = ','
+    SKIP_HEADER = 1;
+
+-- create stage object
+create or replace stage RAW_MSDB.public.stage_gcp
+    STORAGE_INTEGRATION = gcp_ms_integration
+    URL = 'gcs://ms-project-bucket'
+    FILE_FORMAT = RAW_MSDB.public.fileformat_gcp;
+
+LIST @RAW_MSDB.public.stage_gcp;
+
+-- Load case results
+COPY INTO "Case_Results"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*case result.*.csv'
+ON_ERROR = CONTINUE;
+-- validation_mode=return_errors;
+-- Load crinimal record
+COPY INTO "criminal_record"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*criminal_record.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+select * from table(validate("criminal_record", job_id => '_last'));
+  
+CREATE OR REPLACE TABLE rejected_values as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "CASE #",
+SPLIT_PART(rejected_record,',',2) as "Known to Police or FBI", 
+SPLIT_PART(rejected_record,',',3) as "Criminal Record", 
+SPLIT_PART(rejected_record,',',4) as "Part I Crimes", 
+SPLIT_PART(rejected_record,',',5) as "Part II Crimes", 
+SPLIT_PART(rejected_record,',',6) as "Highest Level of Justice System Involvement",
+SPLIT_PART(rejected_record,',',7) as "History of Physical Altercations",
+SPLIT_PART(rejected_record,',',8) as "History of Animal Abuse",
+SPLIT_PART(rejected_record,',',9) as "History of Domestic Abuse",
+SPLIT_PART(rejected_record,',',10) as "Domestic Abuse Specified",
+SPLIT_PART(rejected_record,',',11) as "History of Sexual Offenses",
+SPLIT_PART(rejected_record,',',12) as "Gang Affiliation",
+SPLIT_PART(rejected_record,',',13) as "Terror Group Affiliation",
+SPLIT_PART(rejected_record,',',14) as "Known Hate Group or Chat Room Affiliation",
+SPLIT_PART(rejected_record,',',15) as "Violent Video Games",
+SPLIT_PART(rejected_record,',',16) as "Bully",
+SPLIT_PART(rejected_record,',',17) as "Bullied"
+FROM rejected; 
+
+
+SELECT * FROM rejected_values;
+
+-- Load health record
+COPY INTO "health_record"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*health_and_mental_health.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+select * from table(validate("health_record", job_id => '_last'));
+
+-- Load victims
+COPY INTO "victims"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*victims.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+
+CREATE OR REPLACE TABLE rejected AS 
+select REJECTED_RECORD from table(validate("victims", job_id => '_last'));
+
+SELECT * FROM rejected;
+
+CREATE OR REPLACE TABLE rejected_victims as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "CASE #",
+SPLIT_PART(rejected_record,',',2) as "Shooter Last Name", 
+SPLIT_PART(rejected_record,',',3) as "Shooter First Name", 
+SPLIT_PART(rejected_record,',',4) as "Full Date", 
+SPLIT_PART(rejected_record,',',5) as "Victim Name", 
+SPLIT_PART(rejected_record,',',6) as "Age",
+SPLIT_PART(rejected_record,',',7) as "Gender",
+SPLIT_PART(rejected_record,',',8) as "Race",
+SPLIT_PART(rejected_record,',',9) as "Knew Shooter",
+SPLIT_PART(rejected_record,',',10) as "If Known, Relationship to Shooter",
+SPLIT_PART(rejected_record,',',11) as "Relationship to Shooter",
+SPLIT_PART(rejected_record,',',12) as "Life Expectancy",
+SPLIT_PART(rejected_record,',',13) as "Years Lost"
+FROM rejected; 
+
+SELECT * FROM rejected_victims;
+
+SELECT * FROM "victims";
+
+-- trauma and childhood
+
+COPY INTO "trauma_and_childhood"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*Trauma_and_Childhood.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+SELECT * FROM "trauma_and_childhood";
+
+-- social_contagion
+COPY INTO "social_contagion"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*social_contagion.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+SELECT * FROM "social_contagion";
+
+
+-- signs_of_a_crisis
+COPY INTO "signs_of_a_crisis"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*signs_of_a_crisis.*.csv'
+-- validation_mode=return_errors
+ON_ERROR = CONTINUE;
+
+CREATE OR REPLACE TABLE rejected AS 
+select REJECTED_RECORD from table(validate("signs_of_a_crisis", job_id => '_last'));
+
+SELECT * FROM rejected;
+
+CREATE OR REPLACE TABLE rejected_signs as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "1",
+SPLIT_PART(rejected_record,',',2) as "2", 
+SPLIT_PART(rejected_record,',',3) as "3", 
+SPLIT_PART(rejected_record,',',4) as "4", 
+SPLIT_PART(rejected_record,',',5) as "5", 
+SPLIT_PART(rejected_record,',',6) as "6",
+SPLIT_PART(rejected_record,',',7) as "7",
+SPLIT_PART(rejected_record,',',8) as "8",
+SPLIT_PART(rejected_record,',',9) as "9",
+SPLIT_PART(rejected_record,',',10) as "10",
+SPLIT_PART(rejected_record,',',11) as "11",
+SPLIT_PART(rejected_record,',',12) as "12",
+SPLIT_PART(rejected_record,',',13) as "13",
+SPLIT_PART(rejected_record,',',14) as "14"
+FROM rejected; 
+
+SELECT * FROM rejected_signs;
+
+     -- weapons
+COPY INTO "weapons"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*weapons.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+    -- date and location
+    
+COPY INTO "date_and_location"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*date_and_location.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+CREATE OR REPLACE TABLE rejected AS 
+select REJECTED_RECORD from table(validate("date_and_location", job_id => '_last'));
+
+SELECT * FROM rejected;
+
+CREATE OR REPLACE TABLE rejected_date_and_loc as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "1",
+SPLIT_PART(rejected_record,',',2) as "2", 
+SPLIT_PART(rejected_record,',',3) as "3", 
+SPLIT_PART(rejected_record,',',4) as "4", 
+SPLIT_PART(rejected_record,',',5) as "5", 
+SPLIT_PART(rejected_record,',',6) as "6",
+SPLIT_PART(rejected_record,',',7) as "7",
+SPLIT_PART(rejected_record,',',8) as "8",
+SPLIT_PART(rejected_record,',',9) as "9",
+SPLIT_PART(rejected_record,',',10) as "10",
+SPLIT_PART(rejected_record,',',11) as "11",
+SPLIT_PART(rejected_record,',',12) as "12",
+SPLIT_PART(rejected_record,',',13) as "13",
+SPLIT_PART(rejected_record,',',14) as "14",
+SPLIT_PART(rejected_record,',',15) as "15",
+SPLIT_PART(rejected_record,',',16) as "16",
+SPLIT_PART(rejected_record,',',17) as "17",
+SPLIT_PART(rejected_record,',',18) as "18",
+SPLIT_PART(rejected_record,',',19) as "19",
+SPLIT_PART(rejected_record,',',20) as "20",
+SPLIT_PART(rejected_record,',',21) as "21",
+SPLIT_PART(rejected_record,',',22) as "22"
+
+
+FROM rejected; 
+
+SELECT * FROM rejected_date_and_loc;
+SELECT * FROM "date_and_location";
+
+-- firearms
+
+COPY INTO "firearms"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*firearms.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+CREATE OR REPLACE TABLE rejected AS 
+select REJECTED_RECORD from table(validate("firearms", job_id => '_last'));
+
+SELECT * FROM rejected;
+
+CREATE OR REPLACE TABLE rejected_firearms as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "1",
+SPLIT_PART(rejected_record,',',2) as "2", 
+SPLIT_PART(rejected_record,',',3) as "3", 
+SPLIT_PART(rejected_record,',',4) as "4", 
+SPLIT_PART(rejected_record,',',5) as "5", 
+SPLIT_PART(rejected_record,',',6) as "6",
+SPLIT_PART(rejected_record,',',7) as "7",
+SPLIT_PART(rejected_record,',',8) as "8",
+SPLIT_PART(rejected_record,',',9) as "9",
+SPLIT_PART(rejected_record,',',10) as "10",
+SPLIT_PART(rejected_record,',',11) as "11",
+SPLIT_PART(rejected_record,',',12) as "12",
+SPLIT_PART(rejected_record,',',13) as "13",
+SPLIT_PART(rejected_record,',',14) as "14",
+SPLIT_PART(rejected_record,',',15) as "15",
+SPLIT_PART(rejected_record,',',16) as "16",
+SPLIT_PART(rejected_record,',',17) as "17",
+SPLIT_PART(rejected_record,',',18) as "18"
+FROM REJECTED;
+
+SELECT * FROM REJECTED_FIREARMS;
+
+-- offenders
+
+COPY INTO "offenders"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*offenders.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
+
+CREATE OR REPLACE TABLE rejected AS 
+select REJECTED_RECORD from table(validate("offenders", job_id => '_last'));
+
+SELECT * FROM rejected;
+
+CREATE OR REPLACE TABLE rejected_offenders as
+SELECT 
+SPLIT_PART(rejected_record,',',1) as "1",
+SPLIT_PART(rejected_record,',',2) as "2", 
+SPLIT_PART(rejected_record,',',3) as "3", 
+SPLIT_PART(rejected_record,',',4) as "4", 
+SPLIT_PART(rejected_record,',',5) as "5", 
+SPLIT_PART(rejected_record,',',6) as "6",
+SPLIT_PART(rejected_record,',',7) as "7",
+SPLIT_PART(rejected_record,',',8) as "8",
+SPLIT_PART(rejected_record,',',9) as "9",
+SPLIT_PART(rejected_record,',',10) as "10",
+SPLIT_PART(rejected_record,',',11) as "11",
+SPLIT_PART(rejected_record,',',12) as "12",
+SPLIT_PART(rejected_record,',',13) as "13",
+SPLIT_PART(rejected_record,',',14) as "14",
+SPLIT_PART(rejected_record,',',15) as "15",
+SPLIT_PART(rejected_record,',',16) as "16",
+SPLIT_PART(rejected_record,',',17) as "17",
+SPLIT_PART(rejected_record,',',18) as "18",
+SPLIT_PART(rejected_record,',',19) as "19",
+SPLIT_PART(rejected_record,',',20) as "20",
+SPLIT_PART(rejected_record,',',21) as "21",
+SPLIT_PART(rejected_record,',',22) as "22",
+SPLIT_PART(rejected_record,',',23) as "23",
+SPLIT_PART(rejected_record,',',24) as "24",
+SPLIT_PART(rejected_record,',',25) as "25",
+SPLIT_PART(rejected_record,',',26) as "26"
+FROM REJECTED;
+
+SELECT * FROM REJECTED_OFFENDERS;
+
+-- motives
+COPY INTO "motives"
+FROM @RAW_MSDB.public.stage_gcp
+PATTERN='.*motives.*.csv'
+-- validation_mode=return_errors;
+ON_ERROR = CONTINUE;
