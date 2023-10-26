@@ -1,0 +1,39 @@
+import snowflake.snowpark as snowpark
+from snowflake.snowpark.functions import col
+
+def main(session: snowpark.Session): 
+    # df without errors
+    dataframe = session.table('public."date_and_location"')
+    # df of errors
+    rejected_df = session.table('public."REJECTED_DATE_AND_LOC"')
+    rejected_pd = rejected_df.to_pandas()
+    fixed_row = []
+    fixed_table = []
+    for index, row in rejected_pd.iterrows():
+        if row["1"] == "145; 146":
+            continue
+        elif row["1"] == '"':
+            for item in rejected_pd.loc[index-1].to_list():
+                if item != '':
+                    fixed_row.append(item)
+            # fixed_row = rejected_pd.loc[index-1].to_list()
+            temp_row = rejected_pd.loc[index].to_list()
+            fixed_row[-1] = fixed_row[-1][1:-2]
+            del temp_row[0]
+            for item in temp_row:
+                if item != '':
+                    fixed_row.append(item)
+            fixed_row[-1] = fixed_row[-1][:-2]
+            fixed_table.append(fixed_row)
+        elif row["1"] == "189":
+            new_row = rejected_pd.loc[index].to_list()
+            new_row[1] = "11/19/2022"
+            new_row[2] = "Saturday"
+            new_row[3] = "19"
+            new_row[-1] = new_row[-1][:-2]
+            fixed_table.append(new_row)
+            break
+    fixed_df = session.create_dataframe(fixed_table)
+    fixed_df.write.mode("append").save_as_table('public."date_and_location"')
+    # print(fixed_table)
+    return dataframe
