@@ -1,0 +1,978 @@
+-- Case results
+
+SELECT *
+FROM "MSDB"."PUBLIC"."Case_Results";
+
+CREATE TABLE "MSDB"."PUBLIC"."Case_Results" AS
+SELECT "CASE #", "Number Killed", "Number Injured",
+    CASE 
+        WHEN "Family Member Victim" = '1' THEN TRUE
+        ELSE FALSE
+    END AS "Family Member Victim",
+    CASE 
+        WHEN "Romantic Partner Victim" = '1' THEN TRUE
+        ELSE FALSE
+    END AS "Romantic Partner Victim",
+    CASE 
+        WHEN "Kidnapping or Hostage Situation" = '1' THEN TRUE
+        WHEN "Kidnapping or Hostage Situation" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Kidnapping or Hostage Situation",
+    CASE 
+        WHEN "On-Scene Outcome" = '0' THEN 'Killed self'
+        WHEN "On-Scene Outcome" = '1' THEN 'Killed on scene'
+        WHEN "On-Scene Outcome" = '2' THEN 'Apprehended'
+        WHEN "On-Scene Outcome" = '3' THEN 'Apprehended, then suicide before trial'
+        ELSE NULL
+    END AS "On-Scene Outcome",
+    CASE
+        WHEN "Who Killed Shooter On Scene" = '0' THEN 'Alive'
+        WHEN "Who Killed Shooter On Scene" = '1' THEN 'Killed self'
+        WHEN "Who Killed Shooter On Scene" = '2' THEN 'Killed by police'
+        WHEN "Who Killed Shooter On Scene" = '3' THEN 'Killed by school resource officer'
+        WHEN "Who Killed Shooter On Scene" = '4' THEN 'Killed by armed civilian'
+        ELSE NULL
+    END AS "Who Killed Shooter On Scene",
+    CASE
+        WHEN "Attempt to Flee" = '0' THEN 'No attempt'
+        WHEN "Attempt to Flee" = '1' THEN 'Tried to escape'
+        WHEN "Attempt to Flee" = '2' THEN 'Escaped and killed self'
+    END AS "Attempt to Flee",
+    CASE
+        WHEN "Insanity Defense" = '0' THEN 'No'
+        WHEN "Insanity Defense" = '1' THEN 'Yes'
+        WHEN "Insanity Defense" = '2' THEN 'N/A (dead before trial)'
+        WHEN "Insanity Defense" = '3' THEN 'Trial pending'
+    END AS "Insanity Defense",
+    CASE
+        WHEN "Criminal Sentence" = '0' THEN 'N/A'
+        WHEN "Criminal Sentence" = '1' THEN 'Death penalty'
+        WHEN "Criminal Sentence" = '2' THEN 'Life without parole'
+        WHEN "Criminal Sentence" = '3' THEN 'Life imprisonment (with possibility of parole)'
+        WHEN "Criminal Sentence" = '4' THEN 'Hospitalization'
+        WHEN "Criminal Sentence" = '5' THEN 'Juvenile detention'
+    END AS "Criminal Sentence"
+FROM "RAW_MSDB"."PUBLIC"."Case_Results";
+
+SELECT * FROM "MSDB"."PUBLIC"."Case_Results";
+
+-- criminal record
+SELECT *
+FROM "RAW_MSDB"."PUBLIC"."criminal_record";
+
+CREATE TABLE "MSDB"."PUBLIC"."criminal_record" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Known to Police or FBI" = '1' THEN TRUE
+        WHEN "Known to Police or FBI" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Known to Police or FBI",
+    CASE 
+        WHEN "Criminal Record" = '1' THEN TRUE
+        WHEN "Criminal Record" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Romantic Partner Victim",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%1%' THEN TRUE
+        ELSE FALSE
+    END AS "Homicide",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%2%' THEN TRUE
+        ELSE FALSE
+    END AS "Forcible rape",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%3%' THEN TRUE
+        ELSE FALSE
+    END AS "Robbery",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%4%' THEN TRUE
+        ELSE FALSE
+    END AS "Aggravated Assault",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%5%' THEN TRUE
+        ELSE FALSE
+    END AS "Burglary",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%6%' THEN TRUE
+        ELSE FALSE
+    END AS "Larceny-Theft",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%7%' THEN TRUE
+        ELSE FALSE
+    END AS "Motor Vehicle Theft",
+    CASE 
+        WHEN "Part I Crimes" LIKE '%8%' THEN TRUE
+        ELSE FALSE
+    END AS "Arson",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%1%' THEN TRUE
+        ELSE FALSE
+    END AS "Simple assault",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%2%' THEN TRUE
+        ELSE FALSE
+    END AS "Fraud, forgery, embezzlement",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%3%' THEN TRUE
+        ELSE FALSE
+    END AS "Stolen property",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%4%' THEN TRUE
+        ELSE FALSE
+    END AS "Vandalism",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%5%' THEN TRUE
+        ELSE FALSE
+    END AS "Weapons offenses",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%6%' THEN TRUE
+        ELSE FALSE
+    END AS "Prostitution or other non-rape sex offenses",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%7%' THEN TRUE
+        ELSE FALSE
+    END AS "Drugs",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%8%' THEN TRUE
+        ELSE FALSE
+    END AS "DUI",
+    CASE 
+        WHEN "Part II Crimes" LIKE '%9%' THEN TRUE
+        ELSE FALSE
+    END AS "Other",
+    CASE 
+        WHEN "Highest Level of Justice System Involvement" = '0' THEN 'N/A'
+        WHEN "Highest Level of Justice System Involvement" = '1' THEN 'Suspected'
+        WHEN "Highest Level of Justice System Involvement" = '2' THEN 'Arrested'
+        WHEN "Highest Level of Justice System Involvement" = '3' THEN 'Charged'
+        WHEN "Highest Level of Justice System Involvement" = '4' THEN 'Convicted'
+        ELSE NULL
+    END AS "Highest Level of Justice System Involvement",
+    CASE 
+        WHEN "History of Physical Altercations" = '0' THEN 'No evidence'
+        WHEN "History of Physical Altercations" = '1' THEN 'Attacked inanimate objects during arguments'
+        WHEN "History of Physical Altercations" = '2' THEN 'Physically attacked people'
+        ELSE NULL
+    END AS "History of Physical Altercations",
+    CASE 
+        WHEN "History of Animal Abuse" = '0' THEN FALSE
+        WHEN "History of Animal Abuse" = '1' THEN TRUE
+        ELSE NULL
+    END AS "History of Animal Abuse",
+    CASE 
+        WHEN "History of Domestic Abuse" = '0' THEN 'No evidence'
+        WHEN "History of Domestic Abuse" = '1' THEN 'Abused romantic partner'
+        WHEN "History of Domestic Abuse" = '2' THEN 'Abused other family member(s)'
+        ELSE NULL
+    END AS "History of Domestic Abuse",
+    CASE 
+        WHEN "Domestic Abuse Specified" = '0' THEN 'N/A'
+        WHEN "Domestic Abuse Specified" = '1' THEN 'Non-sexual physical violence'
+        WHEN "Domestic Abuse Specified" = '2' THEN 'Sexual violence'
+        WHEN "Domestic Abuse Specified" = '3' THEN 'Threats / coercive control'
+        WHEN "Domestic Abuse Specified" = '4' THEN 'Threats with a deadly weapon'
+        ELSE NULL
+    END AS "Domestic Abuse Specified",
+    CASE 
+        WHEN "History of Sexual Offenses" = '0' THEN FALSE
+        WHEN "History of Sexual Offenses" = '1' THEN TRUE
+        ELSE NULL
+    END AS "History of Sexual Offenses",
+    CASE 
+        WHEN "Gang Affiliation" = '0' THEN FALSE
+        WHEN "Gang Affiliation" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Gang Affiliation",
+    CASE 
+        WHEN "Terror Group Affiliation" = '0' THEN FALSE
+        WHEN "Terror Group Affiliation" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Terror Group Affiliation",
+    CASE 
+        WHEN "Known Hate Group or Chat Room Affiliation" = '0' THEN 'No evidence'
+        WHEN "Known Hate Group or Chat Room Affiliation" = '1' THEN 'Hate group community association'
+        WHEN "Known Hate Group or Chat Room Affiliation" = '2' THEN 'Other radical group association'
+        WHEN "Known Hate Group or Chat Room Affiliation" = '3' THEN 'Inspired by a hate group but no direct connection'
+        WHEN "Known Hate Group or Chat Room Affiliation" = '4' THEN 'Website or chat room postings relating to hate or hate groups'
+        ELSE NULL
+    END AS "Known Hate Group or Chat Room Affiliation",
+    CASE 
+        WHEN "Violent Video Games" = '0' THEN FALSE
+        WHEN "Violent Video Games" = '1' THEN True
+        WHEN "Violent Video Games" = '2' THEN FALSE
+        WHEN "Violent Video Games" = '3' THEN FALSE
+        ELSE NULL
+    END AS "Violent Video Games",
+    CASE 
+        WHEN "Bully" = '0' THEN FALSE
+        WHEN "Bully" = '1' THEN True
+        ELSE NULL
+    END AS "Bully",
+    CASE 
+        WHEN "Bullied" = '0' THEN FALSE
+        WHEN "Bullied" = '1' THEN True
+        ELSE NULL
+    END AS "Bullied"
+FROM "RAW_MSDB"."PUBLIC"."criminal_record";
+
+SELECT * FROM "MSDB"."PUBLIC"."criminal_record";
+
+-- health record
+SELECT * FROM "RAW_MSDB"."PUBLIC"."health_record";
+
+DROP TABLE "MSDB"."PUBLIC"."health_record";
+
+CREATE TABLE "MSDB"."PUBLIC"."health_record" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Suicidality" = '1' THEN TRUE
+        WHEN "Suicidality" = '0' THEN FALSE
+        WHEN "Suicidality" = '2' THEN TRUE
+        ELSE NULL
+    END AS "Suicidality",
+    CASE 
+        WHEN "Prior Hospitalization" = '1' THEN TRUE
+        WHEN "Prior Hospitalization" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Prior Hospitalization",
+    CASE 
+        WHEN "Voluntary or Involuntary Hospitalization" = '1' THEN 'Voluntary'
+        WHEN "Voluntary or Involuntary Hospitalization" = '0' THEN 'Involuntary'
+        ELSE NULL
+    END AS "Voluntary or Involuntary Hospitalization",
+    CASE 
+        WHEN "Prior Counseling" = '1' THEN TRUE
+        WHEN "Prior Counseling" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Prior Counseling",
+    CASE 
+        WHEN "Voluntary or Mandatory Counseling" = '1' THEN 'Voluntary'
+        WHEN "Voluntary or Mandatory Counseling" = '0' THEN 'Involuntary'
+        ELSE NULL
+    END AS "Voluntary or Mandatory Counseling",
+    CASE 
+        WHEN "Psychiatric Medication" = '1' THEN TRUE
+        WHEN "Psychiatric Medication" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Psychiatric Medication",
+    REPLACE("Psychiatric Medication Specified",';',',') AS "Psychiatric Medication Specified",
+    REPLACE("Medication Category",';',',') AS "Medication Category",
+    CASE 
+        WHEN "Treatment 6 Months Prior to Shooting" = '1' THEN TRUE
+        WHEN "Treatment 6 Months Prior to Shooting" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Treatment 6 Months Prior to Shooting",
+    CASE 
+        WHEN "Mental Illness" = '0' THEN 'No evidence'
+        WHEN "Mental Illness" = '1' THEN 'Mood disorder'
+        WHEN "Mental Illness" = '2' THEN 'Thought disorder'
+        WHEN "Mental Illness" = '3' THEN 'Other psychiatric disorder'
+        WHEN "Mental Illness" = '4' THEN 'Indication of psychiatric disorder but no diagnosis'
+        ELSE NULL
+    END AS "Mental Illness",
+    CASE 
+        WHEN "FASD" = '1' THEN TRUE
+        WHEN "FASD" = '0' THEN FALSE
+        ELSE NULL
+    END AS "FASD",
+    CASE 
+        WHEN "Known Family Mental Health History" = '0' THEN 'No evidence'
+        WHEN "Known Family Mental Health History" = '1' THEN 'Parents had mental health issues'
+        WHEN "Known Family Mental Health History" = '2' THEN 'Other close relatives had mental health issues'
+        ELSE NULL
+    END AS "Known Family Mental Health History",
+    CASE 
+        WHEN "Autism Spectrum" = '1' THEN TRUE
+        WHEN "Autism Spectrum" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Autism Spectrum",
+    CASE 
+        WHEN "Substance Use" = '0' THEN 'No evidence'
+        WHEN "Substance Use" = '1' THEN 'Problem with alcohol'
+        WHEN "Substance Use" = '2' THEN 'Marijuana'
+        WHEN "Substance Use" = '3' THEN 'Other drugs'
+        ELSE NULL
+    END AS "Substance Use",
+    CASE 
+        WHEN "Health Issues" = '1' THEN TRUE
+        WHEN "Health Issues" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Health Issues",
+    REPLACE("Health Issues - Specify",';',',') AS "Health Issues - Specify",
+    CASE 
+        WHEN "Head Injury / Possible TBI" = '1' THEN TRUE
+        WHEN "Head Injury / Possible TBI" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Head Injury / Possible TBI"
+FROM "RAW_MSDB"."PUBLIC"."health_record";
+
+SELECT * FROM "MSDB"."PUBLIC"."health_record";
+
+ -- victims
+
+SELECT * FROM "RAW_MSDB"."PUBLIC"."victims";
+
+DROP TABLE "MSDB"."PUBLIC"."victims";
+
+CREATE TABLE "MSDB"."PUBLIC"."victims" AS
+SELECT "CASE #", CONCAT("Shooter First Name", ' ', "Shooter Last Name") AS "Shooter Full Name", "Full Date",
+    CASE 
+        WHEN "Victim Name" like '"%"' THEN REPLACE(SUBSTR("Victim Name", 2, LENGTH("Victim Name") - 2),'""','"')
+        ELSE "Victim Name"
+    END AS "Victim Name",
+"Age", 
+    CASE 
+        WHEN "Gender" = '0' THEN 'Male'
+        WHEN "Gender" = '1' THEN 'Female'
+        WHEN "Gender" = '3' THEN 'Non-Binary'
+        WHEN "Gender" = '4' THEN 'Transgender'
+        ELSE NULL
+    END AS "Gender",
+    CASE 
+        WHEN "Race" = '0' THEN 'White'
+        WHEN "Race" = '1' THEN 'Black'
+        WHEN "Race" = '2' THEN 'Latinx'
+        WHEN "Race" = '3' THEN 'Asian'
+        WHEN "Race" = '4' THEN 'Middle Eastern'
+        WHEN "Race" = '5' THEN 'Native American'
+        WHEN "Race" = '6' THEN 'Other'
+        WHEN "Race" = 'Bosnian' THEN 'Bosnian'
+        WHEN "Race" = 'Moroccan' THEN 'Moroccan'
+        ELSE NULL
+    END AS "Race",
+    CASE 
+        WHEN "Knew Shooter" = '1' THEN TRUE
+        WHEN "Knew Shooter" = '0' THEN FALSE
+        WHEN "Knew Shooter" = '2' THEN TRUE
+        ELSE NULL
+    END AS "Knew Shooter",
+    REPLACE("If Known, Relationship to Shooter",';',',') AS "If Known, Relationship to Shooter",
+    CASE 
+        WHEN "Relationship to Shooter" = '0' THEN 'No relationship'
+        WHEN "Relationship to Shooter" = '1' THEN 'Family member'
+        WHEN "Relationship to Shooter" = '2' THEN 'Romantic partner'
+        WHEN "Relationship to Shooter" = '3' THEN 'Coworker/supervisor'
+        WHEN "Relationship to Shooter" = '4' THEN 'Teacher/classmate'
+        WHEN "Relationship to Shooter" = '5' THEN 'Other'
+        ELSE NULL
+    END AS "Relationship to Shooter",
+    "Life Expectancy", "Years Lost"
+FROM "RAW_MSDB"."PUBLIC"."victims";
+
+SELECT * FROM "MSDB"."PUBLIC"."victims";
+
+-- trauma and childhood
+
+SELECT * FROM "RAW_MSDB"."PUBLIC"."trauma_and_childhood";
+
+CREATE TABLE "MSDB"."PUBLIC"."trauma_and_childhood" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Raised by Single Parent" = '0' THEN FALSE
+        WHEN "Raised by Single Parent" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Raised by Single Parent",
+    CASE 
+        WHEN "Parental Divorce / Separation" = '0' THEN FALSE
+        WHEN "Parental Divorce / Separation" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Parental Divorce / Separation",
+    CASE 
+        WHEN "Parental Death in Childhood" = '1' THEN TRUE
+        WHEN "Parental Death in Childhood" = '0' THEN FALSE
+        ELSE NULL
+    END AS "Parental Death in Childhood",
+    CASE 
+        WHEN "Parental Suicide" = '0' THEN FALSE
+        WHEN "Parental Suicide" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Parental Suicide",
+    CASE 
+        WHEN "Childhood Trauma" = '0' THEN FALSE
+        WHEN "Childhood Trauma" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Childhood Trauma",
+    CASE 
+        WHEN "Physically Abused" = '0' THEN FALSE
+        WHEN "Physically Abused" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Physically Abused",
+    CASE 
+        WHEN "Sexually Abused" = '0' THEN FALSE
+        WHEN "Sexually Abused" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Sexually Abused",
+    CASE 
+        WHEN "Emotionally Abused" = '0' THEN FALSE
+        WHEN "Emotionally Abused" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Emotionally Abused",
+    CASE 
+        WHEN "Neglected" = '0' THEN FALSE
+        WHEN "Neglected" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Neglected",
+    CASE 
+        WHEN "Childhood SES" = '0' THEN 'Lower class'
+        WHEN "Childhood SES" = '1' THEN 'Middle class'
+        WHEN "Childhood SES" = '2' THEN 'Upper class'
+        ELSE NULL
+    END AS "Childhood socioeconomic status",
+    CASE 
+        WHEN "Mother Violent Treatment" = '0' THEN FALSE
+        WHEN "Mother Violent Treatment" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Mother Violent Treatment",
+    CASE 
+        WHEN "Parental Substance Abuse" = '0' THEN FALSE
+        WHEN "Parental Substance Abuse" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Parental Substance Abuse",
+    CASE 
+        WHEN "Parent Criminal Record" = '0' THEN FALSE
+        WHEN "Parent Criminal Record" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Parent Criminal Record",
+    CASE 
+        WHEN "Family Member Incarcerated" = '0' THEN FALSE
+        WHEN "Family Member Incarcerated" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Family Member Incarcerated",
+    CASE 
+        WHEN "Adult Trauma" = '0' THEN 'No evidence'
+        WHEN "Adult Trauma" = '1' THEN 'Death of a parent causing significant distress'
+        WHEN "Adult Trauma" = '2' THEN 'Death or loss of a child'
+        WHEN "Adult Trauma" = '3' THEN 'Death of a family member causing significant distress'
+        WHEN "Adult Trauma" = '4' THEN 'Trauma from war'
+        WHEN "Adult Trauma" = '5' THEN 'Traumatic accident'
+        WHEN "Adult Trauma" = '6' THEN 'Other'
+        ELSE NULL
+    END AS "Adult Trauma"
+FROM "RAW_MSDB"."PUBLIC"."trauma_and_childhood";
+
+SELECT * FROM "MSDB"."PUBLIC"."trauma_and_childhood"
+
+ -- social_contagion
+SELECT * FROM "RAW_MSDB"."PUBLIC"."social_contagion";
+
+-- DROP TABLE "MSDB"."PUBLIC"."social_contagion";
+
+CREATE TABLE "MSDB"."PUBLIC"."social_contagion" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Social Media Use" = '0' THEN FALSE
+        WHEN "Social Media Use" = '1' THEN TRUE
+        WHEN "Social Media Use" = '2' THEN FALSE
+        ELSE NULL
+    END AS "Social Media Use",
+    CASE 
+        WHEN "Leakage" = '0' THEN FALSE
+        WHEN "Leakage" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Leakage",
+    CASE 
+        WHEN "Leakage How" = '0' THEN 'In person'
+        WHEN "Leakage How" = '1' THEN 'Letter'
+        WHEN "Leakage How" = '2' THEN 'Other writing'
+        WHEN "Leakage How" = '3' THEN 'Phone / text'
+        WHEN "Leakage How" = '4' THEN 'Internet / social media'
+        WHEN "Leakage How" = '5' THEN 'Other'
+        ELSE NULL
+    END AS "Leakage How",
+    CASE 
+        WHEN "Leakage Who" = '0' THEN 'Mental health professional'
+        WHEN "Leakage Who" = '1' THEN 'Immediate family'
+        WHEN "Leakage Who" = '2' THEN 'Wife/girlfriend'
+        WHEN "Leakage Who" = '3' THEN 'Police'
+        WHEN "Leakage Who" = '4' THEN 'Coworker/supervisor'
+        WHEN "Leakage Who" = '5' THEN 'Friend/neighbor'
+        WHEN "Leakage Who" = '6' THEN 'Classmate'
+        WHEN "Leakage Who" = '7' THEN 'Teacher/school staff'
+        WHEN "Leakage Who" = '8' THEN 'Waitress/Bartender/Clerk'
+        WHEN "Leakage Who" = '9' THEN 'Other'
+        ELSE NULL
+    END AS "Leakage Who",
+    CASE 
+        WHEN "Leakage Specific/Nonspecific" = '0' THEN FALSE
+        WHEN "Leakage Specific/Nonspecific" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Leakage Specific/Nonspecific",
+    CASE 
+        WHEN "Interest in Past Mass Violence" = '0' THEN FALSE
+        WHEN "Interest in Past Mass Violence" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Interest in Past Mass Violence",
+    CASE 
+        WHEN "Relationship with Other Shooting(s)" = '0' THEN FALSE
+        WHEN "Relationship with Other Shooting(s)" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Relationship with Other Shooting(s)",
+    REPLACE(REPLACE(REPLACE("Specify Relationship to Other Shooting(s)",'""','"'),'""','"'),';',',') AS "Specify Relationship to Other Shooting(s)",
+    CASE 
+        WHEN "Legacy Token" = '0' THEN FALSE
+        WHEN "Legacy Token" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Legacy Token",
+    CASE 
+        WHEN "Pop Culture Connection" = '0' THEN FALSE
+        WHEN "Pop Culture Connection" = '1' THEN TRUE
+        WHEN "Pop Culture Connection" = '2' THEN TRUE
+        ELSE NULL
+    END AS "Pop Culture Connection",
+    REPLACE(REPLACE(REPLACE("Specify Pop Culture Connection",'""','"'),'""','"'),';',',') AS "Specify Pop Culture Connection",
+    CASE 
+        WHEN "Planning" = '0' THEN FALSE
+        WHEN "Planning" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Planning",
+    CASE 
+        WHEN "Performance" = '0' THEN FALSE
+        WHEN "Performance" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Performance"
+FROM "RAW_MSDB"."PUBLIC"."social_contagion";
+
+SELECT * FROM "MSDB"."PUBLIC"."social_contagion";
+
+-- signs_of_a_crisis
+SELECT * FROM "RAW_MSDB"."PUBLIC"."signs_of_a_crisis";
+
+-- DROP TABLE "MSDB"."PUBLIC"."signs_of_a_crisis";
+
+CREATE TABLE "MSDB"."PUBLIC"."signs_of_a_crisis" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Recent or Ongoing Stressor" = '0' THEN 'No evidence'
+        WHEN "Recent or Ongoing Stressor" = '1' THEN 'Recent break-up'
+        WHEN "Recent or Ongoing Stressor" = '2' THEN 'Employment stressor'
+        WHEN "Recent or Ongoing Stressor" = '3' THEN 'Economic stressor'
+        WHEN "Recent or Ongoing Stressor" = '4' THEN 'Family issue'
+        WHEN "Recent or Ongoing Stressor" = '5' THEN 'Legal issue'
+        WHEN "Recent or Ongoing Stressor" = '6' THEN 'Other'
+        ELSE NULL
+    END AS "Recent or Ongoing Stressor",
+    CASE 
+        WHEN "Signs of Being in Crisis" = '0' THEN FALSE
+        WHEN "Signs of Being in Crisis" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Signs of Being in Crisis",
+    CASE 
+        WHEN "Timeline of Signs of Crisis" = '0' THEN 'Days before shooting'
+        WHEN "Timeline of Signs of Crisis" = '1' THEN 'Weeks before shooting'
+        WHEN "Timeline of Signs of Crisis" = '2' THEN 'Months before shooting'
+        WHEN "Timeline of Signs of Crisis" = '3' THEN 'Years before shooting'
+        ELSE NULL
+    END AS "Timeline of Signs of Crisis",
+    REPLACE("Signs of Crisis Expanded", ';', ',') AS "Signs of Crisis Expanded",
+    CASE 
+        WHEN "Inability to Perform Daily Tasks" = '0' THEN FALSE
+        WHEN "Inability to Perform Daily Tasks" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Inability to Perform Daily Tasks",
+    CASE 
+        WHEN "Notably Depressed Mood" = '0' THEN FALSE
+        WHEN "Notably Depressed Mood" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Notably Depressed Mood",
+    CASE 
+        WHEN "Rapid Mood Swings" = '0' THEN FALSE
+        WHEN "Rapid Mood Swings" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Rapid Mood Swings",
+    CASE 
+        WHEN "Unusually Calm or Happy" = '0' THEN FALSE
+        WHEN "Unusually Calm or Happy" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Unusually Calm or Happy",
+    CASE 
+        WHEN "Increased Agitation" = '0' THEN FALSE
+        WHEN "Increased Agitation" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Increased Agitation",
+    CASE 
+        WHEN "Abusive Behavior" = '0' THEN FALSE
+        WHEN "Abusive Behavior" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Abusive Behavior",
+    CASE 
+        WHEN "Isolation" = '0' THEN FALSE
+        WHEN "Isolation" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Isolation",
+    CASE 
+        WHEN "Losing Touch with Reality" = '0' THEN FALSE
+        WHEN "Losing Touch with Reality" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Losing Touch with Reality",
+    CASE 
+        WHEN "Paranoia" = '0' THEN FALSE
+        WHEN "Paranoia" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Paranoia"
+FROM "RAW_MSDB"."PUBLIC"."signs_of_a_crisis";
+
+SELECT * FROM "MSDB"."PUBLIC"."signs_of_a_crisis";
+
+-- weapons
+SELECT * FROM "RAW_MSDB"."PUBLIC"."weapons";
+
+CREATE TABLE "MSDB"."PUBLIC"."weapons" AS
+SELECT "CASE #",
+    CASE 
+        WHEN "Interest in Firearms" = '0' THEN FALSE
+        WHEN "Interest in Firearms" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Interest in Firearms",
+    CASE 
+        WHEN "Firearm Proficiency" = '0' THEN 'No experience'
+        WHEN "Firearm Proficiency" = '1' THEN 'Some experience'
+        WHEN "Firearm Proficiency" = '2' THEN 'More experienced'
+        WHEN "Firearm Proficiency" = '3' THEN 'Very experienced'
+        ELSE NULL
+    END AS "Firearm Proficiency",
+    "Total Firearms Brought to the Scene",
+    CASE 
+        WHEN "Other Weapons or Gear" = '0' THEN FALSE
+        WHEN "Other Weapons or Gear" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Other Weapons or Gear",
+    REPLACE("Specify Other Weapons or Gear", ';', ',') AS "Specify Other Weapons or Gear"
+FROM "RAW_MSDB"."PUBLIC"."weapons";
+
+SELECT * FROM "MSDB"."PUBLIC"."weapons";
+
+-- date and location
+SELECT * FROM "RAW_MSDB"."PUBLIC"."date_and_location";
+
+CREATE TABLE "MSDB"."PUBLIC"."date_and_location" AS
+SELECT "CASE #", "Full Date", "Day of Week", "Day", "Month", "Year", "Street Number",
+REPLACE("Street Name", ';', ',') "Street Name", "City", "State", "County", "Zip Code", "Latitude", "Longitude",
+"State Code",
+    CASE 
+        WHEN "Region" = '0' THEN 'South'
+        WHEN "Region" = '1' THEN 'Midwest'
+        WHEN "Region" = '2' THEN 'Northeast'
+        WHEN "Region" = '3' THEN 'West'
+        ELSE NULL
+    END AS "Region",
+    CASE 
+        WHEN "Urban/Suburban/Rural" = '0' THEN 'Urban'
+        WHEN "Urban/Suburban/Rural" = '1' THEN 'Suburban'
+        WHEN "Urban/Suburban/Rural" = '2' THEN 'Rural'
+        ELSE NULL
+    END AS "Urban/Suburban/Rural",
+    "Metro/Micro Statistical Area Type",
+    CASE 
+        WHEN "Location" = '0' THEN 'K-12 school'
+        WHEN "Location" = '1' THEN 'College/university'
+        WHEN "Location" = '2' THEN 'Government building / place of civic importance'
+        WHEN "Location" = '3' THEN 'House of worship'
+        WHEN "Location" = '4' THEN 'Retail'
+        WHEN "Location" = '5' THEN 'Restaurant/bar/nightclub'
+        WHEN "Location" = '6' THEN 'Office'
+        WHEN "Location" = '7' THEN 'Place of residence'
+        WHEN "Location" = '8' THEN 'Outdoors'
+        WHEN "Location" = '9' THEN 'Warehouse/factory'
+        WHEN "Location" = '10' THEN 'Post office'
+        ELSE NULL
+    END AS "Location",
+    CASE 
+        WHEN "Workplace Shooting" = '0' THEN FALSE
+        WHEN "Workplace Shooting" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Workplace Shooting",
+    CASE
+        WHEN "Multiple Locations" = '0' THEN FALSE
+        WHEN "Multiple Locations" = '0' THEN TRUE
+    END AS "Multiple Locations",
+    CASE 
+        WHEN "Other Location" = '0' THEN 'K-12 school'
+        WHEN "Other Location" = '1' THEN 'College/university'
+        WHEN "Other Location" = '2' THEN 'Government building / place of civic importance'
+        WHEN "Other Location" = '3' THEN 'House of worship'
+        WHEN "Other Location" = '4' THEN 'Retail'
+        WHEN "Other Location" = '5' THEN 'Restaurant/bar/nightclub'
+        WHEN "Other Location" = '6' THEN 'Office'
+        WHEN "Other Location" = '7' THEN 'Place of residence'
+        WHEN "Other Location" = '8' THEN 'Outdoors'
+        WHEN "Other Location" = '9' THEN 'Warehouse/factory'
+        WHEN "Other Location" = '10' THEN 'Post office'
+        ELSE NULL
+    END AS "Other Location"
+FROM "RAW_MSDB"."PUBLIC"."date_and_location";
+
+SELECT * FROM "MSDB"."PUBLIC"."date_and_location";
+
+-- firearms
+SELECT * FROM "RAW_MSDB"."PUBLIC"."firearms";
+
+DROP TABLE "MSDB"."PUBLIC"."firearms";
+
+CREATE TABLE "MSDB"."PUBLIC"."firearms" AS
+SELECT "CASE #", CONCAT("Shooter First Name" , ' ', "Shooter Last Name") AS "Shooter Full Name", "Full Date", REPLACE("Make and Model", ';',',') AS "Make and Model", 
+    CASE 
+        WHEN "Classification" = '0' THEN 'Handgun'
+        WHEN "Classification" = '1' THEN 'Shotgun'
+        WHEN "Classification" = '2' THEN 'Rifle'
+        WHEN "Classification" = '3' THEN 'Assault weapon'
+        ELSE NULL
+    END AS "Classification",
+    CASE 
+        WHEN "Caliber" = '0' THEN 'Small'
+        WHEN "Caliber" = '1' THEN 'Medium'
+        WHEN "Caliber" = '2' THEN 'Large'
+        ELSE NULL
+    END AS "Caliber",
+    CASE
+        WHEN "Used in Shooting?" = '0' THEN FALSE
+        WHEN "Used in Shooting?" = '1' THEN TRUE
+        WHEN "Used in Shooting?" = '2' THEN FALSE
+    END AS "Used in Shooting?",
+    CASE
+        WHEN "Modified" = '0' THEN FALSE
+        WHEN "Modified" = '1' THEN TRUE
+    END AS "Modified",
+    CASE
+        WHEN "Large Capacity Magazine" = '0' THEN FALSE
+        WHEN "Large Capacity Magazine" = '1' THEN TRUE
+    END AS "Large Capacity Magazine",
+    CASE
+        WHEN "Extended Magazine" = '0' THEN FALSE
+        WHEN "Extended Magazine" = '1' THEN TRUE
+    END AS "Extended Magazine",
+    CASE
+        WHEN "When Obtained" = '0' THEN FALSE
+        WHEN "When Obtained" = '1' THEN TRUE
+    END AS "Obtained more than one month prior to shooting",
+    CASE 
+        WHEN "Legal Purchase" = '0' THEN 'No, illegal'
+        WHEN "Legal Purchase" = '1' THEN 'Federal Firearms Licensed dealer'
+        WHEN "Legal Purchase" = '2' THEN 'Unregulated private sale'
+        WHEN "Legal Purchase" = '3' THEN 'Legal but specific source unknown'
+        ELSE NULL
+    END AS "Legal Purchase",
+    CASE 
+        WHEN "Illegal Purchase" = '0' THEN 'No, legal'
+        WHEN "Illegal Purchase" = '1' THEN 'System failure (background check missed something, records not reported)'
+        WHEN "Illegal Purchase" = '2' THEN 'Straw purchase'
+        WHEN "Illegal Purchase" = '3' THEN 'Lying and buying'
+        WHEN "Illegal Purchase" = '4' THEN 'Illegal street sale'
+        WHEN "Illegal Purchase" = '5' THEN 'Illegal but specific source unknown'
+        WHEN "Illegal Purchase" = '6' THEN 'Legal sale but illegal possession'
+        ELSE NULL
+    END AS "Illegal Purchase",
+    CASE
+        WHEN "Assembled with Legal Parts" = '0' THEN FALSE
+        WHEN "Assembled with Legal Parts" = '0' THEN TRUE
+    END AS "Assembled with Legal Parts",
+    CASE
+        WHEN "Gifted" = '0' THEN FALSE
+        WHEN "Gifted" = '0' THEN TRUE
+    END AS "Gifted",
+    CASE 
+        WHEN "Theft" = '0' THEN 'No'
+        WHEN "Theft" = '1' THEN 'Theft/borrowed from family or friend'
+        WHEN "Theft" = '2' THEN 'Theft other'
+        WHEN "Theft" = '3' THEN 'Theft at the scene of the shooting'
+        ELSE NULL
+    END AS "Theft",
+     CASE
+        WHEN "Unknown" = '0' THEN FALSE
+        WHEN "Unknown" = '1' THEN TRUE
+    END AS "Unknown"
+FROM "RAW_MSDB"."PUBLIC"."firearms";
+
+SELECT * FROM "MSDB"."PUBLIC"."firearms";
+
+-- offenders
+SELECT * FROM "RAW_MSDB"."PUBLIC"."offenders";
+
+DROP TABLE "MSDB"."PUBLIC"."offenders";
+
+CREATE TABLE "MSDB"."PUBLIC"."offenders" AS
+SELECT "CASE #", CONCAT("Shooter First Name" , ' ', "Shooter Last Name") AS "Shooter Full Name", "Age", 
+    CASE 
+        WHEN "Gender" = '0' THEN 'Male'
+        WHEN "Gender" = '1' THEN 'Female'
+        WHEN "Gender" = '2' THEN 'Non-Binary'
+        WHEN "Gender" = '3' THEN 'Transgender'
+        ELSE NULL
+    END AS "Gender",
+    CASE 
+        WHEN "Race" = '0' THEN 'White'
+        WHEN "Race" = '1' THEN 'Black'
+        WHEN "Race" = '2' THEN 'Latinx'
+        WHEN "Race" = '3' THEN 'Asian'
+        WHEN "Race" = '4' THEN 'Middle Eastern'
+        WHEN "Race" = '5' THEN 'Native American'
+        ELSE NULL
+    END AS "Race",
+    "Height", "Weight", 
+    CASE
+        WHEN "Immigrant" = '0' THEN FALSE
+        WHEN "Immigrant" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Immigrant",
+    CASE
+        WHEN "Sexual Orientation" = '1' THEN FALSE
+        WHEN "Sexual Orientation" = '0' THEN TRUE
+        ELSE NULL
+    END AS "Heterosexual",
+    CASE
+        WHEN "Religion" = '0' THEN 'None'
+        WHEN "Religion" = '1' THEN 'Christian'
+        WHEN "Religion" = '2' THEN 'Muslim'
+        WHEN "Religion" = '3' THEN 'Buddhist'
+        WHEN "Religion" = '4' THEN 'Cultural spirituality/other'
+        WHEN "Religion" = '5' THEN 'Jewish'
+        ELSE NULL
+    END AS "Religion",
+    CASE
+        WHEN "Education" = '0' THEN 'Less than high school'
+        WHEN "Education" = '1' THEN 'High school/GED'
+        WHEN "Education" = '2' THEN 'Some college/trade school'
+        WHEN "Education" = '3' THEN 'Bachelors degree'
+        WHEN "Education" = '4' THEN 'Graduate school/advanced degree'
+    END AS "Education",
+    CASE
+        WHEN "School Performance" = '0' THEN 'Poor'
+        WHEN "School Performance" = '1' THEN 'Average'
+        WHEN "School Performance" = '2' THEN 'Good'
+    END AS "School Performance",
+    REPLACE(REPLACE("School Performance Specified", ';', ','),'""','"') AS "School Performance Specified",
+    CASE
+        WHEN "Birth Order" = 0 THEN 'Only child'
+        WHEN "Birth Order" = 1 THEN 'Oldest child'
+        WHEN "Birth Order" = 2 THEN 'Middle child'
+        WHEN "Birth Order" = 3 THEN 'Youngest child'
+        WHEN "Birth Order" = 4 THEN 'Twin'
+    END AS "Birth Order",
+    "Number of Siblings", "Older Siblings", "Younger Siblings", 
+    CASE
+        WHEN "Relationship Status" = '0' THEN 'Single'
+        WHEN "Relationship Status" = '1' THEN 'Boyfriend/girlfriend'
+        WHEN "Relationship Status" = '2' THEN 'Married'
+        WHEN "Relationship Status" = '3' THEN 'Divorced/separated/widowed'
+    END AS "Relationship Status",
+    CASE
+        WHEN "Children" = '0' THEN FALSE
+        WHEN "Children" = '1' THEN TRUE
+    END AS "Has Children?",
+    CASE
+        WHEN "Employment Status" = '0' THEN TRUE
+        WHEN "Employment Status" = '1' THEN FALSE
+    END AS "Unemployed",
+    CASE
+        WHEN "Employment Type" = '0' THEN 'Blue collar'
+        WHEN "Employment Type" = '1' THEN 'White collar'
+        WHEN "Employment Type" = '2' THEN 'In between'
+    END AS "Employment Type",
+    CASE
+        WHEN "Military Service" = '0' THEN FALSE
+        WHEN "Military Service" = '1' THEN TRUE
+        WHEN "Military Service" = '2' THEN FALSE
+    END AS "Military Service",
+    CASE 
+        WHEN "Military Branch" = '0' THEN 'Army'
+        WHEN "Military Branch" = '1' THEN 'Navy'
+        WHEN "Military Branch" = '2' THEN 'Air Force'
+        WHEN "Military Branch" = '3' THEN 'Marines'
+        WHEN "Military Branch" = '4' THEN 'Coast Guard'
+        WHEN "Military Branch" = '5' THEN 'National Guard'
+        ELSE NULL
+    END AS "Military Branch",
+    CASE 
+        WHEN "Community Involvement" = '0' THEN 'No evidence'
+        WHEN "Community Involvement" = '1' THEN 'Somewhat involved'
+        WHEN "Community Involvement" = '2' THEN 'Heavily involved'
+        WHEN "Community Involvement" = '3' THEN 'Formerly involved but recently withdrawn'
+        ELSE NULL
+    END AS "Community Involvement",
+    REPLACE("Community Involvement Specified",';',',') AS "Community Involvement Specified"
+FROM "RAW_MSDB"."PUBLIC"."offenders";
+
+SELECT * FROM "MSDB"."PUBLIC"."offenders";
+
+-- motives
+SELECT * FROM "RAW_MSDB"."PUBLIC"."motives";
+
+DROP TABLE "MSDB"."PUBLIC"."motives";
+
+CREATE TABLE "MSDB"."PUBLIC"."motives" AS
+SELECT "CASE #", 
+    IFF("Known Prejudices" LIKE '%1%', TRUE, FALSE) AS "Racism",
+    IFF("Known Prejudices" LIKE '%2%', TRUE, FALSE) AS "Misogyny",
+    IFF("Known Prejudices" LIKE '%3%', TRUE, FALSE) AS "Homophobia",
+    IFF("Known Prejudices" LIKE '%4%', TRUE, FALSE) AS "Religious hatred",
+    CASE
+        WHEN "Motive: Racism/Xenophobia" = '0' THEN 'No evidence'
+        WHEN "Motive: Racism/Xenophobia" = '1' THEN 'Yes, targeting people of color'
+        WHEN "Motive: Racism/Xenophobia" = '2' THEN 'Yes, targeting white people'
+        ELSE NULL
+    END AS "Motive: Racism/Xenophobia",
+    CASE
+        WHEN "Motive: Religious Hate" = '0' THEN 'No evidence'
+        WHEN "Motive: Religious Hate" = '1' THEN 'Antisemitism'
+        WHEN "Motive: Religious Hate" = '2' THEN 'Islamophobia'
+        WHEN "Motive: Religious Hate" = '3' THEN 'Angry with Christianity/Christian God'
+        WHEN "Motive: Religious Hate" = '4' THEN 'Both Antisemitism and Islamophobia'
+        ELSE NULL
+    END AS "Motive: Religious Hate",
+    CASE
+        WHEN "Motive: Misogyny" = '0' THEN FALSE
+        WHEN "Motive: Misogyny" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Misogyny",
+    CASE
+        WHEN "Motive: Homophobia" = '0' THEN FALSE
+        WHEN "Motive: Homophobia" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Homophobia",
+    CASE
+        WHEN "Motive: Employment Issue" = '0' THEN FALSE
+        WHEN "Motive: Employment Issue" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Employment Issue",
+    CASE
+        WHEN "Motive: Legal Issue" = '0' THEN FALSE
+        WHEN "Motive: Legal Issue" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Legal Issue",
+    CASE
+        WHEN "Motive: Relationship Issue" = '0' THEN FALSE
+        WHEN "Motive: Relationship Issue" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Relationship Issue",
+    -- "Motive: Interpersonal Conflict ",
+    CASE
+        WHEN "Motive: Interpersonal Conflict " = '0' THEN FALSE
+        WHEN "Motive: Interpersonal Conflict " = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Interpersonal Conflict",
+    CASE
+        WHEN "Motive: Fame-Seeking" = '0' THEN FALSE
+        WHEN "Motive: Fame-Seeking" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Fame-Seeking",
+    CASE
+        WHEN "Motive: Other" = '0' THEN FALSE
+        WHEN "Motive: Other" = '1' THEN TRUE
+        WHEN "Motive: Other" = '2' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Other",
+    CASE
+        WHEN "Motive: Unknown" = '0' THEN FALSE
+        WHEN "Motive: Unknown" = '1' THEN TRUE
+        ELSE NULL
+    END AS "Motive: Unknown",
+    CASE
+        WHEN "Role of Psychosis in the Shooting" = '0' THEN 'No evidence'
+        WHEN "Role of Psychosis in the Shooting" = '1' THEN 'Symptoms of psychosis may have played a minor role in the crime'
+        WHEN "Role of Psychosis in the Shooting" = '2' THEN 'Symptoms of psychosis played a moderate role in the crime, but there was an additional motive'
+        WHEN "Role of Psychosis in the Shooting" = '3' THEN 'Symptoms of psychosis played a major role in the crime, no other known motive'
+        ELSE NULL
+    END AS "Role of Psychosis in the Shooting"
+FROM "RAW_MSDB"."PUBLIC"."motives";
+
+
+SELECT * FROM "MSDB"."PUBLIC"."motives";
