@@ -1,0 +1,197 @@
+﻿Case #,Shooter Last Name,Shooter First Name,Age,Gender,Race,Height,Weight,Immigrant,Sexual Orientation,Religion,Education,School Performance,School Performance Specified,Birth Order,Number of Siblings,Older Siblings,Younger Siblings,Relationship Status,Children,Employment Status,Employment Type ,Military Service,Military Branch,Community Involvement,Community Involvement Specified
+1,Whitman,Charles,25,0,0,72,200,0,0,1,2,0,1.9 GPA,1,2,0,2,2,0,0,,1,3,3,formerly an altar boy and Eagle Scout
+2,Smith,Robert,18,0,0,,,0,0,0,0,2,good grades; on student council,1,1,0,1,0,0,0,,0,NA,0,
+3,Held,Leo,39,0,0,72,200,0,0,1,2,,,,2,,,2,1,1,2,1,0,2,school board member; director of the local Boy Scout troop; hunted with friends
+4,Pearson,Eric,56,0,0,,,0,0,,,,,,,,,0,0,1,0,0,NA,0,
+5,Lambright,Donald,31,0,1,,,0,0,1,2,2,brilliant; attended several colleges,0,0,0,0,2,1,0,2,1,2,2,part of Black groups
+6,White,Joseph,25,0,1,,,0,0,,4,2,completed university with a scholarship; master's degree,,,,,0,0,1,1,0,NA,0,
+7,McLeod,Harvey Glenn,22,0,1,,,0,0,,1,0,average grades; failed a lot of courses,,,,,2,0,1,0,0,NA,3,varsity sports in high school; no involvement as an adult
+8,Grace,Edwin,33,0,0,,,0,0,1,2,,,1,1,0,1,,,1,0,1,0,1,church
+9,Essex,Mark,23,0,1,64,135,0,0,1,2,1,average,2,4,1,3,0,0,0,0,1,1,2,Cub Scouts; band
+10,Sander,Robert,21,0,0,,,0,0,,,,,,,,,0,0,0,0,0,NA,,
+11,Allaway,Edward,37,0,0,,,0,0,1,,,,3,3,3,0,3,0,1,0,1,3,3,former Sunday School teacher; no recent involvement
+12,Cowan,Fred,33,0,0,72,250,0,0,1,2,2,brilliant; top quarter of his class,,2,,,0,0,1,0,1,0,2,neighborhood community
+13,Henry,Dewitt,26,0,0,75,230,0,0,0,2,2,honor student,,,,,3,0,0,0,1,1,0,
+14,Benoist,Emile Pierre,20,0,0,,,0,0,1,1,,,2,3,1,2,0,0,1,0,2,3,1,boxing tournaments
+15,Chin,Gan Fong,48,0,3,,,1,0,,,,,,2,,,2,1,1,0,0,NA,0,
+16,Chvarak,Barry,21,0,0,74,,0,0,,0,,,4,1,,,,,,,0,NA,,
+17,King,Alvin,45,0,0,,,0,0,1,4,2,PhD,,,,,2,1,0,1,0,NA,3,former church member; became reclusive
+18,Belmonte,Victor,23,0,0,,,0,0,,2,0,unsuccessful in college,,,,,0,0,1,2,1,0,0,
+19,Moore,Lawrence,25,0,0,,,0,0,,,,,,,,,0,0,0,0,0,NA,0,
+20,Bevins,William,70,0,0,,,0,0,,,,,,,,,0,0,0,0,0,NA,,
+21,Meach,Charles,34,0,0,84,,0,0,1,2,0,flunking out; but very intelligent,,,,,0,0,1,0,0,NA,1,friendly with customers; engaged in college classes; joined Alcoholics Anonymous
+22,Parish,John,46,0,1,,,0,0,,,,,2,2,1,1,3,1,1,0,0,NA,,
+23,Brown,Carl,51,0,0,,,0,0,0,4,2,teaching degree; assumed good grades,,,,,3,1,0,1,1,1,0,
+24,Leacock,Alban,41,0,,,,0,0,,,,,,,,,0,,1,0,0,NA,,
+25,Hastings,Louis,39,0,0,,,0,0,,,2,computer programmer at Stanford; assumed good grades,,1,,,3,0,0,2,1,2,3,formerly volunteered rescuing birds; became reclusive
+26,Moreno,Eliseo,24,0,2,69,155,0,0,1,0,0,high school dropout,,10,,,3,1,0,0,0,NA,,
+27,Silka,Michael,25,0,0,,,0,0,,1,,,,2,,,0,0,0,0,1,0,0,
+28,Belachheb,Abdelkrim,39,0,Moroccan,,,1,0,2,0,0,very poor student,2,11,3,8,3,1,0,0,0,NA,0,
+29,Huberty,James,41,0,0,,,0,0,1,3,0,51st out of 77 in high school; failed at least one course,3,1,1,0,2,1,0,0,0,NA,0,
+30,Crossley,Wayne,33,0,0,,,0,0,,,,,,,,,0,0,,,0,NA,,
+31,Hammett,Mansel,39,0,,,,0,0,,1,,,,,,,2,1,1,0,0,NA,,
+32,Sherrill,Patrick,44,0,0,72,200,0,0,1,2,1,barely passable grades; went to college on a wrestling scholarship and dropped out after a year,3,2,2,0,0,0,1,0,1,3,0,
+33,Cruse,William,60,0,0,,,0,0,,4,1,master's degree,,,,,2,0,0,0,0,NA,0,
+34,Farley,Richard,39,0,0,,,0,0,,2,2,very good grades; graduated 61st out of 520,1,5,0,5,1,0,1,2,1,1,0,
+35,Hayes,Michael,24,0,0,,,0,0,,,,,,,,,3,0,1,0,0,NA,0,
+36,Henderson,Clemmie,40,0,1,,,0,0,1,,,,,,,,2,1,0,0,1,0,0,
+37,Purdy,Patrick,24,0,0,70,150,0,1,0,2,0,able to pass classes but unable to retain information; repeated 5th grade; dropped out of school at age 14,2,2,1,1,0,0,0,0,0,NA,0,
+38,Wesbecker,Joseph,47,0,0,,,0,0,,1,0,poor student; dropped out in 9th grade,0,0,0,0,1,1,0,0,0,NA,0,
+39,Pough,James,42,0,1,,,0,0,,,,,1,8,0,8,3,0,1,0,0,NA,0,
+40,Harris,Joseph,35,0,1,74,175,0,0,,,,,2,9,1,8,0,0,0,0,1,1,0,
+41,Hennard,George,35,0,0,72,,0,0,,1,,,1,2,0,2,0,0,0,0,1,1,0,
+42,Lu,Gang,28,0,3,,,1,0,1,4,2,PhD candidate; very gifted,3,2,2,0,0,0,0,1,0,NA,1,involved in physics department; regularly went to bars
+43,Daigneau,Robert,45,0,,,,0,0,,,,,,,,,3,1,,,1,,,
+44,McIlvane,Thomas,31,0,0,,,0,0,1,1,,,3,2,2,0,0,0,0,0,1,3,2,nice neighbor; regularly went to restaurants and talked to the staff and customers; participated in martial arts competitions
+45,Rogovich,Pete,26,0,0,74,240,0,0,,,,,,,,,0,0,1,0,0,NA,,
+46,Houston,Eric,20,0,0,,,0,1,,0,0,did not graduate high school due to failed classes; previously had to repeat grades and was on an IEP,3,2,2,0,0,0,0,0,0,NA,0,
+47,Miller,John,50,0,,,,0,0,,,,,,2,,,0,1,1,0,1,0,0,
+48,Drake III,Lynwood,43,0,0,,,0,0,1,,,,,1,,,3,1,0,0,0,NA,1,church; gambling at a card room
+49,Ferri,Gian,55,0,0,,,1,0,1,4,,,,1,,,3,0,1,1,0,NA,,
+50,French,Kenneth,22,0,0,,,0,0,,,,,2,2,1,1,1,0,1,0,1,0,0,
+51,Buquet,James,19,0,0,,,0,0,1,2,2,dean's list,1,1,0,1,0,0,0,,0,NA,0,
+52,Winterbourne,Alan,33,0,0,72,,0,0,1,3,0,barely maintained a C average and repeated many courses due to untreated dyslexia; took 7 years to complete his degree,3,1,1,0,0,0,0,2,0,NA,2,involved in neighborhood; environmental causes; local politics
+53,Ferguson,Colin,35,0,1,72,170,1,0,1,2,2,dean's list,,4,,,3,0,0,0,0,NA,0,
+54,Dunlap,Nathan,19,0,1,,,0,0,1,1,1,not notable,2,2,1,1,1,0,1,0,0,NA,0,
+55,Mellberg,Dean,20,0,0,,,0,0,,2,1,B and C student,3,1,1,0,0,0,0,2,1,2,0,
+56,Ferguson,Rodriguez,18,0,1,,,0,0,,0,,,2,2,1,1,0,0,0,,0,NA,,
+57,Simpson,James,28,0,,,,0,0,,2,2,studious; nearly completed an engineering degree,,,,,0,0,0,2,0,NA,,
+58,Woods,Willie,42,0,1,,,0,0,,,,,,,,,1,1,1,0,1,3,,
+59,Vernon,Michael,22,0,1,,,0,0,,0,0,high school dropout,,2,,,0,1,0,,0,NA,1,therapy group
+60,McCree,Clifton,41,0,1,,,0,0,1,,,,,,,,2,1,0,0,1,3,1,church
+61,Tornes,Kenneth,32,0,1,,,0,0,,,,,,,,,2,1,1,0,0,NA,,
+62,Drega,Carl,62,0,0,75,240,0,0,1,0,,,3,6,6,0,1,0,1,0,0,NA,0,
+63,Wise,Hastings Arthur,43,0,1,76,250,0,0,1,2,,,,,,,0,0,0,0,0,NA,1,church
+64,Serrano,Nelson,59,0,2,,,1,0,1,3,,,,,,,2,1,1,1,0,NA,,
+65,Torres,Arturo,41,0,2,,,1,0,,1,,,2,5,1,4,2,0,0,0,1,0,1,involved in neighborhood community
+66,Beck,Matthew,35,0,0,68,,0,0,,3,2,genius,3,3,3,0,0,0,1,1,0,NA,0,
+67,Golden,Andrew,11,0,0,,,0,0,,0,1,did just enough to get by,3,2,2,0,0,0,0,,0,NA,1,band
+68,Johnson,Mitchell,13,0,0,,,0,0,1,0,2,mostly A's and B's,1,2,0,2,0,0,0,,0,NA,2,church; youth group volunteering
+69,Kinkel,Kipland,15,0,0,,,0,0,,0,1,maintained adequate grades,3,1,1,0,0,0,0,,0,NA,0,
+70,Miller,Shon,22,0,1,,,0,0,,,,,,9,,,3,1,0,0,0,NA,0,
+71,Klebold,Dylan,17,0,0,75,,0,0,1,0,2,A's,3,1,1,0,0,0,1,0,0,NA,1,school events
+72,Harris,Eric,18,0,0,69,,0,0,0,0,2,A's,3,1,1,0,0,0,1,0,0,NA,1,school events
+73,Floyd,Zane,23,0,0,,,0,0,,2,0,had difficulties in school ,0,0,0,0,1,0,1,0,1,3,1,helpful in neighborhood
+74,Barton,Mark,44,0,0,,,0,0,1,3,2,excelled; especially in math and science,0,0,0,0,3,1,0,1,0,NA,1,Boy Scouts
+75,Ashbrook,Larry,47,0,0,,,0,0,0,2,0,spotty; remedial classes,3,3,3,0,0,0,0,2,1,1,0,
+76,Uyesugi,Byran,40,0,3,,,0,0,3,2,,,3,1,1,0,0,0,1,2,0,NA,0,
+77,Izquierdo-Leyva,Silvio,36,0,2,,,1,0,4,,,,,,,,0,1,1,0,0,NA,,
+78,Harris,Robert,28,0,1,,,0,0,1,0,1,mostly good grades; got a GED at 18,3,1,1,0,0,0,0,0,0,NA,0,
+79,Baumhammers,Richard,34,0,0,,,0,0,,4,2,top third of class,3,1,1,0,0,0,0,1,0,NA,0,
+80,McDermott,Michael,42,0,2,,,0,0,0,2,0,high intelligence; bad grades,2,3,1,2,1,0,1,2,1,1,0,
+81,Park,Ki Yung,54,0,3,,,0,0,,,,,,,,,2,1,1,0,0,NA,0,
+82,Baker,William,66,0,1,,,0,0,,1,,,,,,,3,1,0,0,0,NA,0,
+83,Stagner,Steven,42,0,0,,,0,0,1,1,,,,,,,0,0,0,,1,0,0,
+84,Ferguson,Joseph,20,0,0,,,0,0,,1,2,excelled in school,1,2,0,2,0,0,1,0,0,NA,0,
+85,Lockey,William,54,0,,,,0,0,1,,,,,,,,2,1,1,0,0,NA,0,
+86,Patterson,Emanuel Burl,23,0,1,,,0,0,,,,,,,,,,0,0,0,0,NA,,
+87,Williams,Doug,48,0,0,,,0,0,1,,,,,,,,1,1,1,0,0,NA,,
+88,Tapia,Salvador,36,0,2,,,1,0,,,,,,5,,,0,0,0,0,0,NA,,
+89,Reeves,Ralph,53,0,0,,,0,0,,,,,,,,,3,1,0,,0,NA,1,frequent customer at tavern
+90,Brown,Elijah,21,0,,,,0,0,,2,2,good student,,,,,0,0,1,0,0,NA,1,construction school
+91,Vang,Chai,36,0,3,,,1,0,4,1,1,B's in English,2,5,1,4,2,1,1,0,1,5,2,very involved in cultural activities
+92,Gale,Nathan,25,0,0,75,260,0,0,,2,0,special education plan; missed 33 days of 10th grade,3,2,2,0,0,0,0,0,1,3,1,played football; frequent customer at a restaurant and talked to staff; talked to tattoo parlor employees
+93,Nichols,Brian,33,0,1,,,0,0,1,2,1,some college,3,1,1,0,1,1,0,2,0,NA,0,
+94,Ratzmann,Terry,44,0,0,,,0,0,1,1,1,average grades,1,3,0,3,0,0,1,2,1,4,1,church
+95,Weise,Jeffrey,16,0,5,,,0,0,,0,0,struggling; held back,1,2,0,2,0,0,0,,0,NA,0,
+96,Cranshaw,Freddy,54,0,,,,0,0,,,,,,,,,0,0,0,0,0,NA,0,
+97,San Marco,Jennifer,44,1,0,,,0,0,1,,,,,2,,,0,0,0,0,0,NA,0,
+98,Huff,Kyle Aaron,28,0,0,77,280,0,0,,2,2,good student; smart,4,1,,,0,0,0,0,0,NA,0,
+99,Bell,Anthony,25,0,1,,,0,0,0,0,0,poor study habits; below grade level,,1,,,2,1,1,0,0,NA,0,
+100,Roberts,Charles,32,0,0,,,0,0,1,1,,,1,3,0,3,2,1,1,0,0,NA,2,church; soccer dad; well-liked by neighbors
+101,Talovic,Sulejman,18,0,Bosnian,,,1,0,2,0,0,did less than half his schoolwork; dropped out to get a GED,1,5,0,5,1,0,1,0,0,NA,1,mosque
+102,Cho,Seung-Hui,23,0,3,,,1,0,0,2,1,2.32 GPA in college,3,1,1,0,0,0,0,,0,NA,0,
+103,Hawkins,Robert,19,0,0,,,0,0,,1,0,high school dropout,2,3,1,2,0,0,0,0,0,NA,0,
+104,Murray,Matthew,24,0,0,,,0,0,0,2,,,2,2,1,1,0,0,0,0,0,NA,0,
+105,Thornton,Charles,52,0,1,,,0,0,1,3,1,college degree on athletic scholarship,2,8,,,2,1,1,2,0,NA,3,formerly involved in community; ran for city council; headed volunteer groups
+106,Kazmierczak,Steven,27,0,0,72,300,0,1,0,4,2,award-winning student,3,1,1,0,1,0,0,0,2,0,3,formerly very involved in NIU campus community
+107,Leeds,Lee,31,0,0,,,0,0,,1,2,good student,,3,,,0,0,0,0,0,NA,0,
+108,Higdon,Wesley,25,0,0,,,0,0,,1,,,,,,,1,1,1,0,0,NA,0,
+109,Zamora,Isaac,28,0,2,,,0,0,1,,,,3,1,1,0,0,0,0,0,0,NA,0,
+110,Stewart,Robert,45,0,0,,,0,0,1,,,,,,,,3,0,0,0,1,5,0,
+111,Wong,Jiverly,41,0,3,68,135,1,0,3,,,,2,3,1,2,3,0,0,0,0,NA,0,
+112,Gonzalez,Marcos,29,0,2,,,1,0,,,,,,,,,1,,,0,0,NA,,
+113,Hasan,Nidal,39,0,4,,,0,0,2,4,2,graduated with honors,1,2,0,2,0,0,1,1,1,0,2,mosque; friendly with neighbors
+114,Clemmons,Maurice,37,0,1,,,0,0,1,0,0,expelled at 16 for bringing a gun to school,2,5,1,,2,1,0,0,0,NA,0,
+115,Galstyan,Nerses,28,0,3,,,1,0,,,,,1,1,0,1,0,0,0,0,0,NA,,
+116,Regalado,Gerardo,38,0,2,,,1,0,,,,,3,1,1,0,3,0,0,0,0,NA,1,involved in neighborhood community
+117,Thornton,Omar,34,0,1,,,0,0,,2,,,3,2,2,0,1,0,0,0,0,NA,1,sports
+118,McCray,Riccardo,23,0,1,,,0,0,,1,0,high school dropout,,1,,,1,1,,,0,NA,0,
+119,Neace,Stanley,47,0,0,,,0,0,,,,,,1,,,2,1,0,,0,NA,0,
+120,Loughner,Jared,22,0,0,,,0,0,0,2,1,unremarkable student,0,0,0,0,0,0,0,0,0,NA,3,formerly volunteered at an animal shelter
+121,Hance,Michael,51,0,0,,,0,0,,1,,,,1,,,1,0,0,,0,NA,1,helpful to neighbors
+122,Sencion,Eduardo,32,0,2,,,1,0,1,1,,,3,3,3,0,0,0,1,0,0,NA,0,
+123,Dekraai,Scott,41,0,0,,,0,0,,1,,,0,0,0,0,3,1,0,0,0,NA,3,formerly active in community
+124,Goh,One,43,0,3,,,1,0,0,2,2,good student,3,2,2,0,3,1,0,0,0,NA,0,
+125,Stawicki,Ian,40,0,0,72,150,0,0,,1,0,struggled in high school; went to alternative school for GED,1,2,0,2,1,0,0,0,2,0,1,regular at businesses; tried to join musician crowd
+126,Holmes,James,24,0,0,69,,0,0,1,4,2,top 1% of class; 3.949 GPA,1,1,0,1,0,0,0,1,0,NA,1,involved in college community
+127,Page,Wade,40,0,0,,,0,0,,1,,,,2,,,0,0,0,0,1,0,1,white power music groups
+128,Engeldinger,Andrew,36,0,0,,,0,0,,1,,,2,2,1,1,0,0,0,0,0,NA,0,
+129,Lanza,Adam,20,0,0,72,112,0,0,1,2,1,3.26 GPA,3,1,1,0,0,0,0,0,0,NA,0,
+130,Myers,Kurt,64,0,0,,,0,0,,2,,,,2,,,0,0,0,0,0,NA,0,
+131,Clark III,Dennis,27,0,1,,,0,0,,2,,,,,,,1,0,,,0,NA,,
+132,Zawahri,John,23,0,4,,,1,0,,2,0,low grades and truancy,3,1,1,0,0,0,0,,0,NA,0,
+133,Vargas,Pedro,42,0,2,,,1,0,,3,2,3.5 gpa,0,0,0,0,1,0,0,2,0,NA,0,
+134,Alexis,Aaron,34,0,1,,,0,0,3,2,2,Embry-Riddle Aeronautical University ,1,2,0,2,0,0,1,2,1,1,2,Buddhist temple; helped at friend's restaurant
+135,Rhoades,Cherie Lash,44,1,5,,,0,0,,,,,,2,,,0,1,1,0,0,NA,2,tribal chairwoman
+136,Rodger,Elliot,22,0,3,,,1,0,0,2,2,good grades in high school,1,2,0,2,0,0,0,,0,NA,0,
+137,Fryberg,Jaylen,15,0,5,66,125,0,0,4,0,2,good grades; though slipping,,4,,,1,0,0,,0,NA,2,cultural involvement; football team; wrestling; homecoming prince
+138,Roof,Dylann,21,0,0,69,120,0,0,1,1,0,repeated 9th grade,2,2,1,1,0,0,0,0,0,NA,0,
+139,Abdulazeez,Mohammad,24,0,4,,,1,0,2,3,2,high grades and awards ,2,4,3,1,0,0,1,0,0,NA,3,former MMA fighter; occasional mosque
+140,Harper-Mercer,Chris,26,0,1,,,0,0,0,2,0,1.75 gpa; academic probation,3,1,1,0,0,0,0,,2,0,0,
+141,Hudson,William,33,0,0,67,240,0,0,1,1,0,high school dropout,,1,,,3,1,0,0,0,NA,0,
+142,Farook,Syed Rizwan,28,0,4,,,0,0,2,4,1,grad school,2,3,2,1,2,1,1,2,0,NA,0,
+143,Malik,Tashfeen,29,1,4,,,1,0,2,3,2,top grades,,5,,,2,1,0,,0,NA,0,
+144,Dalton,Jason,45,0,0,66,220,0,0,,2,1,average student,0,0,0,0,2,1,1,2,0,NA,0,
+145; 146,,,,,,,,,,,,,,,,,,,,,,,,,
+147,Mateen,Omar,29,0,4,71,245,0,1,2,2,1,top half of class; though formerly a very poor student,2,3,1,2,2,1,1,0,0,NA,1,mosque
+148,Johnson,Micah,25,0,1,,,0,0,1,1,0,1.98 GPA,1,2,0,2,0,0,1,0,1,0,1,attended protests and events; went to self-defense classes
+149,Cetin,Arcan,20,0,4,,,1,0,2,1,,,0,0,0,0,0,0,1,0,0,NA,0,
+150,Santiago,Esteban,26,0,2,,,0,0,1,2,,,3,5,5,0,1,1,0,0,1,5,0,
+151,Barber,Briddell,27,0,1,,,0,0,,,,,,,,,1,,,,0,NA,,
+152,Vang,Nengmy,45,0,3,,,1,0,4,,,,3,1,1,0,3,1,1,0,0,NA,1,Hmong cultural community
+153,Neumann,John,45,0,0,,,0,0,,1,,,,1,,,0,0,0,0,1,0,0,
+154,Paddock,Stephen,64,0,0,74,198,0,0,0,3,1,2.97 GPA,1,3,0,3,1,0,0,1,0,NA,0,
+155,Kelley,Devin Patrick,26,0,0,69,165,0,0,0,1,1,2.32 GPA; 260th out of 393 students,2,2,1,1,2,1,1,2,1,2,0,
+156,Neal,Kevin Janson,44,0,0,,,0,0,,2,,,3,1,1,0,2,0,1,0,0,NA,0,
+157,O'Brien Smith,Timothy,28,0,0,,,0,0,,2,,,3,2,2,0,0,0,1,0,0,NA,,
+158,Cruz,Nikolas,19,0,0,67,131,0,0,,0,0,failed out of high school,1,1,0,1,0,0,1,0,0,NA,3,formerly on high school JROTC rifle team
+159,Davis,George,27,0,1,,,0,0,,,,,,,,,,1,,,0,NA,,
+160,Reinking,Travis,29,0,0,68,150,0,1,1,1,,,,3,,,0,0,0,0,0,NA,0,
+161,Pagourtzis,Dimitrios,17,0,0,67,134,0,0,0,0,2,All A's,1,1,0,1,0,0,0,,0,NA,2,football team; church dance troupe
+162,Ramos,Jarrod,38,0,2,70,170,0,0,,3,2,NSA internship in high school; BS in computer engineering,1,1,0,1,0,0,0,2,0,NA,0,
+163,Casarez,Javier,54,0,2,,,1,0,,,,,,,,,3,1,1,0,0,NA,,
+164,Bowers,Robert,46,0,0,67,174,0,0,1,0,0,high school dropout,0,0,0,0,0,0,1,0,0,NA,0,
+165,Long,Ian David,28,0,0,68,149,0,0,,2,,,0,0,0,0,3,0,0,0,1,3,0,
+166,Xaver,Zephen,21,0,0,,,0,0,,2,,,1,2,0,2,0,0,0,0,2,0,0,
+167,Martin,Gary,45,0,1,,,0,0,,,,,,2,,,1,0,0,0,0,NA,0,
+168,Craddock,DeWayne,40,0,1,,,0,0,,3,,,,,,,3,,1,2,1,5,0,
+169,Crusius,Patrick,21,0,0,72,220,0,0,,2,,,4,2,1,,,0,0,0,0,NA,0,
+170,Betts,Connor,24,0,0,69,154,0,0,0,2,,,1,1,0,1,0,0,1,0,0,NA,1,played in bands; attended protests
+171,Ator,Seth,36,0,0,70,154,0,0,,2,,,3,1,1,0,,,0,0,0,NA,0,
+172,Anderson,David,47,0,1,,,0,0,4,,,,3,1,1,0,1,0,0,0,1,0,0,
+173,Graham,Francine,50,1,1,,,0,0,4,,,,,2,,,1,0,0,2,0,NA,3,formerly very active in neighborhood community
+174,Ferrill,Anthony,51,0,1,,,0,0,,2,,,,2,,,2,1,1,0,1,4,1,helpful in neighborhood community
+175,Roman,Joaquin,31,0,0,,,0,0,,2,,,,,,,0,0,1,1,0,NA,0,
+176,Nightengale,Jason,32,0,1,70,,0,0,,1,,,,,,,1,5, ,0,0,NA,0,NA
+177,Long,Robert,21,0,0,70,160,0,0,1,2,2,"described as ""really smart"" by a former classmate; was involved with student organizations",1,1,0,1,0,0,1,0,0,NA,3,Used to be very active in the church community but felt his faith slipping because of 'sex addiction'
+178,Alissa,Ahmad Al Aliwi,21,0,4,66,200,1,0,2,1,,bullied in high school for being Muslim,,6,,,0,0,1,0,0,NA,3,Wrestled in high school; became more isolated after graduation
+179,Gaxiola Gonzalez,Aminadab,44,0,2,76,,0,0,,,,,,,,,3,1,1,0,0,NA,,
+180,Hole,Brandon Scott,19,0,0,68,138,0,0,,0,,,3,1,1,0,0,0,0,0,0,NA,0,NA
+181,Cassidy,Samuel,57,0,0,73,200,0,0,,2,,,1,1,0,1,3,0,0,2,0,NA,0,NA
+182,Crumbley,Ethan,15,0,0,62,121,0,0,,0,,,3,1,1,0,0,0,0,,0,NA,0,NA
+183,McLeod,Lyndon,47,0,0,77,,0,0,0,3,,,,,,,0,0,,,0,NA,3,Became more isolated; used to be part of the tattoo community
+184,Gendron,Payton,18,0,0,71,165,0,0,,2,2,"""“He was always very quiet and never much said anything;” said Ms. Williams; who added that Mr. Gendron was “book smart” but had grown more reclusive over the years since she met him in elementary school.""
+“School records show that he was a good student and made high honors in his senior year”",1,2,0,2,0,0,0,0,0,NA,0,NA
+185,Ramos,Salvador,18,0,2,67,145,0,0,,0,0,"Dropped out of school when best friend moved and sister graduated; ""He missed long periods of high school; classmates said; and was not on track to graduate with them this year."" ""He had dyslexia at an early age; but neither the school nor him saught treatment"" ""4th grade was his least favorite; likely from bullying according to witnesses (however his personal notes say the bullying started when he was in middle school) "" 
+“School records show that he was a good student and made high honors in his senior year”",3,1,1,0,0,0,1,0,0,NA,0,NA
+186,Louis,Michael,45,0,1,66,149,1,0,1,3,,,3,1,1,0,3,1,,,0,NA,0,NA
+187,Crimo,Robert,21,0,0,71,120,0,0,,0,,,2,2,1,1,0,0,0,,0,NA,0,NA
+188,Thompson,Austin,15,0,0,,,0,0,1,0,,,2,1,1,0,0,0,0,NA,0,NA,1,Attended high school
+189,Aldrich,Anderson ,22,3,0,76,260,0,,1,,,,1,1,0,1,0,0,,,0,NA,0,NA
+190,Bing,Andre,31,0,1,,,0,0,1,,,,,,,,0,0,1,0,0,NA,0,NA
+191,Tran,Huu Can,72,0,3,70,150,1,0,,,,,,,,,3,0,0,NA,0,NA,3,Used to dance and teach lessons in the same dance studio every night where the attacks occurred. Eventually; stopped attending classes
+192,Zhao,Chunli ,66,0,3,,,1,0,,,,,,,,,2,1,1,0,0,NA,0,NA
+193,Hale,Audrey,28,4,0,,,0,,1,3,2,"""While at our school; she was a talented artist and a good student;"" ""A post on the school's Facebook that has since been removed indicated that Hale earned at least one award for strong academic performance.""",,,,,0,0,1,1,0,NA,1,Attended Nashville's Nossi College of Art & Design in 2022 and was a freelance graphic designer 
+194,Sturgeon,Connor,25,0,0,76,,0,,,4,,,1,1,0,1,,0,1,1,0,NA,1,Worked at Old National Bank
+195,Garcia,Mauricio,33,0,2,,,,,,,,,,,,,0,0,1,0,2,0,0,

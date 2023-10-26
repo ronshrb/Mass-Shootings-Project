@@ -1,0 +1,196 @@
+﻿Case #,Full Date,Day of Week,Day,Month,Year,Street Number,Street Name,City,State,County,Zip Code,Latitude,Longitude,State Code,Region,Urban/Suburban/Rural,Metro/Micro Statistical Area Type,Location,Workplace Shooting,Multiple Locations,Other Location
+1,08/01/1966,Monday,1,8,1966,110,Inner Campus Dr,Austin,TX,Travis County,78705,30.286058,-97.73935,43,0,0,metropolitan,1,0,1,7
+2,11/12/1966,Saturday,12,11,1966,Rose-Mar College of Beauty,N Rose,Mesa,AZ,Maricopa County,85213,33.459937,-111.7819,3,3,0,metropolitan,4,0,0,NA
+3,10/23/1967,Monday,23,10,1967,599,S Highland St,Lock Haven,PA,Clinton County,17745,41.125184,-77.451878,38,2,2,micropolitan,9,1,1,7
+4,3/16/1968,Saturday,16,3,1968,11703,Lake Rd,Ironwood,MI,Gogebic County,49938,46.535978,-90.156262,22,0,2,,5,0,1,7
+5,04/05/1969,Saturday,5,4,1969,,I-76,Harrisburg,PA,Chester County,17105,40.103677,-75.755056,38,2,0,metropolitan,8,0,0,NA
+6,9/23/1970,Wednesday,23,9,1970,Building 12,W. Averell Harriman State Office Campus,Albany,NY,Albany County,12240,42.614852,-73.970812,32,2,0,metropolitan,6,1,0,NA
+7,5/29/1972,Monday,29,5,1972,4321,Lassiter At North Hills Ave,Raleigh,NC,Wake County,27609,35.837199,-78.642979,33,0,0,metropolitan,4,0,0,NA
+8,6/21/1972,Wednesday,21,6,1972,383,Kings Hwy,Cherry Hill,NJ,Camden County,8034,39.927991,-74.994341,30,2,1,metropolitan,6,1,0,NA
+9,01/07/1973,Sunday,7,1,1973,4200,Old Gentilly Rd,New Orleans ,LA,Orleans Parish,70126,30.002426,-90.038906,18,0,0,metropolitan,7,0,1,4
+10,03/02/1975,Sunday,2,3,1975,12370,US Hwy 101 N,Smith River,CA,Del Norte County,95567,41.949285,-124.199492,5,3,2,micropolitan,7,0,0,NA
+11,07/12/1976,Monday,12,7,1976,800,N State College Blvd,Fullerton,CA,Orange County,92831,33.879942,-117.885447,5,3,0,metropolitan,1,1,0,NA
+12,2/14/1977,Monday,14,2,1977,55,Weyman Ave,New Rochelle ,NY,Westchester County,10805,40.899336,-73.792778,32,2,1,metropolitan,9,1,0,NA
+13,7/23/1977,Saturday,23,7,1977,5711,S Sixth St,Klamath Falls,OR,Klamath County,97603,42.140888,-121.680308,37,3,2,micropolitan,5,0,0,NA
+14,8/26/1977,Friday,26,8,1977,210,Mountain Ave,Hackettstown ,NJ,Warren County,7840,40.840175,-74.825526,30,2,2,metropolitan,8,0,1,8
+15,6/17/1978,Saturday,17,6,1978,2099,Post Rd,Warwick,RI,Kent County,2886,41.724743,-71.440822,39,2,0,metropolitan,5,1,0,NA
+16,02/03/1980,Sunday,3,2,1980,9870,Dyer St,El Paso,TX,El Paso County,79924,31.895472,-106.410952,43,0,0,metropolitan,5,0,0,NA
+17,6/22/1980,Sunday,22,6,1980,202,W W M Watson Blvd,Daingerfield,TX,Morris County,75638,33.030971,-94.723466,43,0,2,,3,0,0,NA
+18,7/21/1980,Monday,21,7,1980,,,Coraopolis,PA,Allegheny County,15108,40.5184,-80.16672,38,2,1,metropolitan,7,0,0,NA
+19,05/07/1981,Thursday,7,5,1981,,Front St NE,Salem,OR,Marion County,97301,44.960783,-123.034276,37,3,0,metropolitan,5,0,0,NA
+20,10/16/1981,Friday,16,10,1981,Mountain Auto-Truck Parts Store,Mountain Top Rd,Allen,KY,Floyd County,41650,37.353459,-82.65672,17,0,2,,4,0,0,NA
+21,05/03/1982,Monday,3,5,1982,1600,Lidia Selkregg Ln,Anchorage ,AK,Anchorage Municipality,99508,61.206063,-149.788738,2,3,0,metropolitan,8,0,0,NA
+22,08/09/1982,Monday,9,8,1982,902,Ave N,Grand Prairie,TX,Tarrant County,75050,32.776822,-97.052636,43,0,1,metropolitan,9,1,1,8
+23,8/20/1982,Friday,20,8,1982,3147,NW North River Dr,Miami,FL,Miami-Dade County,33142,25.798855,-80.247135,9,0,0,metropolitan,4,0,0,NA
+24,02/03/1983,Thursday,3,2,1983,2175,Broadway,Manhattan,NY,New York County,10024,40.782387,-73.981148,32,2,0,metropolitan,7,1,1,4
+25,03/01/1983,Tuesday,1,3,1983,,,McCarthy,AK,Copper River Census Area,99566,61.433333,-142.921667,2,3,2,,8,0,1,7
+26,10/11/1983,Tuesday,11,10,1983,,,College Station,TX,Brazos County,77840,30.609093,-96.325984,43,0,1,metropolitan,7,0,1,8
+27,5/17/1984,Thursday,17,5,1984,,Zitziana River,Manley Hot Springs,AK,Yukon-Koyukuk Census Area,99756,65.0187,-150.6478,2,3,2,,8,0,1,8
+28,6/29/1984,Friday,29,6,1984,I-635,Midway Rd,Dallas,TX,Dallas County,75201,32.781179,-96.790329,43,0,0,metropolitan,5,0,0,NA
+29,7/18/1984,Wednesday,18,7,1984,727,E San Ysidro Blvd,San Ysidro,CA,San Diego County,92173,32.544361,-117.029121,5,3,2,metropolitan,5,0,0,NA
+30,7/24/1984,Tuesday,24,7,1984,1127,Central Ave,Hot Springs National Park,AR,Garland County,71901,34.504169,-93.054887,4,0,1,metropolitan,5,0,1,8
+31,3/16/1985,Saturday,16,3,1985,1926,Baldridge Ave,South Connellsville,PA,Fayette County,15425,39.993086,-79.589387,38,2,2,metropolitan,9,1,0,NA
+32,8/20/1986,Wednesday,20,8,1986,200,N Broadway,Edmond,OK,Oklahoma County,73034,35.657238,-97.480943,36,0,1,metropolitan,10,1,0,NA
+33,4/23/1987,Thursday,23,4,1987,4711,NE Babcock St,Palm Bay,FL,Brevard County,32905,28.032451,-80.620433,9,0,1,metropolitan,4,0,1,7
+34,2/16/1988,Tuesday,16,2,1988,495,E Java Dr,Sunnyvale ,CA,Santa Clara County,94089,37.410141,-122.01158,5,3,0,metropolitan,6,1,0,NA
+35,7/17/1988,Sunday,17,7,1988,3336,Old Salisbury Rd,Winston Salem,NC,Forsyth County,27127,35.999209,-80.274421,33,0,2,metropolitan,8,0,0,NA
+36,9/22/1988,Thursday,22,9,1988,1310,S Ashland Ave,Chicago   ,IL,Cook County,60608,41.864636,-87.667065,13,1,0,metropolitan,4,0,1,0
+37,1/17/1989,Tuesday,17,1,1989,20,E Fulton St,Stockton,CA,San Joaquin County,95204,37.982163,-121.302094,5,3,2,metropolitan,0,0,0,NA
+38,9/14/1989,Thursday,14,9,1989,643,S 6th St,Louisville,KY,Jefferson County,40202,38.248225,-85.760896,17,0,0,metropolitan,9,1,0,NA
+39,6/18/1990,Monday,18,6,1990,7870,Baymeadows Way,Jacksonville,FL,Duval County,32256,30.22808,-81.582229,9,0,0,metropolitan,4,0,1,8
+40,10/10/1991,Thursday,10,10,1991,143,E Ridgewood Ave,Ridgewood,NJ,Bergen County,7450,40.979451,-74.116823,30,2,1,metropolitan,10,1,1,7
+41,10/16/1991,Wednesday,16,10,1991,1705,E Central Texas Expy,Killeen,TX,Bell County,76541,31.093555,-97.723877,43,0,2,metropolitan,5,0,0,NA
+42,11/01/1991,Friday,1,11,1991,203,Van Allen Hall,Iowa City ,IA,Johnson County,52242,41.661778,-91.548347,15,1,1,metropolitan,1,0,0,NA
+43,11/09/1991,Saturday,9,11,1991,,,Harrodsburg,KY,Mercer County,40330,37.803283,-84.860707,17,0,2,,8,0,0,NA
+44,11/14/1991,Thursday,14,11,1991,200,W 2nd St,Royal Oak,MI,Oakland County,48068,42.489354,-83.146058,22,1,1,metropolitan,10,1,0,NA
+45,3/15/1992,Sunday,15,3,1992,4139,E McDowell Rd,Phoenix,AZ,Maricopa County,85008,33.46461,-111.99175,3,3,0,metropolitan,8,0,1,4
+46,05/01/1992,Friday,1,5,1992,4446,Olive Ave,Olivehurst,CA,Yuba County,95961,39.084469,-121.534431,5,3,2,metropolitan,0,0,0,NA
+47,10/15/1992,Thursday,15,10,1992,105,9th St,Watkins Glen,NY,Schuyler County,14891,42.377164,-76.870943,32,2,2,,2,0,0,NA
+48,11/08/1992,Sunday,8,11,1992,1144,Black Oak Dr,Paso Robles,CA,San Luis Obispo County,93446,35.644773,-120.687044,5,3,1,metropolitan,7,0,1,4
+49,07/01/1993,Thursday,1,7,1993,101,California St,San Francisco,CA,San Francisco County,94111,37.79304,-122.39803,5,3,0,metropolitan,6,1,0,NA
+50,08/06/1993,Friday,6,8,1993,528,N McPherson Church Rd,Fayetteville,NC,Cumberland County,28303,35.076877,-78.953827,33,0,0,metropolitan,5,0,0,NA
+51,10/14/1993,Thursday,14,10,1993,850,Arnele Ave,El Cajon,CA,San Diego County,92020,32.804379,-116.972996,5,3,1,metropolitan,4,0,0,NA
+52,12/02/1993,Thursday,2,12,1993,4839,Market St,Oxnard,CA,Ventura County,93003,34.257935,-119.226564,5,3,1,metropolitan,6,1,1,8
+53,12/07/1993,Tuesday,7,12,1993,,Merillon Ave,Garden City Park,NY,Nassau County,11530,40.734995,-73.66048,32,2,0,metropolitan,8,0,0,NA
+54,12/14/1993,Tuesday,14,12,1993,12293,E Iliff Ave,Aurora,CO,Arapahoe County,80014,39.675379,-104.844762,6,3,1,metropolitan,5,1,0,NA
+55,6/20/1994,Monday,20,6,1994,701,Hospital Loop,Fairchild Air Force Base,WA,Spokane County,99011,47.633161,-117.654603,47,3,0,metropolitan,2,1,0,NA
+56,12/31/1994,Saturday,31,12,1994,,Puppy Creek Family Fun Center; Zodiac Club,Raeford,NC,Hoke County,28376,34.98122406,-79.22412109,33,0,2,,4,0,1,5
+57,04/03/1995,Monday,3,4,1995,2535,Rand Morgan Rd,Corpus Christi,TX,Nueces County,78410,27.827022,-97.547919,43,0,0,metropolitan,9,1,0,NA
+58,7/19/1995,Wednesday,19,7,1995,555,Ramirez St,Los Angeles,CA,Los Angeles County,90012,34.054253,-118.230897,5,3,0,metropolitan,9,1,0,NA
+59,12/19/1995,Tuesday,19,12,1995,2186,White Plains Rd,Bronx,NY,Bronx County,10462,40.856035,-73.867456,32,2,0,metropolitan,4,0,0,NA
+60,02/09/1996,Friday,9,2,1996,,E Las Olas Blvd.,Fort Lauerdale ,FL,Broward County,33301,26.121323,-80.127909,9,0,0,metropolitan,6,1,0,NA
+61,4/24/1996,Wednesday,24,4,1996,555,S West St,Jackson,MS,Hinds County,39201,32.289656,-90.184201,24,0,0,metropolitan,6,1,1,7
+62,8/19/1997,Tuesday,19,8,1997,64,Trooper Les Lord Mem Hwy,Colebrook,NH,Coos County,3576,44.891664,-71.497782,29,2,2,micropolitan,6,0,1,8
+63,9/15/1997,Monday,15,9,1997,2063,University Pkwy,Aiken ,SC,Aiken County,29801,33.581812,-81.722614,40,0,0,metropolitan,9,1,0,NA
+64,12/03/1997,Wednesday,3,12,1997,1520,Centennial Blvd,Bartow,FL,Polk County,33830,27.893339,-81.859737,9,0,1,metropolitan,9,1,0,NA
+65,12/18/1997,Thursday,18,12,1997,1808,N Batavia St,Orange,CA,Orange County,92865,33.817491,-117.862546,5,3,1,metropolitan,9,1,0,NA
+66,03/06/1998,Friday,6,3,1998,777,Brook St,Rocky Hill,CT,Hartford County,6067,41.644255,-72.672733,7,2,1,metropolitan,6,1,0,NA
+67,3/24/1998,Tuesday,24,3,1998,1800,Highway 91 W,Jonesboro ,AR,Craighead County,72404,35.857012,-90.805986,4,0,2,metropolitan,0,0,0,NA
+68,3/24/1998,Tuesday,24,3,1998,1800,Highway 91 W,Jonesboro,AR,Craighead County,72404,35.857012,-90.805986,4,0,2,metropolitan,0,0,0,NA
+69,5/20/1998,Wednesday,20,5,1998,333,58th St,Springfield,OR,Lane County,97478,44.04932,-122.925136,37,3,1,metropolitan,0,0,1,7
+70,03/10/1999,Wednesday,10,3,1999,1615,W Toby Ave,Gonzales,LA,Ascension Parish,70737,30.245726,-90.924089,18,0,2,metropolitan,3,0,1,7
+71,4/20/1999,Tuesday,20,4,1999,6201,S Pierce St,Littleton,CO,Jefferson County,80123,39.60396,-105.07407,6,3,1,metropolitan,0,0,0,NA
+72,4/20/1999,Tuesday,20,4,1999,6201,S Pierce St,Littleton,CO,Jefferson County,80123,39.60396,-105.07407,6,3,1,metropolitan,0,0,0,NA
+73,06/03/1999,Thursday,3,6,1999,1300,E Flamingo Rd,Las Vegas,NV,Clark County,89119,36.115388,-115.135914,28,3,0,metropolitan,4,0,0,NA
+74,7/29/1999,Thursday,29,7,1999,3500,Piedmont Rd NE,Atlanta,GA,Fulton County,30305,33.849827,-84.377419,10,0,0,metropolitan,6,1,1,7
+75,9/15/1999,Wednesday,15,9,1999,5522,Whitman Ave,Fort Worth,TX,Tarrant County,76133,32.664911,-97.384486,43,0,0,metropolitan,3,0,0,NA
+76,11/02/1999,Tuesday,2,11,1999,700,Bishop St,Honolulu,HI,Honolulu County,96813,21.30776,-157.863492,11,3,0,metropolitan,6,1,0,NA
+77,12/30/1999,Thursday,30,12,1999,7700,Courtney Campbell Cswy,Tampa,FL,Hillsborough County,33607,27.967596,-82.570316,9,0,0,metropolitan,4,1,1,5
+78,3/20/2000,Monday,20,3,2000,3311,N Belt Line Rd,Irving,TX,Dallas County,75062,32.85037,-96.993481,43,0,0,metropolitan,4,1,0,NA
+79,4/28/2000,Friday,28,4,2000,1980,Park Manor Blvd,Pittsburgh,PA,Allegheny County,15205,40.454242,-80.169179,38,2,1,metropolitan,7,0,1,4
+80,12/26/2000,Tuesday,26,12,2000,200,Harvard Mill Sq,Wakefield,MA,Middlesex County,1880,42.484021,-71.067335,21,2,1,metropolitan,6,1,0,NA
+81,01/09/2001,Tuesday,9,1,2001,9889,Harwin Dr,Houston,TX,Harris County,77036,29.717448,-95.532536,43,0,0,metropolitan,4,1,1,4
+82,02/05/2001,Monday,5,2,2001,2701,Navistar Dr,Lisle,IL,Dupage County,60532,41.810013,-88.107627,13,1,1,metropolitan,9,1,0,NA
+83,07/03/2001,Tuesday,3,7,2001,1320,Rail Ave,Rifle,CO,Garfield County,81650,39.552052,-107.783557,6,3,2,micropolitan,4,0,0,NA
+84,09/08/2001,Saturday,8,9,2001,2710,Ramp Way,Sacramento,CA,Sacramento County,95818,38.56321,-121.517347,5,3,0,metropolitan,8,1,1,8
+85,3/22/2002,Friday,22,3,2002,2323,Foundation Dr,South Bend,IN,St. Joseph County,46628,41.708898,-86.30507,14,1,0,metropolitan,9,1,1,8
+86,2/25/2003,Tuesday,25,2,2003,2709,Governors Dr SW,Huntsville,AL,Madison County,35805,34.719639,-86.602153,1,0,0,metropolitan,6,1,1,7
+87,07/08/2003,Tuesday,8,7,2003,5017,Lockheed Dr,Meridian ,MS,Lauderdale County,39301,32.413933,-88.653287,24,0,0,micropolitan,9,1,0,NA
+88,8/27/2003,Wednesday,27,8,2003,3918,S Wallace St,Chicago,IL,Cook County,60609,41.823192,-87.641205,13,1,0,metropolitan,9,1,0,NA
+89,10/24/2003,Tuesday,24,10,2003,313,N State Ave,Oldtown,ID,Bonner County,83822,48.183621,-117.039097,12,3,2,micropolitan,5,0,0,NA
+90,07/02/2004,Friday,2,7,2004,4612,Speaker Rd,Kansas City ,KS,Wyandotte County,66106,39.096158,-94.684427,16,1,0,metropolitan,9,1,0,NA
+91,11/21/2004,Sunday,21,11,2004,,,Birchwood,WI,Washburn County,54817,45.732675,-91.615044,49,1,2,,8,0,0,NA
+92,12/08/2004,Wednesday,8,12,2004,5055,Sinclair Rd,Columbus,OH,Franklin County,43229,40.06856,-82.998787,35,1,0,metropolitan,5,0,0,NA
+93,03/11/2005,Friday,11,3,2005,136,Pryor St SW,Atlanta,GA,Fulton County,30303,33.750525,-84.390822,10,0,0,metropolitan,2,0,1,8
+94,03/12/2005,Saturday,12,3,2005,375,S Moorland Rd,Brookfield,WI,Waukesha County,53005,43.027257,-88.10821,49,1,1,metropolitan,3,0,0,NA
+95,3/21/2005,Monday,21,3,2005,23990,MN 1,Red Lake,MN,Beltrami County,56671,47.8784082,-95.0140214,23,1,2,micropolitan,0,0,1,7
+96,8/28/2005,Sunday,28,8,2005,11330,FM-100,Honey Grove,TX,Fannin County,75446,33.74241638,-95.911382,43,0,2,micropolitan,3,0,1,8
+97,1/30/2006,Monday,30,1,2006,400,Storke Rd,Goleta,CA,Santa Barbara County,93199,34.42519,-119.866988,5,3,1,metropolitan,10,1,1,7
+98,3/25/2006,Saturday,25,3,2006,2112,E Republican St,Seattle,WA,King County,98112,47.623358,-122.304074,47,3,0,metropolitan,7,0,0,NA
+99,5/21/2006,Sunday,21,5,2006,1935,Dallas Dr,Baton Rouge,LA,East Baton Rouge Parish,70806,30.467231,-91.111563,18,0,0,metropolitan,3,0,1,8
+100,10/02/2006,Monday,2,10,2006,4876,White Oak Rd,Paradise,PA,Lancaster County,17562,39.960243,-76.084459,38,2,2,metropolitan,0,0,0,NA
+101,02/12/2007,Monday,12,2,2007,602,S 700 E,Salt Lake City,UT,Salt Lake County,84102,40.756249,-111.871209,44,3,0,metropolitan,4,0,0,NA
+102,4/16/2007,Monday,16,4,2007,494,Old Turner St,Blacksburg,VA,Montgomery County,24061,37.231041,-80.421781,46,0,2,metropolitan,1,0,1,1
+103,12/05/2007,Wednesday,5,12,2007,1000,California St,Omaha,NE,Douglas County,68114,41.264845,-96.065637,27,1,0,metropolitan,4,0,0,NA
+104,12/09/2007,Sunday,9,12,2007,12750,W 63rd Ave,Arvada,CO,Jefferson County,80004,39.810645,-105.141829,6,3,1,metropolitan,3,0,1,3
+105,02/07/2008,Thursday,7,2,2008,139,S Kirkwood Rd,Kirkwood,MO,St. Louis County,63122,38.580089,-90.406908,25,1,1,metropolitan,2,0,0,NA
+106,2/14/2008,Thursday,14,2,2008,Cole Hall,University Cir Dr,Dekalb ,IL,Dekalb County,60115,41.92947,-88.75036,13,1,0,metropolitan,1,0,0,NA
+107,3/18/2008,Tuesday,18,3,2008,1500,Black Rd,Santa Maria,CA,Santa Barbara County,93458,34.934964,-120.489779,5,3,0,metropolitan,9,1,0,NA
+108,6/25/2008,Wednesday,25,6,2008,390,Community Dr,Henderson,KY,Henderson County,42420,37.804419,-87.639753,17,0,2,metropolitan,9,1,0,NA
+109,09/02/2008,Tuesday,2,9,2008,19300 Block,Bridle Pl,Alger,WA,Skagit County,98284,48.486147,-122.137243,47,3,2,metropolitan,7,0,1,8
+110,3/29/2009,Sunday,29,3,2009,801,Pinehurst Ave,Carthage,NC,Moore County,28327,35.33332,-79.414716,33,0,2,micropolitan,7,0,0,NA
+111,04/03/2009,Friday,3,4,2009,131,Front St,Binghamton,NY,Broome County,13905,42.099783,-75.917675,32,2,1,metropolitan,2,0,0,NA
+112,11/01/2009,Sunday,1,11,2009,729,Worth St,Mount Airy,NC,Surry County,27030,36.48918,-80.610141,33,0,2,micropolitan,4,0,0,NA
+113,11/05/2009,Thursday,5,11,2009,133,E 761st Tank Battalion Ave,Fort Hood,TX,Bell County,76544,31.138574,-97.764327,43,0,0,metropolitan,2,1,0,NA
+114,11/29/2009,Sunday,29,11,2009,11401,Steele St S,Parkland,WA,Pierce County,98444,47.153116,-122.467315,47,3,1,metropolitan,5,0,0,NA
+115,04/03/2010,Saturday,3,4,2010,11651,Riverside Dr,North Hollywood,CA,Los Angeles County,91602,34.157803,-118.387291,5,3,0,metropolitan,5,0,0,NA
+116,06/06/2010,Sunday,6,6,2010,495,E 49th St,Hialeah ,FL,Miami-Dade County,33013,25.867535,-80.272855,9,0,0,metropolitan,5,0,0,NA
+117,08/03/2010,Tuesday,3,8,2010,131,Chapel Rd,Manchester ,CT,Hartford County,6042,41.797974,-72.569984,7,2,1,metropolitan,9,1,0,NA
+118,8/14/2010,Saturday,14,8,2010,268,Main St,Buffalo ,NY,Erie County,14202,42.881536,-78.876026,32,2,0,metropolitan,5,0,0,NA
+119,09/11/2010,Saturday,11,9,2010,2401,Quicksand Creek Rd,Jackson,KY,Breathitt County,41339,37.550562,-83.13484,17,0,2,,7,0,0,NA
+120,01/08/2011,Saturday,8,1,2011,7100,N Oracle Rd,Tucson ,AZ,Pima County,85704,32.335997,-110.977334,3,3,0,metropolitan,4,0,0,NA
+121,08/07/2011,Sunday,7,8,2011,804,Minota Ave,Akron,OH,Summit County,44306,41.040524,-81.497666,35,1,1,metropolitan,7,0,1,7
+122,09/06/2011,Tuesday,6,9,2011,3883,S Carson St,Carson City,NV,Carson City,89701,39.131471,-119.769453,28,3,1,metropolitan,5,0,0,NA
+123,10/12/2011,Wednesday,12,10,2011,500,Pacific Coast Hwy,Seal Beach,CA,Orange County,90740,33.745338,-118.106315,5,3,1,metropolitan,4,0,0,NA
+124,04/02/2012,Monday,2,4,2012,7900,Oakport St,Oakland,CA,Alameda County,94621,37.752774,-122.210281,5,3,0,metropolitan,1,0,0,NA
+125,5/30/2012,Wednesday,30,5,2012,5828,Roosevelt Way NE,Seattle ,WA,King County,98105,47.671444,-122.317073,47,3,0,metropolitan,5,0,1,8
+126,7/20/2012,Friday,20,7,2012,14300,E Alameda Ave,Aurora,CO,Arapahoe County,80012,39.705883,-104.820567,6,3,0,metropolitan,4,0,0,NA
+127,08/05/2012,Sunday,5,8,2012,7512,S Howell Ave,Oak Creek,WI,Milwaukee County,53154,42.90798,-87.908477,49,1,1,metropolitan,3,0,0,NA
+128,9/27/2012,Thursday,27,9,2012,2322,Chestnut Ave,Minneapolis ,MN,Hennepin County,55405,44.977312,-93.310187,23,1,0,metropolitan,9,1,0,NA
+129,12/14/2012,Friday,14,12,2012,12,Dickinson Dr,Sandy Hook,CT,Fairfield County,6482,41.419941,-73.27738,7,2,1,metropolitan,0,0,1,7
+130,3/13/2013,Wednesday,13,3,2013,101,S Main St,Herkimer,NY,Herkimer County,13350,43.025233,-74.985488,32,2,2,metropolitan,4,0,1,4
+131,4/21/2013,Sunday,21,4,2013,33311,18th Ln S,Federal Way ,WA,King County,98003,47.302572,-122.310662,47,3,0,metropolitan,7,0,0,NA
+132,06/07/2013,Friday,7,6,2013,1900,Pico Blvd,Santa Monica,CA,Los Angeles County,90405,34.018767,-118.470401,5,3,0,metropolitan,1,0,1,7
+133,7/26/2013,Friday,26,7,2013,1485,W 46th St,Hialeah,FL,Miami-Dade County,33012,25.864203,-80.312608,9,0,0,metropolitan,7,0,0,NA
+134,9/16/2013,Monday,16,9,2013,601,M St SE,Washington D.C.,DC,District of Columbia,20001,38.876141,-76.997737,51,0,0,metropolitan,2,1,0,NA
+135,2/20/2014,Thursday,20,2,2014,300,W 1st St,Alturas,CA,Modoc County,96101,41.483995,-120.545373,5,3,2,,2,0,0,NA
+136,5/23/2014,Friday,23,5,2014,839,Embarcadero Del Norte,Isla Vista ,CA,Santa Barbara County,93117,34.414281,-119.855546,5,3,1,metropolitan,1,0,1,7
+137,10/24/2014,Friday,24,10,2014,5611,108th St NE,Marysville ,WA,Snohomish County,98271,48.095825,-122.154041,47,3,0,metropolitan,0,0,0,NA
+138,6/17/2015,Wednesday,17,6,2015,110,Calhoun St,Charleston ,SC,Charleston County,29401,32.78744,-79.933035,40,0,0,metropolitan,3,0,0,NA
+139,7/16/2015,Thursday,16,7,2015,4051,Amnicola Hwy,Chattanooga,TN,Hamilton County,37406,35.095083,-85.253423,42,0,0,metropolitan,2,0,1,2
+140,10/01/2015,Thursday,1,10,2015,1140,Umpqua College Rd,Roseburg ,OR,Douglas County,97470,43.28931,-123.332466,37,3,2,micropolitan,1,0,0,NA
+141,11/14/2015,Saturday,14,11,2015,,,Tennessee Colony,TX,Anderson County,75861,31.8354447,-95.8388504,43,0,2,,8,0,1,8
+142,12/02/2015,Wednesday,2,12,2015,1365,S Waterman Ave,San Bernardino,CA,San Bernardino County,92408,34.075766,-117.277467,5,3,0,metropolitan,6,1,1,8
+143,12/02/2015,Wednesday,2,12,2015,1365,S Waterman Ave,San Bernardino,CA,San Bernardino County,92408,34.075766,-117.277467,5,3,0,metropolitan,6,1,1,8
+144,2/20/2016,Saturday,20,2,2016,5581,Cracker Barrel Blvd,Kalamazoo,MI,Kalamazoo County,49009,42.235322,-85.677092,22,1,0,metropolitan,5,0,1,4
+145; 146,03/09/2016,Wednesday,9,3,2016,1304,Franklin Ave,Wilkinsburg,PA,Allegheny County,15221,40.4382,-79.87292,38,2,1,metropolitan,7,0,0,NA
+147,06/12/2016,Sunday,12,6,2016,1912,S Orange Ave,Orlando ,FL,Orange County,32806,28.519608,-81.376709,9,0,0,metropolitan,5,0,0,NA
+148,07/07/2016,Thursday,7,7,2016,801,Main St,Dallas,TX,Dallas County,75202,32.779742,-96.805298,43,0,0,metropolitan,8,0,0,NA
+149,9/23/2016,Friday,23,9,2016,201,Cascade Mall Dr,Burlington,WA,Skagit County,98233,48.464723,-122.337055,47,3,1,metropolitan,4,0,0,NA
+150,01/06/2017,Friday,6,1,2017,100,Terminal Dr,Fort Lauderdale,FL,Broward County,33315,26.072655,-80.143366,9,0,0,metropolitan,4,0,0,NA
+151,02/06/2017,Monday,6,2,2017,263,W 11th St,Yazoo City,MS,Yazoo County,39194,32.863163,-90.409031,24,0,2,metropolitan,5,0,0,NA
+152,3/22/2017,Wednesday,22,3,2017,1133,E Grand Ave,Rothschild,WI,Marathon County,54474,44.89969,-89.609301,49,1,1,metropolitan,4,0,1,7
+153,06/05/2017,Monday,5,6,2017,2427,N Forsyth Rd,Orlando ,FL,Orange County,32807,28.579857,-81.294113,9,0,0,metropolitan,9,1,0,NA
+154,10/01/2017,Sunday,1,10,2017,3950,S Las Vegas Blvd,Las Vegas ,NV,Clark County,89119,36.08995,-115.176572,28,3,0,metropolitan,8,0,0,NA
+155,11/05/2017,Sunday,5,11,2017,216,4th St,Sutherland Springs,TX,Wilson County,78160,29.273077,-98.056567,43,0,2,metropolitan,3,0,0,NA
+156,11/14/2017,Tuesday,14,11,2017,17357,Stagecoach Rd,Rancho Tehama Reserve,CA,Tehama County,96021,40.019301,-122.392697,5,3,2,micropolitan,7,0,1,8
+157,1/28/2018,Sunday,28,1,2018,1334,Indian Creek Valley Rd,Melcroft; Saltlick Township,PA,Fayette County,15462,40.052988,-79.38515,38,2,2,metropolitan,4,0,0,NA
+158,2/14/2018,Wednesday,14,2,2018,5901,Pine Island Rd,Parkland,FL,Broward County,33076,26.303208,-80.266995,9,0,1,metropolitan,0,0,0,NA
+159,2/26/2018,Monday,26,2,2018,8940,Fenkell St,Detroit,MI,Wayne County,48238,42.402675,-83.158639,22,1,0,metropolitan,4,0,1,7
+160,4/22/2018,Sunday,22,4,2018,3571,Murfreesboro Pike,Antioch,TN,Davidson County,37013,36.051639,-86.616286,42,0,0,metropolitan,5,0,0,NA
+161,5/18/2018,Friday,18,5,2018,16000,Hwy 6,Santa Fe,TX,Galveston County,77517,29.392409,-95.140607,43,0,1,metropolitan,0,0,0,NA
+162,6/28/2018,Thursday,28,6,2018,888,Bestgate Rd,Annapolis,MD,Anne Arundel County,21401,38.994239,-76.543615,20,0,0,metropolitan,6,0,0,NA
+163,09/12/2018,Wednesday,12,9,2018,660,Manwell Blvd,Bakersfield,CA,Kern County,93307,35.348896,-118.916444,5,3,0,metropolitan,9,1,1,7
+164,10/27/2018,Saturday,27,10,2018,5898,Wilkins Ave,Pittsburgh,PA,Allegheny County,15217,40.44358,-79.921239,38,2,0,metropolitan,3,0,0,NA
+165,11/07/2018,Wednesday,7,11,2018,99,Rolling Oaks Dr,Thousand Oaks,CA,Ventura County,91361,34.176242,-118.87443,5,3,1,metropolitan,5,0,0,NA
+166,1/23/2019,Wednesday,23,1,2019,1901,US 27 S,Sebring ,FL,Highlands County,33870,27.470544,-81.458486,9,0,2,metropolitan,4,0,0,NA
+167,2/15/2019,Friday,15,2,2019,401,S Highland Ave,Aurora,IL,Kane County,60506,41.753845,-88.33127,13,1,0,metropolitan,9,1,0,NA
+168,5/31/2019,Friday,31,5,2019,2425,Nimmo Pkwy,Virginia Beach,VA,Virginia Beach City,23456,36.746599,-76.039092,46,0,0,metropolitan,6,1,0,NA
+169,08/03/2019,Saturday,3,8,2019,7101,Gateway Blvd W,El Paso,TX,El Paso County,79925,31.776485,-106.387654,43,0,0,metropolitan,4,0,0,NA
+170,08/04/2019,Sunday,4,8,2019,430,E 5th St,Dayton,OH,Montgomery County,45402,39.75705,-84.18471,35,1,0,metropolitan,5,0,0,NA
+171,8/31/2019,Saturday,31,8,2019,42,S D St,Midland-Odessa,TX,Midland County,79701,31.992247,-102.083675,43,0,0,metropolitan,8,0,1,4
+172,12/10/2019,Tuesday,10,12,2019,223,Martin Luther King Jr Dr,Jersey City,NJ,Hudson County,7305,40.707135,-74.083691,30,2,0,metropolitan,4,0,1,8
+173,12/10/2019,Tuesday,10,12,2019,224,Martin Luther King Jr Dr,Jersey City,NJ,Hudson County,7305,40.706932,-74.083527,30,2,0,metropolitan,4,0,1,8
+174,2/26/2020,Wednesday,26,2,2020,4115,W State St,Milwaukee,WI,Milwaukee County,53208,43.04183,-87.964467,49,1,0,metropolitan,9,1,0,NA
+175,3/15/2020,Sunday,15,3,2020,2885,E Chestnut Expy,Springfield,MO,Greene County,65802,37.210533,-93.237106,25,1,0,metropolitan,4,0,1,8
+176,01/09/2021,Saturday,9,1,2021,5035,SE End Ave,Chicago,IL,Cook County,60615,41.803699,-87.585287,13,1,0,metropolitan,7,0,1,4;5;8
+177,3/16/2021,Tuesday,16,3,2021,1916,Piedmont Rd NE,Atlanta,GA,Fulton County,30324,33.809556,-84.366225,10,0,0,metropolitan,4,0,1,4
+178,3/22/2021,Monday,22,3,2021,3600,Table Mesa Dr,Boulder,CO,Boulder County,80305,39.983634,-105.251912,6,3,0,metropolitan,4,0,0,NA
+179,3/31/2021,Wednesday,31,3,2021,202,W Lincoln Ave,Orange,CA,Orange County,92865,33.835231,-117.853737,5,3,1,metropolitan,6,1,0,NA
+180,4/15/2021,Thursday,15,4,2021,8856,Rodeo Ct,Indianapolis ,IN,Marion County,46217,39.637521,-86.166748,14,1,0,metropolitan,9,1,0,NA
+181,5/26/2021,Wednesday,26,5,2021,101,W Younger Ave,San Jose,CA,Santa Clara County,95110,37.354115,-121.908625,5,3,0,metropolitan,9,1,0,NA
+182,11/30/2021,Tuesday,30,11,2021,745,N Oxford Rd,Oxford,MI,Oakland County,48371,42.840331,-83.263195,22,1,1,metropolitan,0,0,0,NA
+183,12/27/2021,Monday,27,12,2021,56,Broadway,Denver,CO,Denver County,80203,39.717678,-104.987565,6,3,0,metropolitan,4,1,1,7
+184,5/14/2022,Saturday,14,5,2022,1275,Jefferson Ave,Buffalo ,NY,Erie County,14208,42.909757,-78.852961,32,2,0,metropolitan,4,0,0,NA
+185,5/24/2022,Tuesday,24,5,2022,715,Old Carrizo Rd,Uvalde,TX,Uvalde County,78801,29.199261,-99.787959,43,0,2,micropolitan,0,0,1,7
+186,06/01/2022,Wednesday,1,6,2022,6161,S Yale Ave,Tulsa,OK,Tulsa County,74136,36.072814,-95.917624,36,0,0,metropolitan,6,0,0,NA
+187,07/04/2022,Monday,4,7,2022,,Central Ave,Highland Park,IL,Lake County,60035,42.185853,-87.79921,13,1,1,metropolitan,8,0,0,NA
+188,10/13/2022,Thursday,13,10,2022,,Hedingham Suburb; near Osprey Cove Drive and Bay Harbor Drive,Raleigh,NC,Wake County,27604,35.812595,-78.535545,33,0,1,metropolitan,8,0,1,7
+189,11/19-20/2022,Saturday/Sunday,19-20,11,2022,3430,N Academy Blvd,Colorado Springs,CO,El Paso County,80917,38.880978,-104.758104,6,3,0,metropolitan,5,0,0,NA
+190,11/22/2022,Tuesday,22,11,2022,1521,Sam's Cir,Chesapeake,VA,City of Chesapeake,23320,36.772622,-76.251284,46,0,0,metropolitan,4,1,0,NA
+191,1/21/2023,Saturday,21,1,2023,122, W Garvey Ave #B,Monterey Park,CA,Los Angeles County,91754,34.062567,-118.123869,5,3,0,metropolitan,4,0,0,NA
+192,1/23/2023,Monday,23,1,2023,2125,Cabrillo Hwy S,Half Moon Bay,CA,San Mateo County,94019,"37.469297
+",-122.419734,5,3,2,micropolitan,8,1,0,NA
+193,3/27/2023,Monday,27,3,2023,33, Burton Hills Blvd,Nashville,TN,Davidson County,37215,36.093314,-86.825245,42,0,0,metropolitan,0,0,0,NA
+194,04/10/2023,Monday,10,4,2023,333,E Main St Ste 100,Louisville,KY,Jefferson County,40202,38.256257,-85.746071,17,0,0,metropolitan,6,1,0,NA
+195,05/06/2023,Saturday,6,5,2023,820, W Stacy Rd,Allen,TX,Collin County,75013,33.132682,-96.662071,43,0,1,metropolitan,4; 8 ,0,0,NA

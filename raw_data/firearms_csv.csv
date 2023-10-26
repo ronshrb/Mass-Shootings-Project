@@ -1,0 +1,414 @@
+﻿Case #,Shooter Last Name,Shooter First Name,Full Date,Make and Model,Classification,Caliber,Used in Shooting?,Modified,Large Capacity Magazine,Extended Magazine,When Obtained,Legal Purchase,Illegal Purchase,Assembled with Legal Parts ,Gifted,Theft,Unknown
+1,Whitman,Charles,01/08/1966,Remington 700 6mm bolt-action rifle,2,0,1,0,0,0,1,,,,,,1
+1,Whitman,Charles,01/08/1966,Remington .35-caliber Model 141 pump-action rifle,2,1,0,0,0,0,0,1,0,0,0,0,0
+1,Whitman,Charles,01/08/1966,.30 M1 carbine,2,1,1,0,1,0,0,1,0,0,0,0,0
+1,Whitman,Charles,01/08/1966,6.35mm Galesi-brescia pistol,0,0,0,0,0,0,0,1,0,0,0,0,0
+1,Whitman,Charles,01/08/1966,9mm Luger pistol,0,1,0,0,0,0,0,1,0,0,0,0,0
+1,Whitman,Charles,01/08/1966,.357 Magnum Smith & Wesson revolver,0,1,0,0,0,NA,0,1,0,0,0,0,0
+1,Whitman,Charles,01/08/1966,12-gauge Sears sawed-off shotgun,1,2,0,1,0,NA,0,1,0,0,0,0,0
+2,Smith,Robert,12/11/1966,.22-caliber pistol,0,0,1,0,0,0,1,NA,NA,0,1,0,0
+3,Held,Leo,23/10/1967,.45-caliber pistol,0,2,1,0,0,0,1,3,0,0,0,0,0
+3,Held,Leo,23/10/1967,.38-caliber Smith & Wesson revolver,0,1,1,0,0,NA,1,3,0,0,0,0,0
+4,Pearson,Eric,16/03/1968,.30-06 rifle,2,1,1,0,0,0,1,3,0,0,0,0,0
+5,Lambright,Donald,05/04/1969,.30-caliber M1 semi-automatic rifle,2,1,,0,0,0,,,,,,,1
+5,Lambright,Donald,05/04/1969,.30-caliber Marlin carbine,2,1,1,0,0,0,,,,,,,1
+6,White,Joseph,23/09/1970,.308-caliber Remington rifle,2,1,1,0,0,0,1,1,0,0,0,0,0
+7,McLeod,Harvey Glenn,29/05/1972,.22-caliber Marlin semi-automatic rifle,2,0,1,0,0,0,0,0,3,0,0,0,0
+8,Grace,Edwin,21/06/1972,.22-caliber AR-7 automatic rifle with sawed-off barrel,2,0,1,1,0,0,0,1,0,0,0,0,0
+8,Grace,Edwin,21/06/1972,.22-caliber AR-7 automatic rifle with sawed-off barrel,2,0,1,1,0,0,0,1,0,0,0,0,0
+9,Essex,Mark,07/01/1973,.44-caliber Magnum carbine rifle,2,2,1,0,0,0,1,1,0,0,0,0,0
+10,Sander,Robert,02/03/1975,.30-30-caliber rifle,2,1,1,0,0,0,0,1,0,0,0,0,0
+11,Allaway,Edward,12/07/1976,.22-caliber semi-automatic rifle,2,0,1,0,0,0,0,0,3,0,0,0,0
+12,Cowan,Fred,14/02/1977,5.56mm M-16 automatic rifle,3,1,1,0,1,0,1,,,,,,1
+12,Cowan,Fred,14/02/1977,.45-caliber pistol,0,2,2,0,0,0,1,0,5,0,0,0,0
+12,Cowan,Fred,14/02/1977,.45-caliber pistol,0,2,0,0,0,0,1,0,5,0,0,0,0
+12,Cowan,Fred,14/02/1977,Handgun,0,,0,0,0,0,1,0,5,0,0,0,0
+12,Cowan,Fred,14/02/1977,Handgun,0,,0,0,0,0,1,0,5,0,0,0,0
+13,Henry,Dewitt,23/07/1977,.223-caliber M-16 style semi-automatic rifle,3,0,1,0,1,0,,,,,,,1
+14,Benoist,Emile Pierre,26/08/1977,.44-caliber Magnum Ruger semi-automatic carbine rifle,2,2,1,0,0,0,,0,5,0,0,0,0
+15,Chin,Gan Fong,17/06/1978,.30-30 carbine rifle,2,1,1,0,0,0,0,1,0,0,0,0,0
+16,Chvarak,Barry,03/02/1980,.22-caliber Marlin Model 60 semi-automatic rifle,2,0,1,0,1,0,,,,,,,1
+17,King,Alvin,22/06/1980,.223-caliber AR-15 rifle with bayonet and scope,3,0,0,1,1,0,1,,,,,,1
+17,King,Alvin,22/06/1980,.30-caliber M1 carbine rifle with bayonet,2,1,1,1,1,0,1,,,,,,1
+17,King,Alvin,22/06/1980,.38-caliber pistol,0,1,1,0,0,0,1,3,0,0,0,0,0
+17,King,Alvin,22/06/1980,.22-caliber pearl-handled pistol,0,0,2,0,0,0,1,3,0,0,0,0,0
+18,Belmonte,Victor,21/07/1980,.35-caliber Marlin rifle,2,1,1,0,0,0,,,,,,,1
+19,Moore,Lawrence,07/05/1981,9mm Luger semi-automatic pistol,0,1,1,0,1,0,,,,,,,1
+20,Bevins,William,16/10/1981,.30 caliber M1 carbine rifle,2,1,1,0,1,0,,,,,,,1
+21,Meach,Charles,03/05/1982,.38-caliber revolver,0,1,1,0,0,0,0,2,0,0,0,0,0
+22,Parish,John,09/08/1982,.30-caliber M1 carbine rifle,2,1,1,0,1,0,,,,,,,1
+22,Parish,John,09/08/1982,".25-caliber ""Excam Blue Steel"" pistol",0,0,1,0,1,0,,,,,,,1
+22,Parish,John,09/08/1982,.38-caliber revolver,0,1,1,0,0,NA,,,,,,,1
+23,Brown,Carl,20/08/1982,12-gauge Ithaca 37 pump-action shotgun,1,2,1,0,0,NA,0,1,0,0,0,0,0
+24,Leacock,Alban,03/02/1983,.38-caliber revolver,0,1,1,0,0,NA,,0,5,0,0,0,0
+25,Hastings,Louis,01/03/1983,.223-caliber Ruger Mini-14 semi-automatic rifle with collapsible stock; silencer,3,0,1,1,1,0,,,,,,,1
+25,Hastings,Louis,01/03/1983,.22-caliber pistol with silencer,0,0,1,1,0,0,,,,,,,1
+25,Hastings,Louis,01/03/1983,Pistol,0,,1,0,0,0,,,,,,,1
+26,Moreno,Eliseo,11/10/1983,.357 Magnum Smith & Wesson stainless steel revolver,0,1,1,0,0,NA,0,NA,NA,0,0,2,0
+26,Moreno,Eliseo,11/10/1983,.25-caliber automatic pistol,0,0,0,0,1,0,0,1,0,0,0,0,0
+26,Moreno,Eliseo,11/10/1983,.22-caliber revolver,0,0,0,0,0,NA,0,1,0,0,0,0,0
+26,Moreno,Eliseo,11/10/1983,.357 Smith & Wesson blue steel revolver,0,1,0,0,0,NA,0,NA,NA,0,0,3,0
+26,Moreno,Eliseo,11/10/1983,Remington 870 shotgun,1,2,0,0,0,NA,0,NA,NA,0,0,3,0
+27,Silka,Michael,17/05/1984,Large-caliber Rolling Block replica single-shot rifle ,2,2,1,0,0,NA,1,3,0,0,0,0,0
+28,Belachheb,Abdelkrim,29/06/1984,9mm Smith & Wesson Model 459 semi-automatic pistol,0,1,1,0,1,0,1,0,3,0,0,0,0
+29,Huberty,James,18/07/1984,9mm Israeli Military Industries Uzi Model A carbine,3,1,1,0,1,0,1,3,0,0,0,0,0
+29,Huberty,James,18/07/1984,12-gauge Winchester 1200 pump-action shotgun,1,2,1,0,0,NA,1,3,0,0,0,0,0
+29,Huberty,James,18/07/1984,9mm Browning P-35 Hi-Power pistol,0,1,1,0,1,0,1,3,0,0,0,0,0
+30,Crossley,Wayne,24/07/1984,.45-caliber Colt pistol,0,2,1,0,0,0,0,0,2,0,0,0,0
+30,Crossley,Wayne,24/07/1984,12-gauge Smith & Wesson shotgun,1,2,1,0,0,NA,0,0,2,0,0,0,0
+31,Hammett,Mansel,16/03/1985,.38-caliber snub-nosed revolver,0,1,1,0,0,NA,,,,,,,1
+32,Sherrill,Patrick,20/08/1986,.45-caliber Remington pistol,0,2,1,0,1,0,0,NA,NA,0,1,0,0
+32,Sherrill,Patrick,20/08/1986,.45-caliber Colt semi-automatic pistol,0,2,1,1,0,0,1,NA,NA,0,1,0,0
+32,Sherrill,Patrick,20/08/1986,.22-caliber pistol,0,0,0,0,0,0,,3,0,0,0,0,0
+33,Cruse,William,23/04/1987,.223-caliber Ruger Mini-14 semi-automatic rifle,3,0,1,0,1,0,1,1,0,0,0,0,0
+33,Cruse,William,23/04/1987,.357-caliber Ruger Blackhawk revolver,0,1,1,0,0,NA,1,1,0,0,0,0,0
+33,Cruse,William,23/04/1987,20-gauge Winchester pump-action shotgun,1,2,1,0,0,NA,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,Sentinel revolver,0,,0,0,0,NA,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,.357-caliber Magnum Smith & Wesson revolver,0,1,0,0,0,NA,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,9mm Browning semi-automatic pistol,0,1,0,0,0,0,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,12-gauge Benelli Riot semi-automatic shotgun,1,2,1,0,0,NA,0,1,0,0,0,0,0
+34,Farley,Richard,16/02/1988,Smith & Wesson pistol,0,,0,0,0,0,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,.22-250 rifle with scope,2,0,0,1,0,0,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,Pump-action shotgun,1,2,,0,0,NA,1,3,0,0,0,0,0
+34,Farley,Richard,16/02/1988,semi-automatic pistol,0,1,0,0,0,0,1,3,0,0,0,0,0
+35,Hayes,Michael,17/07/1988,.22-caliber rifle,2,0,1,0,0,0,,,,,,,1
+36,Henderson,Clemmie,22/09/1988,.38-caliber revolver,0,1,1,0,0,NA,1,,,,,,1
+37,Purdy,Patrick,17/01/1989,7.62mm Norinco 56S AK-47 style semi-automatic rifle,3,1,1,0,1,1,1,0,3,0,0,0,0
+37,Purdy,Patrick,17/01/1989,9mm Taurus pistol,0,1,2,0,0,0,0,0,3,0,0,0,0
+38,Wesbecker,Joseph,14/09/1989,.380-caliber Intratec MAC-11 semi-automatic machine pistol,3,1,0,0,1,0,1,1,0,0,0,0,0
+38,Wesbecker,Joseph,14/09/1989,.380-caliber Intratec MAC-11 semi-automatic machine pistol,3,1,0,0,1,0,1,1,0,0,0,0,0
+38,Wesbecker,Joseph,14/09/1989,.38-caliber snub-nose revolver,0,1,0,0,0,NA,1,1,0,0,0,0,0
+38,Wesbecker,Joseph,14/09/1989,9mm Sig-Sauer pistol,0,1,2,0,1,0,1,1,0,0,0,0,0
+38,Wesbecker,Joseph,14/09/1989,7.62mm AK-47 semi-automatic rifle,3,1,1,0,1,0,1,1,0,0,0,0,0
+39,Pough,James,18/06/1990,.30-caliber Univeral M1 carbine rifle,2,1,1,0,1,0,,0,1,0,0,0,0
+39,Pough,James,18/06/1990,.38-caliber Smith & Wesson Model 36 revolver,0,1,2,0,0,NA,1,0,1,0,0,0,0
+39,Pough,James,18/06/1990,9mm machine pistol,3,1,0,0,1,0,,0,1,0,0,0,0
+40,Harris,Joseph,10/10/1991,.22-caliber MAC 10 machine gun with silencer,3,0,1,1,1,0,1,,,,,,1
+40,Harris,Joseph,10/10/1991,9mm Uzi machine pistol,3,1,1,0,1,0,1,,,,,,1
+41,Hennard,George,16/10/1991,9mm Glock 17 semi-automatic pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+41,Hennard,George,16/10/1991,9mm Ruger P89 pistol,0,1,1,0,0,0,1,1,0,0,0,0,0
+42,Lu,Gang,01/11/1991,.38-caliber snub-nose Taurus revolver,0,1,1,0,0,NA,1,1,0,0,0,0,0
+42,Lu,Gang,01/11/1991,.22-caliber pistol,0,0,0,0,0,0,1,1,0,0,0,0,0
+43,Daigneau,Robert,09/11/1991,.357 Magnum revolver,0,1,1,0,0,NA,,2,0,0,0,0,0
+44,McIlvane,Thomas,14/11/1991,.22-caliber Ruger sawed-off semi-automatic carbine rifle,2,0,1,1,1,1,1,0,3,0,0,0,0
+45,Rogovich,Pete,15/03/1992,Handgun,0,,1,0,1,0,,,,,,,1
+46,Houston,Eric,01/05/1992,.22-caliber rifle with stock sawed-off and pistol grip,2,0,1,1,0,0,1,1,0,0,0,0,0
+46,Houston,Eric,01/05/1992,12-gauge Maverick pump-action shotgun,1,2,1,0,0,NA,1,1,0,0,0,0,0
+47,Miller,John,15/10/1992,9mm Llama semi-automatic pistol,0,1,1,0,0,0,1,0,6,0,0,0,0
+48,Drake III,Lynwood,08/11/1992,.32-caliber revolver,0,1,1,0,0,NA,0,,,,,,1
+48,Drake III,Lynwood,08/11/1992,12-gauge shotgun,1,2,1,0,0,NA,0,,,,,,1
+49,Ferri,Gian,01/07/1993,.45-caliber Norinco Model 1911A1 pistol,0,2,2,0,0,0,,0,3,0,0,0,0
+49,Ferri,Gian,01/07/1993,9mm Intratec Tec-DC9 semi-automatic machine pistol,3,1,1,1,1,1,1,0,3,0,0,0,0
+49,Ferri,Gian,01/07/1993,9mm Intratec Tec-DC9 semi-automatic machine pistol,3,1,1,1,1,1,1,0,3,0,0,0,0
+50,French,Kenneth,06/08/1993,12-gauge pump-action shotgun,1,2,1,0,0,NA,,,,,,,1
+50,French,Kenneth,06/08/1993,12-gauge shotgun,1,2,0,0,0,NA,,,,,,,1
+50,French,Kenneth,06/08/1993,.22-caliber rifle,2,0,0,0,0,0,,,,,,,1
+51,Buquet,James,14/10/1993,12-gauge shotgun,1,2,1,0,0,NA,0,1,0,0,0,0,0
+52,Winterbourne,Alan,02/12/1993,12-gauge shotgun,1,2,1,0,0,NA,1,3,0,0,0,0,0
+52,Winterbourne,Alan,02/12/1993,.44 Magnum Smith & Wesson Classic revolver,0,2,1,0,0,NA,1,3,0,0,0,0,0
+52,Winterbourne,Alan,02/12/1993,.300-caliber Browning rifle with scope,2,1,1,1,0,0,1,3,0,0,0,0,0
+52,Winterbourne,Alan,02/12/1993,.223-caliber Ruger Mini-14 rifle,2,0,0,0,1,0,1,3,0,0,0,0,0
+53,Ferguson,Colin,07/12/1993,9mm Ruger P-89 pistol,0,0,1,0,1,0,1,1,0,0,0,0,0
+54,Dunlap,Nathan,14/12/1993,.25-caliber semi-automatic pistol,0,1,1,0,0,0,1,,,,,,1
+55,Mellberg,Dean,20/06/1994,7.62mm MAK-90 AK-47 style rifle,3,1,1,0,1,1,0,1,0,0,0,0,0
+56,Ferguson,Rodriguez,31/12/1994,9mm handgun,0,1,1,0,0,0,0,NA,NA,0,0,1,0
+57,Simpson,James,03/04/1995,9mm Ruger pistol,0,1,1,0,1,0,,3,0,0,0,0,0
+57,Simpson,James,03/04/1995,.32-caliber revolver,0,1,1,0,0,NA,,3,0,0,0,0,0
+58,Woods,Willie,19/07/1995,9mm Glock semi-automatic pistol,0,1,1,0,1,0,1,3,0,0,0,0,0
+59,Vernon,Michael,19/12/1995,9mm CZ Model 85 pistol,0,1,1,0,1,0,0,0,5,0,0,0,0
+60,McCree,Clifton,09/02/1996,9mm Glock pistol,0,1,1,0,1,0,1,3,0,0,0,0,0
+60,McCree,Clifton,09/02/1996,.32-caliber revolver,0,1,0,0,0,NA,,,,,,,1
+61,Tornes,Kenneth,24/04/1996,.45-caliber semi-automatic pistol,0,2,,0,0,0,,,,,,,1
+61,Tornes,Kenneth,24/04/1996,Ingram MAC-11 machine pistol,3,1,1,0,1,0,,,,,,,1
+61,Tornes,Kenneth,24/04/1996,9mm Intratec TEC-9 automatic pistol,3,1,,0,1,0,,,,,,,1
+62,Drega,Carl,19/08/1997,.223-caliber Colt AR-15 rifle,3,0,1,0,0,0,1,3,0,0,0,0,0
+62,Drega,Carl,19/08/1997,9mm Ruger P85 pistol,0,1,1,0,1,0,,,,,,,1
+63,Wise,Hastings Arthur,15/09/1997,9mm pistol,0,1,1,0,0,0,,0,5,0,0,0,0
+64,Serrano,Nelson,03/12/1997,.32-caliber handgun,0,1,1,0,1,0,1,,,,,,1
+64,Serrano,Nelson,03/12/1997,.22-caliber gun,,0,1,,0,0,,,,,,,1
+65,Torres,Arturo,18/12/1997,7.62mm AK47S semi-automatic rifle with pistol grip,3,2,1,1,1,0,1,1,0,0,0,0,0
+65,Torres,Arturo,18/12/1997,Shotgun,1,2,0,0,0,NA,1,3,0,0,0,0,0
+65,Torres,Arturo,18/12/1997,Handgun,0,,0,0,0,0,1,3,0,0,0,0,0
+66,Beck,Matthew,06/03/1998,9mm Glock pistol,0,1,1,0,1,0,1,3,0,0,0,0,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.380-caliber FIE pistol,0,1,0,0,0,0,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.30-06 Remington 742 rifle with scope,2,1,1,1,0,0,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.38-caliber Charter Arms revolver,0,1,,0,0,NA,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.38-caliber Smith & Wesson revolver,0,1,,0,0,NA,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.380-caliber Star pistol,0,1,0,0,0,0,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.30-caliber Universal M1 carbine replica rifle,2,1,1,0,1,0,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.357-caliber Ruger Security Six revolver,0,1,0,0,0,NA,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.22-caliber Double Deuce Buddie two-shot derringer,0,0,0,0,0,NA,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.44 Magnum Ruger rifle,2,2,1,0,0,0,0,NA,NA,0,0,1,0
+67; 68,Golden; Johnson,Andrew; Mitchell,24/03/1998,.38-caliber Davis Industries two-shot derringer,0,1,0,0,0,NA,0,NA,NA,0,0,1,0
+69,Kinkel,Kip,20/05/1998,.22-caliber Ruger semi-automatic rifle,2,0,1,0,1,1,1,NA,NA,0,1,0,0
+69,Kinkel,Kip,20/05/1998,.22-caliber Ruger pistol,0,0,0,0,0,0,1,0,4,0,0,0,0
+69,Kinkel,Kip,20/05/1998,9mm Glock 19 pistol,0,1,1,0,1,0,1,NA,NA,0,0,1,0
+70,Miller,Shon,10/03/1999,9mm Larson pistol,0,1,1,0,0,0,0,0,3,0,0,0,0
+71; 72,Klebold; Harris,Dylan; Eric,20/04/1999,12 gauge Savage Springfield 67H pump-action sawed-off shotgun,1,2,1,1,0,NA,1,0,2,0,0,0,0
+71; 72,Klebold; Harris,Dylan; Eric,20/04/1999,12-gauge Savage 311D double-barreled sawed-off shotgun,1,2,1,1,0,NA,1,0,2,0,0,0,0
+71; 72,Klebold; Harris,Dylan; Eric,20/04/1999,9mm Hi-Point 995 carbine,3,1,1,0,0,0,1,0,2,0,0,0,0
+71; 72,Klebold; Harris,Dylan; Eric,20/04/1999,9mm Intratec Tec-DC9 machine pistol,3,1,1,0,1,0,1,0,4,0,0,0,0
+73,Floyd,Zane,03/06/1999,12-gauge pump-action shotgun,1,2,1,0,0,NA,1,1,0,0,0,0,0
+74,Barton,Mark,29/07/1999,.45-caliber Colt 1911 A-1 pistol,0,2,1,0,0,0,,2,0,0,0,0,0
+74,Barton,Mark,29/07/1999,.22 Harrington & Richardson revolver,0,0,0,0,0,NA,1,1,0,0,0,0,0
+74,Barton,Mark,29/07/1999,9mm Glock 17 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+74,Barton,Mark,29/07/1999,.25-caliber Raven Arms pistol,0,0,0,0,0,0,,,,,,,1
+75,Ashbrook,Larry,15/09/1999,.380-caliber AMT semi-automatic pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+75,Ashbrook,Larry,15/09/1999,9mm Ruger P85 semi-automatic pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+76,Uyesugi,Byran,02/11/1999,9mm Glock 17 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+77,Izquierdo-Leyva,Silvio,30/12/1999,9mm Lorcin semi-automatic pistol,0,1,1,0,0,0,1,0,1,0,0,0,0
+77,Izquierdo-Leyva,Silvio,30/12/1999,.38-caliber Charter Arms revolver,0,1,1,0,0,NA,,3,0,0,0,0,0
+78,Harris,Robert,20/03/2000,9mm pistol,0,1,1,0,0,0,0,NA,NA,0,0,1,0
+79,Baumhammers,Richard,28/04/2000,.357-caliber Magnum Smith & Wesson revolver,0,1,1,0,0,NA,1,1,0,0,0,0,0
+80,McDermott,Michael,26/12/2000,12-gauge Winchester 1300 pump-action shotgun,1,2,1,0,0,NA,1,0,5,0,0,0,0
+80,McDermott,Michael,26/12/2000,AK-47 style semi-automatic rifle,3,1,1,0,1,0,1,0,5,0,0,0,0
+80,McDermott,Michael,26/12/2000,.32-caliber Spanish Retolaza pistol,0,1,0,0,0,0,1,0,5,0,0,0,0
+80,McDermott,Michael,26/12/2000,.460-caliber Magnum Weatherby Mark V bolt-action rifle with scope,2,2,0,1,0,0,1,0,5,0,0,0,0
+81,Park,Ki Yung,09/01/2001,Ruger SP101 .38 Special Revolver,0,1,1,0,0,NA,,,,,,,1
+81,Park,Ki Yung,09/01/2001,Armi Fratelli BTA90 semi-automatic pistol,0,,1,0,1,0,,,,,,,1
+82,Baker,William,05/02/2001,.30-30 Marlin rifle with scope,2,1,0,1,0,0,1,1,0,0,0,0,0
+82,Baker,William,05/02/2001,7.62mm SKS 1954R rifle,3,1,1,0,0,0,,,,,,,1
+82,Baker,William,05/02/2001,.38-caliber special revolver,0,1,1,0,0,NA,,,,,,,1
+82,Baker,William,05/02/2001,Remington H70 shotgun,1,2,0,0,0,NA,1,1,0,0,0,0,0
+83,Stagner,Steven,03/07/2001,.38-caliber Charter Arms revolver,0,1,1,0,0,NA,,,,,,,1
+84,Ferguson,Joseph,08/09/2001,AK-47 style rifle converted to fully automatic,3,1,1,1,1,,0,NA,NA,0,0,1,0
+84,Ferguson,Joseph,08/09/2001,9mm pistol,0,1,1,0,0,0,0,NA,NA,0,0,1,0
+84,Ferguson,Joseph,08/09/2001,9mm pistol,0,1,,0,0,0,0,NA,NA,0,0,1,0
+84,Ferguson,Joseph,08/09/2001,Shotgun,1,2,1,0,0,NA,0,NA,NA,0,0,1,0
+84,Ferguson,Joseph,08/09/2001,Assault rifle converted to fully automatic,3,,,1,1,,0,NA,NA,0,0,1,0
+85,Lockey,William,22/03/2002,12-gauge sawed-off shotgun,1,2,1,1,0,NA,1,3,0,0,0,0,0
+85,Lockey,William,22/03/2002,.22-caliber rifle,2,0,1,0,0,0,1,3,0,0,0,0,0
+86,Patterson,Emanuel Burl,25/02/2003,9mm semi-automatic pistol,0,1,1,0,0,0,,,,,,,1
+87,Williams,Doug,08/07/2003,12-gauge shotgun,1,2,1,0,0,NA,,2,0,0,0,0,0
+87,Williams,Doug,08/07/2003,.223-caliber Ruger Mini-14 rifle,2,0,0,0,1,0,,2,0,0,0,0,0
+87,Williams,Doug,08/07/2003,.22-caliber Magnum derringer,0,0,0,0,0,NA,,2,0,0,0,0,0
+87,Williams,Doug,08/07/2003,.45-caliber Ruger pistol,0,2,0,0,1,0,,2,0,0,0,0,0
+87,Williams,Doug,08/07/2003,9mm XD9,0,1,0,1,1,0,,2,0,0,0,0,0
+88,Tapia,Salvador,27/08/2003,.380-caliber Walther PP pistol,0,1,1,0,0,0,,0,5,0,0,0,0
+89,Reeves,Ralph,24/10/2003,9mm Glock pistol,0,1,1,0,1,0,,,,,,,1
+90,Brown,Elijah,02/07/2004,Revolver,0,,1,0,0,NA,,,,,,,1
+90,Brown,Elijah,02/07/2004,9mm semi-automatic pistol,0,1,1,0,0,0,,,,,,,1
+91,Vang,Chai,21/11/2004,7.62mm SKS AK-47 style semi-automatic rifle,3,1,1,0,1,0,1,,,,,,1
+92,Gale,Nathan,08/12/2004,9mm Beretta pistol,0,1,1,0,0,0,1,NA,NA,0,1,0,0
+93,Nichols,Brian,11/03/2005,Pistol,0,,1,0,0,0,0,NA,NA,0,0,3,0
+93,Nichols,Brian,11/03/2005,Pistol,0,,,0,0,0,0,NA,NA,0,0,3,0
+93,Nichols,Brian,11/03/2005,Glock pistol,0,,0,0,0,0,0,NA,NA,0,0,3,0
+94,Ratzmann,Terry,12/03/2005,9mm Beretta pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+95,Weise,Jeffrey,21/03/2005,.40-caliber Glock 22 pistol,0,2,1,0,1,0,0,NA,NA,0,0,1,0
+95,Weise,Jeffrey,21/03/2005,12-gauge Remington 870 pump-action shotgun,1,2,1,0,0,NA,0,NA,NA,0,0,1,0
+95,Weise,Jeffrey,21/03/2005,.22-caliber Ruger MK II pistol,0,0,1,0,0,0,1,0,4,0,0,0,0
+96,Cranshaw,Freddy,28/08/2005,9mm semi-automatic pistol,0,1,1,0,0,0,,,,,,,1
+96,Cranshaw,Freddy,28/08/2005,.38-caliber revolver,0,1,1,0,0,NA,,,,,,,1
+97,San Marco,Jennifer,30/01/2006,9mm Smith & Wesson 915 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+98,Huff,Kyle,25/03/2006,.40-caliber Ruger P-94 pistol,0,2,1,0,0,0,1,1,,,,,
+98,Huff,Kyle,25/03/2006,.223-caliber Bushmaster XM15 AR-15 style rifle,3,0,0,0,1,0,,,,,,,1
+98,Huff,Kyle,25/03/2006,12-gauge Winchester Defender 1300 pump-action shotgun with a pistol grip,1,2,1,1,0,NA,1,1,,,,,
+99,Bell,Anthony,21/05/2006,.38-caliber Revolver,0,1,1,0,0,NA,,,,,,,1
+100,Roberts,Charles,02/10/2006,12-gauge Browning shotgun,1,2,1,0,0,NA,,3,0,0,0,0,0
+100,Roberts,Charles,02/10/2006,9mm Springfield Arms semi-automatic pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+100,Roberts,Charles,02/10/2006,.30-06 Ruger bolt-action rifle,2,2,0,0,0,0,,3,0,0,0,0,0
+101,Talovic,Sulejman,12/02/2007,Mossberg Maverick Arms M88 shotgun with a pistol grip,1,2,1,1,0,NA,1,0,1,0,0,0,0
+101,Talovic,Sulejman,12/02/2007,.38 Special Smith & Wesson M36 revolver,0,1,1,0,0,NA,1,0,4,0,0,0,0
+102,Cho,Seung-Hui,16/04/2007,9mm Glock 19 pistol,0,1,1,0,1,0,1,0,1,0,0,0,0
+102,Cho,Seung-Hui,16/04/2007,.22-caliber Walther P22 pistol,0,0,1,0,0,0,1,0,1,0,0,0,0
+103,Hawkins,Robert,05/12/2007,7.62mm WASR-10 Century Arms AK-47 style semi-automatic rifle,3,1,1,0,1,0,0,NA,NA,0,0,1,0
+104,Murray,Matthew,09/12/2007,.40-caliber Beretta pistol,0,2,0,0,1,0,1,1,0,0,0,0,0
+104,Murray,Matthew,09/12/2007,9mm Springfield Armory pistol,0,1,2,0,0,0,1,1,0,0,0,0,0
+104,Murray,Matthew,09/12/2007,Bushmaster XM15 AR-15 style rifle modified to shoot a 6.8mm round,3,0,1,1,1,0,1,1,0,0,0,0,0
+104,Murray,Matthew,09/12/2007,AK-47 rifle,3,1,0,0,1,0,1,1,0,0,0,0,0
+105,Thornton,Charles,07/02/2008,.40-caliber Smith & Wesson semi-automatic pistol,0,2,1,0,1,0,0,NA,NA,0,0,3,0
+105,Thornton,Charles,07/02/2008,.44-caliber Magnum Smith & Wesson revolver,0,2,1,0,0,NA,0,,,,,,1
+106,Kazmierczak,Steven,14/02/2008,9mm Glock 19 pistol,0,1,1,0,1,0,0,1,0,0,0,0,0
+106,Kazmierczak,Steven,14/02/2008,9mm short Kurz SIG Sauer P232 pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+106,Kazmierczak,Steven,14/02/2008,12-gauge Remington Sportsman 48 sawed-off shotgun,1,2,1,1,0,NA,0,1,0,0,0,0,0
+106,Kazmierczak,Steven,14/02/2008,.380-caliber Hi-Point CF380 pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+107,Leeds,Lee,18/03/2008,semi-automatic pistol,0,,1,0,0,0,0,NA,NA,0,0,1,0
+108,Higdon,Wesley,25/06/2008,.45-caliber Hi-Point pistol,0,2,1,0,0,0,1,3,0,0,0,0,0
+109,Zamora,Isaac,02/09/2008,Winchester lever-action rifle,2,,1,0,0,0,0,NA,NA,0,0,2,0
+109,Zamora,Isaac,02/09/2008,Handgun,0,,1,0,0,0,0,NA,NA,0,0,2,0
+110,Stewart,Robert,29/03/2009,.38-caliber revolver,0,1,0,0,0,NA,1,3,0,0,0,0,0
+110,Stewart,Robert,29/03/2009,Winchester 1300 pump-action shotgun,1,2,1,0,0,NA,1,3,0,0,0,0,0
+110,Stewart,Robert,29/03/2009,.22-caliber rifle,2,0,1,0,0,0,1,3,0,0,0,0,0
+110,Stewart,Robert,29/03/2009,.22-caliber handgun,0,0,0,0,0,0,1,3,0,0,0,0,0
+111,Wong,Jiverly,03/04/2009,9mm Beretta 92FS pistol with laser sight,0,1,1,1,1,1,1,1,0,0,0,0,0
+111,Wong,Jiverly,03/04/2009,.45-caliber Beretta PX4 Storm pistol,0,2,1,0,1,1,0,1,0,0,0,0,0
+112,Gonzalez,Marcos,01/11/2009,High-powered assault rifle,3,,1,,1,,,,,,,,1
+113,Hasan,Nidal,05/11/2009,5.7mm FN Herstal Five-seveN pistol with laser sight,0,2,1,1,1,1,1,1,0,0,0,0,0
+113,Hasan,Nidal,05/11/2009,.357 Magnum Smith & Wesson revolver,0,1,0,0,0,NA,,,,,,,1
+114,Clemmons,Maurice,29/11/2009,.38-caliber Smith & Wesson double action revolver,0,1,1,0,0,NA,,,,,,,1
+114,Clemmons,Maurice,29/11/2009,9mm Davis Industries handgun,0,1,1,0,0,0,,,,,,,1
+114,Clemmons,Maurice,29/11/2009,.40-caliber Glock pistol,0,2,1,0,1,0,0,NA,NA,0,0,3,0
+115,Galstyan,Nerses,03/04/2010,9mm Glock pistol,0,1,1,0,1,1,,,,,,,1
+116,Regalado,Gerardo,06/06/2010,.45-caliber Glock pistol,0,2,1,0,1,0,1,,,,,,1
+117,Thornton,Omar,03/08/2010,9mm Ruger SR9 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+117,Thornton,Omar,03/08/2010,9mm Ruger P95 pistol,0,1,1,0,1,0,,1,0,0,0,0,0
+117,Thornton,Omar,03/08/2010,Shotgun,1,2,0,0,0,NA,,1,0,0,0,0,0
+118,McCray,Riccardo,14/08/2010,9mm pistol,0,1,1,0,1,0,,,,,,,1
+119,Neace,Stanley,11/09/2010,12-gauge pump-action shotgun,1,2,1,0,0,NA,1,,,,,,1
+120,Loughner,Jared,08/01/2011,9mm Glock 19 pistol,0,1,1,0,1,1,1,1,0,0,0,0,0
+121,Hance,Michael,07/08/2011,.45-caliber Hi-Point ACP pistol,0,2,1,0,0,0,0,1,0,0,0,0,0
+121,Hance,Michael,07/08/2011,.357 Magnum six-shot revolver,0,1,1,0,0,NA,1,1,0,0,0,0,0
+122,Sencion,Eduardo,06/09/2011,7.62mm Norinco MAK-90 AK-47 style rifle modified to full automatic,3,1,1,1,1,0,,2,0,0,0,0,0
+122,Sencion,Eduardo,06/09/2011,7.62mm Romarm GP-WASR-10 semi-automatic rifle,3,1,0,0,0,0,,,,,,,1
+122,Sencion,Eduardo,06/09/2011,9mm Glock 26,0,1,0,0,0,0,1,1,0,0,0,0,0
+122,Sencion,Eduardo,06/09/2011,.38-caliber Colt Agent revolver,0,1,2,0,0,NA,,2,0,0,0,0,0
+123,Dekraai,Scott,12/10/2011,.44 Magnum Smith & Wesson revolver,0,2,,0,0,NA,1,3,0,0,0,0,0
+123,Dekraai,Scott,12/10/2011,.45-caliber Heckler & Koch pistol,0,2,,0,0,0,1,3,0,0,0,0,0
+123,Dekraai,Scott,12/10/2011,9mm Springfield pistol,0,1,,0,1,0,1,3,0,0,0,0,0
+124,Goh,One,02/04/2012,.45-caliber pistol,0,2,1,0,0,0,1,1,0,0,0,0,0
+125,Stawicki,Ian,30/05/2012,.45-caliber pistol,0,2,1,0,0,0,1,1,0,0,0,0,0
+125,Stawicki,Ian,30/05/2012,.45-caliber pistol,0,2,1,0,0,0,1,1,0,0,0,0,0
+126,Holmes,James,20/07/2012,12-gauge pump-action Remington 870 shotgun,1,2,1,0,0,NA,1,1,0,0,0,0,0
+126,Holmes,James,20/07/2012,.40-caliber Glock pistol,0,2,1,0,1,0,0,1,0,0,0,0,0
+126,Holmes,James,20/07/2012,.40-caliber Glock pistol,0,2,0,0,1,0,1,1,0,0,0,0,0
+126,Holmes,James,20/07/2012,.223 Smith & Wesson M&P15 AR-15 style rifle,3,0,1,0,1,1,1,1,0,0,0,0,0
+127,Page,Wade,05/08/2012,9mm Springfield Armory XDM pistol,0,1,1,0,1,0,0,1,0,0,0,0,0
+128,Engeldinger,Andrew,27/09/2012,9mm Glock pistol,0,1,1,0,1,0,1,3,0,0,0,0,0
+129,Lanza,Adam,14/12/2012,5.56mm Bushmaster XM15-E2S AR-15 style semi-automatic rifle,3,0,1,0,1,0,0,NA,NA,0,0,1,0
+129,Lanza,Adam,14/12/2012,10mm Glock 20 pistol,0,2,2,0,1,0,0,NA,NA,0,0,1,0
+129,Lanza,Adam,14/12/2012,9mm SIG Sauer P226 pistol,0,1,0,0,1,0,0,NA,NA,0,0,1,0
+129,Lanza,Adam,14/12/2012,.22-caliber Savage Mark II bolt-action rifle,2,0,1,0,0,0,0,NA,NA,0,0,1,0
+129,Lanza,Adam,14/12/2012,12-gauge Izhmash Saiga semi-automatic shotgun,1,2,0,0,0,NA,0,NA,NA,0,0,1,0
+130,Myers,Kurt,13/03/2013,12-gauge shotgun,1,2,1,0,0,NA,,,,,,,1
+131,Clark III,Dennis,21/04/2013,.40-caliber Taurus pistol,0,2,1,0,1,0,1,3,0,0,0,0,0
+131,Clark III,Dennis,21/04/2013,Mossberg 500 shotgun with pistol grip,1,2,1,1,0,NA,,,,,,,0
+132,Zawahri,John,07/06/2013,.223-caliber AR-15 style semi-automatic rifle assembled from parts,3,0,1,1,1,1,0,NA,NA,1,0,0,0
+132,Zawahri,John,07/06/2013,.44-caliber antique black powder pistol modified to shoot .45-caliber bullets,0,2,0,1,0,NA,1,NA,NA,0,1,0,0
+133,Vargas,Pedro,26/07/2013,9mm Glock 17 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+134,Alexis,Aaron,16/09/2013,12-gauge Remington 870 Express sawed-off shotgun,1,2,1,1,0,NA,0,1,0,0,0,0,0
+134,Alexis,Aaron,16/09/2013,9mm Beretta semi-automatic pistol,0,1,1,0,1,0,0,NA,NA,0,0,3,0
+135,Rhoades,Cherie Lash,20/02/2014,semi-automatic pistol,0,,1,0,0,0,,,,,,,1
+135,Rhoades,Cherie Lash,20/02/2014,semi-automatic pistol,0,,1,0,0,0,,,,,,,1
+136,Rodger,Elliot,23/05/2014,9mm Glock 34 Long Slide pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+136,Rodger,Elliot,23/05/2014,9mm SIG Sauer P226R pistol,0,1,1,0,0,0,1,1,0,0,0,0,0
+136,Rodger,Elliot,23/05/2014,9mm SIG Sauer P226R pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+137,Fryberg,Jaylen,24/10/2014,.40-caliber Beretta PX4 Storm pistol,0,2,1,0,0,0,0,NA,NA,0,0,1,0
+138,Roof,Dylann,17/06/2015,.45-caliber Glock 41 pistol,0,2,1,0,1,0,1,0,1,0,0,0,0
+139,Abdulazeez,Mohammad,16/07/2015,7.62mm AK-47 style semi-automatic rifle,3,1,1,0,1,0,1,1,0,0,0,0,0
+139,Abdulazeez,Mohammad,16/07/2015,12-gauge Saiga 12 semi-automatic shotgun with pistol grip,1,2,0,1,0,NA,1,1,0,0,0,0,0
+139,Abdulazeez,Mohammad,16/07/2015,9mm Smith & Wesson pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+140,Harper-Mercer,Chris,01/10/2015,9mm Glock 19 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+140,Harper-Mercer,Chris,01/10/2015,.40-caliber Smith & Wesson 99 pistol,0,2,0,0,1,0,1,1,0,0,0,0,0
+140,Harper-Mercer,Chris,01/10/2015,5.56x45mm Del-Ton DTI15 AR-15 style rifle,3,1,0,0,1,0,0,NA,NA,0,0,1,0
+140,Harper-Mercer,Chris,01/10/2015,.40-caliber Taurus PT24/7 pistol,0,2,1,0,1,0,0,NA,NA,0,0,1,0
+140,Harper-Mercer,Chris,01/10/2015,.38-caliber Smith & Wesson M624-2 revolver,0,1,0,0,0,NA,1,1,0,0,0,0,0
+140,Harper-Mercer,Chris,01/10/2015,.380-caliber HiPoint pistol,0,1,0,0,0,0,0,1,0,0,0,0,0
+141,Hudson,William,14/11/2015,AR-15 style rifle,3,,1,0,0,0,1,,,,,,1
+141,Hudson,William,14/11/2015,.40-caliber Smith & Wesson handgun,0,2,,0,1,0,1,2,0,0,0,0,0
+141,Hudson,William,14/11/2015,Shotgun,1,2,1,0,0,0,1,,,,,,1
+142; 143,Farook; Malik,Syed Rizwan; Tashfeen,02/12/2015,.223-caliber DPMS A-15 AR-15 style rifle,3,0,1,1,1,1,1,0,2,0,0,0,0
+142; 143,Farook; Malik,Syed Rizwan; Tashfeen,02/12/2015,.223-caliber Smith & Wesson M&P15 AR-15 style rifle,3,0,1,1,1,1,1,0,2,0,0,0,0
+142; 143,Farook; Malik,Syed Rizwan; Tashfeen,02/12/2015,9mm Llama pistol,0,1,0,0,0,0,1,1,0,0,0,0,0
+142; 143,Farook; Malik,Syed Rizwan; Tashfeen,02/12/2015,9mm Springfield Armory pistol,0,1,1,0,0,0,1,1,0,0,0,0,0
+144,Dalton,Jason,20/02/2016,9mm Walther P99 pistol,0,1,1,0,1,1,1,1,0,0,0,0,0
+144,Dalton,Jason,20/02/2016,9mm Glock 19 pistol,0,1,1,0,1,0,1,1,0,0,0,0,0
+145; 146,,,,,,,,,,,,,,,,,
+147,Mateen,Omar,12/06/2016,9mm Glock 17 pistol,0,1,1,0,1,0,0,1,0,0,0,0,0
+147,Mateen,Omar,12/06/2016,.223-caliber Sig Sauer MCX AR-15 style semi-automatic rifle,3,0,1,0,1,1,0,1,0,0,0,0,0
+148,Johnson,Micah,07/07/2016,Saiga AK-74 assault rifle with red dot optic,3,1,1,1,1,1,1,3,0,0,0,0,0
+148,Johnson,Micah,07/07/2016,9mm Glock semi-automatic pistol,0,1,0,0,1,0,1,3,0,0,0,0,0
+148,Johnson,Micah,07/07/2016,.25-caliber semi-automatic pistol,0,0,0,0,0,0,1,3,0,0,0,0,0
+149,Cetin,Arcan,23/09/2016,.22-caliber Ruger 10/22 rifle,2,0,1,0,1,1,0,NA,NA,0,0,1,0
+150,Santiago,Esteban,06/01/2017,9mm Walther semi-automatic pistol,0,1,1,0,0,0,1,,,,,,1
+151,Barber,Briddell,06/02/2017,Unknown,,0,,,,,,,,,,,1
+152,Vang,Nengmy,22/03/2017,7mm Browning rifle,2,1,1,0,0,0,1,,,,,,1
+152,Vang,Nengmy,22/03/2017,Handgun,0,,1,0,1,0,1,,,,,,1
+153,Neumann,John,05/06/2017,semi-automatic pistol,0,1,1,0,0,0,,,,,,,1
+154,Paddock,Stephen,01/10/2017,.223-caliber Christensen Arms CA-15 AR-15 Wylde with bump stock; vertical fore grip,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Colt Competition AR-15 with bump stock; vertical fore grip,3,0,0,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Colt M4 carbine AR-15 with bump stock; vertical fore grip; front sight,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Colt M4 carbine AR-15 with bump stock; vertical fore grip,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Daniel Defense DDM4V11 AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Daniel Defense M4A1 AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber Daniel Defense DD5V1 AR-10 with bipod; scope,3,1,0,1,0,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber Daniel Defense DD5V1 AR-10 with bipod; scope,3,1,0,1,0,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber FNH FN15 AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber FNH FN15 AR-15 with bump stock; vertical fore grip,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber FNH FM15 AR-10 with bipod; scope,3,1,0,1,1,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber LMT LM308MWS AR-10 with bipod; scope,3,1,0,1,0,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber LMT Def. 2000 AR-15 with bump stock; vertical fore grip,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber LMT LM308MWS AR-10 with bipod; red dot scope,3,1,1,1,1,0,0,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber LWRC M61C AR-15 with bump stock; vertical fore grip,3,0,0,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber LWRC M61C AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber Noveske Rifleworks N4 AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber POF USA P15 AR-15 with bump stock; vertical fore grip,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.223-caliber POF USA P15 AR-15 with bump stock; vertical fore grip; EOTech optic,3,0,1,1,1,1,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber POF USA P-308 AR-10 with bipod and scope,3,1,0,1,1,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber Ruger American bolt-action rifle with scope,2,1,0,1,0,0,0,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber Ruger SR0762 AR-10 with bipod; scope,3,1,1,1,1,0,0,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.308-caliber Sig Sauer SIG716 AR-10 with bipod; red dot optic,3,1,0,1,1,0,1,1,0,0,0,0,0
+154,Paddock,Stephen,01/10/2017,.38-caliber Smith & Wesson 342 AirLite revolver,0,1,2,0,0,NA,1,1,0,0,0,0,0
+155,Kelley,Devin Patrick,05/11/2017,9mm Glock 19 pistol,0,1,,0,1,1,1,0,1,0,0,0,0
+155,Kelley,Devin Patrick,05/11/2017,.223-caliber Ruger AR-556 AR-15 style rifle,3,0,1,0,1,1,1,0,1,0,0,0,0
+155,Kelley,Devin Patrick,05/11/2017,.22-caliber Ruger SR22 pistol,0,0,,0,0,0,0,0,1,0,0,0,0
+156,Neal,Kevin Janson,14/11/2017,.40-caliber Smith & Wesson handgun,0,2,,0,1,0,0,0,6,0,0,1,0
+156,Neal,Kevin Janson,14/11/2017,.45-caliber Glock pistol,0,2,2,0,1,0,1,0,6,0,0,0,0
+156,Neal,Kevin Janson,14/11/2017,AR-15 style semi-automatic rifle assembled from parts,3,0,1,1,1,0,,0,6,1,0,0,0
+156,Neal,Kevin Janson,14/11/2017,AR-15 style semi-automatic rifle assembled from parts,3,0,1,1,1,0,,0,6,1,0,0,0
+157,O'Brien Smith,Timothy,28/01/2018,.223-caliber AR-15 semi-automatic rifle,3,0,1,0,0,0,1,,,,,,1
+157,O'Brien Smith,Timothy,28/01/2018,9mm handgun,0,1,1,0,1,0,1,,,,,,1
+157,O'Brien Smith,Timothy,28/01/2018,.308-caliber rifle,2,1,0,0,1,0,1,,,,,,1
+158,Cruz,Nikolas,14/02/2018,.223-caliber Smith & Wesson M&P15 AR-15 style rifle,3,0,1,0,1,0,1,1,0,0,0,0,0
+159,Davis,George,26/02/2018,Handgun,0,,1,0,0,0,,,,,,,1
+160,Reinking,Travis,22/04/2018,Bushmaster AR-15 semi-automatic rifle,3,0,1,0,1,0,1,0,6,0,0,0,0
+160,Reinking,Travis,22/04/2018,semi-automatic pistol,0,2,0,0,1,0,1,0,6,0,0,0,0
+161,Pagourtzis,Dimitrios,18/05/2018,12-gauge Remington 870 short-barreled shotgun,1,2,1,0,0,NA,0,NA,NA,0,0,1,0
+161,Pagourtzis,Dimitrios,18/05/2018,.38-caliber Rossi revolver,0,1,1,0,0,NA,0,NA,NA,0,0,1,0
+162,Ramos,Jarrod,28/06/2018,12-gauge Mossberg pump-action shotgun,1,2,1,0,0,NA,1,3,0,0,0,0,0
+163,Casarez,Javier,12/09/2018,.50-caliber Smith & Wesson 500 revolver,0,2,1,0,0,NA,1,3,0,0,0,0,0
+164,Bowers,Robert,27/10/2018,Colt AR-15 semi-automatic rifle,3,0,1,0,1,0,1,,,,,,1
+164,Bowers,Robert,27/10/2018,Glock .357 pistol,0,0,,0,0,0,1,,,,,,1
+164,Bowers,Robert,27/10/2018,Glock .357 pistol,0,1,,0,0,0,1,,,,,,1
+164,Bowers,Robert,27/10/2018,Glock .357 pistol,0,1,,0,0,0,1,,,,,,1
+164,Bowers,Robert,27/10/2018,Shotgun,1,2,0,0,0,NA,1,,,,,,1
+165,Long,Ian David,07/11/2018,.45-caliber Glock 21 pistol,0,2,1,0,1,1,1,3,0,0,0,0,0
+166,Xaver,Zephen,23/01/2019,9mm handgun,0,1,1,0,1,0,0,3,0,0,0,0,0
+167,Martin,Gary,15/02/2019,.40-caliber Smith & Wesson semi-automatic pistol,0,2,1,0,1,0,1,0,1,0,0,0,0
+168,Craddock,DeWayne,31/05/2019,.45-caliber Glock 21 pistol,0,2,1,0,1,1,1,3,0,0,0,0,0
+168,Craddock,DeWayne,31/05/2019,.45-caliber Glock 21 pistol with sound suppressor,0,2,1,1,1,1,1,3,0,0,0,0,0
+169,Crusius,Patrick,03/08/2019,7.62mm WASR-10 AK-47 style rifle,3,2,1,0,1,1,1,1,0,0,0,0,0
+170,Betts,Connor,04/08/2019,.223-caliber Anderson AM-15 pistol modified to function like an AR-15 rifle,3,0,1,1,1,1,,1,0,0,0,0,0
+170,Betts,Connor,04/08/2019,Shotgun,1,2,0,0,0,NA,,1,0,0,0,0,0
+171,Ator,Seth,31/08/2019,.223-caliber AR-15 style rifle,3,0,1,0,1,0,,2,0,0,0,0,0
+172; 173,Anderson; Graham,David; Francine,10/12/2019,AR-15 style rifle,3,0,1,0,1,0,,,,,,,1
+172; 173,Anderson; Graham,David; Francine,10/12/2019,12-gauge Mossberg shotgun,1,1,1,0,0,NA,1,1,0,0,0,0,0
+172; 173,Anderson; Graham,David; Francine,10/12/2019,9mm Ruger semi-automatic pistol,0,1,,0,1,0,,,,,,,1
+172; 173,Anderson; Graham,David; Francine,10/12/2019,9mm Glock 17 pistol,0,1,,0,1,0,,,,,,,1
+172; 173,Anderson; Graham,David; Francine,10/12/2019,.22-caliber Ruger Mark IV pistol with homemade silencer,0,0,0,1,1,0,1,1,0,0,0,0,0
+174,Ferrill,Anthony,26/02/2020,Handgun with silencer,0,,,1,1,0,1,3,0,,0,0,0
+174,Ferrill,Anthony,26/02/2020,Handgun,0,,,0,1,0,1,3,0,,0,0,0
+175,Roman,Joaquin,15/03/2020,9mm Glock pistol,0,1,1,,1,,,3,0,0,0,0,0
+175,Roman,Joaquin,15/03/2020,7.62-caliber SKS rifle,3,2,1,,0,,,3,0,0,0,0,0
+176,Nightengale,Jason,09/01/2021,.45-caliber Glock 21 semi-automatic handgun,0,2,1,0,1,0,,,,,,,1
+177,Long,Robert,16/03/2021,9mm handgun,0,1,1,0,1,0,0,1,0,0,0,0,0
+178,Alissa,Ahmad Al Aliwi,22/03/2021,9 mm handgun,0,1,0,0,1,0,,,,,,,1
+178,Alissa,Ahmad Al Aliwi,22/03/2021,Ruger AR-556 semi-automatic pistol,3,0,1,1,1,0,0,1,0,0,0,0,0
+179,Gaxiola Gonzalez,Aminadab,31/03/2021,Glock semi-automatic handgun,0,,1,0,1,0,,,,,,,1
+180,Hole,Brandon Scott,15/04/2021,Ruger AR-556,3,0,1,0,1,0,1,3,0,0,0,0,0
+180,Hole,Brandon Scott,15/04/2021,HM Defense HM15F,3,0,1,0,1,0,1,3,0,0,0,0,0
+181,Cassidy,Samuel,26/05/2021,9 mm pistol,0,1,1,0,1,1,,1,0,0,0,0,0
+181,Cassidy,Samuel,26/05/2021,9 mm pistol,0,1,1,0,1,1,,1,0,0,0,0,0
+181,Cassidy,Samuel,26/05/2021,9 mm pistol,0,1,1,0,1,1,,1,0,0,0,0,0
+182,Crumbley,Ethan,30/11/2021,9mm Sig Sauer,0,1,1,0,1,0,0,NA,NA,0,1,0,0
+183,McLeod,Lyndon,27/12/2021,semi-automatic rifle,3,,,,1,,,,,,,,1
+184,Gendron,Payton,15/05/2022,Bushmaster XM-15 rifle,3,1,1,1,1,1,1,1,0,0,0,0,0
+184,Gendron,Payton,15/05/2022,Mossberg 500 shotgun,1,2,0,0,0,0,1,1,0,1,0,0,0
+184,Gendron,Payton,15/05/2022,Savage Axis XP rifle,2,0,0,0,0,0,1,NA,NA,1,1,0,0
+185,Ramos,Salvador,24/05/2022,DDM4 rifle,3,0,1,0,1,0,0,1,0,1,0,0,0
+186,Louis,Michael,01/06/2022,AR-15-style rifle,3,0,1,0,1,0,0,1,0,1,0,0,0
+186,Louis,Michael,01/06/2022,Smith & Wesson pistol,0,2,1,0,1,0,0,1,0,1,0,0,0
+187,Crimo,Robert,04/07/2022,Smith & Wesson M&P15 semi-automatic rifle,3,0,1,0,1,0,1,1,0,1,0,0,0
+188,Thompson,Austin,13/10/2022,Shotgun,1,2,1,,,,,,,,,,1
+188,Thompson,Austin,13/10/2022,Handgun,0,,1,,,,,,,,,,1
+189,Aldrich,Anderson Lee,11/19/2022,"""ghost gun"" rifle",3,,1,0,,,,1,0,1,0,0,0
+189,Aldrich,Anderson Lee,11/19/2022,"""ghost gun"" handgun",0,,1,0,,,,,,,,,1
+190,Bing,Andre ,11/23/2022,9mm handgun,0,1,1,0,0,0,0,1,0,1,0,0,0
+191,Tran,Huu Can,1/21/2023,9 mm semi-automatic MAC-10 pistol ,0,1,1,1,1,1,,0,5,,0,0,0
+191,Tran,Huu Can,1/21/2023,Norinco 7.62 x 25 handgun,0,1,0,,,,,3,,,,,
+192,Zhao,Chunli ,1/23/2023,Ruger semi-automatic firearm,0,,,,,,1,3,0,1,0,0,0
+193,Hale,Audrey,3/27/2023,AR-15-style rifle,3,0,1,1,,,1,1,0,1,0,0,0
+193,Hale,Audrey,3/27/2023,9 mm Kel-Tec SUB2000 pistol caliber carbine ,3,1,1,1,,,1,1,0,1,0,0,0
+193,Hale,Audrey,3/27/2023,9 mm Smith and Wesson M&P Shield EZ 2.0 handgun,0,1,1,0,,,1,1,0,1,0,0,0
+194,Sturgeon,Connor,04/10/2023,AR-15-style rifle,3,0,1,0,0,0,0,1,0,1,0,0,0
+195,Garcia,Mauricio,05/06/2023,AR-15-style rifle,3,0,,,,,,,,,,,1
+195,Garcia,Mauricio,05/06/2023,Handgun,0,,,,,,,,,,,,1
