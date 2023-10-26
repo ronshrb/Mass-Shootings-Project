@@ -1,0 +1,33 @@
+import snowflake.snowpark as snowpark
+
+from snowflake.snowpark.functions import col
+import pandas as pd
+
+def main(session: snowpark.Session): 
+    # df without errors
+    dataframe = session.table('public."signs_of_a_crisis"')
+    # df of errors
+    rejected_df = session.table('public."REJECTED_SIGNS"')
+    rejected_pd = rejected_df.to_pandas()
+    fixed_table = []
+    lines = []
+    temp_list = []
+    temp_item = ''
+    # Replace non-ASCII characters with an empty string
+    rejected_pd_cleaned = rejected_pd.replace({r'[^\x00-\x7F]+': ''}, regex=True)
+    for index in range(0,3):
+        temp_row = rejected_pd_cleaned.loc[index].to_list()
+        for item in temp_row:
+            if item != '':
+                temp_list.append(item)
+    new_val = f"{temp_list[4][:-1]} {temp_list[5][:-1]} {temp_list[6]}"
+    del temp_list[5]
+    del temp_list[5]
+    temp_list[4] = new_val
+    temp_list[-1] = temp_list[-1][:-2]
+    fixed_table = [temp_list]
+    fixed_df = session.create_dataframe(fixed_table)
+    fixed_df.write.mode("append").save_as_table('public."signs_of_a_crisis"')
+    # print(temp_list)
+    
+    return dataframe
