@@ -1,0 +1,194 @@
+CASE #,Racism,Misogyny,Homophobia,Religious hatred,Motive: Racism/Xenophobia,Motive: Religious Hate,Motive: Misogyny,Motive: Homophobia,Motive: Employment Issue,Motive: Legal Issue,Motive: Relationship Issue,Motive: Interpersonal Conflict,Motive: Fame-Seeking,Motive: Other,Motive: Unknown,Role of Psychosis in the Shooting
+1,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+2,FALSE,TRUE,FALSE,TRUE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,No evidence
+3,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+4,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+5,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+6,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+7,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+8,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+9,TRUE,FALSE,FALSE,TRUE,"Yes, targeting white people",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+10,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+11,FALSE,FALSE,TRUE,FALSE,No evidence,No evidence,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+12,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+13,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+14,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+15,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+16,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+17,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+18,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+19,FALSE,TRUE,FALSE,TRUE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+20,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,No evidence
+21,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+22,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+23,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+24,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+25,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+26,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,No evidence
+27,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,No evidence
+28,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+29,TRUE,FALSE,FALSE,FALSE,"Yes, targeting people of color",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+30,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,No evidence
+31,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+32,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+33,TRUE,FALSE,TRUE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+34,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,No evidence
+35,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+36,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Symptoms of psychosis may have played a minor role in the crime
+37,TRUE,FALSE,FALSE,FALSE,"Yes, targeting people of color",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,No evidence
+38,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+39,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+40,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+41,TRUE,TRUE,FALSE,FALSE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+42,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,No evidence
+43,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+44,FALSE,FALSE,TRUE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+45,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,No evidence
+46,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+47,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+48,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,No evidence
+49,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+50,TRUE,FALSE,TRUE,FALSE,No evidence,No evidence,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+51,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+52,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+53,TRUE,FALSE,FALSE,FALSE,"Yes, targeting white people",No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+54,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+55,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+56,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,No evidence
+57,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+58,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+59,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+60,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+61,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+62,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+63,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+64,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+65,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+66,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+67,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+68,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+69,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+70,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+71,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+72,TRUE,FALSE,TRUE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+73,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+74,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+75,FALSE,FALSE,FALSE,TRUE,No evidence,Angry with Christianity/Christian God,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+76,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+77,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+78,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+79,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+80,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+81,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+82,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+83,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+84,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+85,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+86,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+87,TRUE,FALSE,FALSE,FALSE,"Yes, targeting people of color",No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+88,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+89,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+90,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+91,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+92,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+93,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+94,FALSE,FALSE,FALSE,FALSE,No evidence,Angry with Christianity/Christian God,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+95,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+96,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+97,TRUE,FALSE,FALSE,FALSE,"Yes, targeting people of color",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+98,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+99,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+100,FALSE,FALSE,FALSE,FALSE,No evidence,Angry with Christianity/Christian God,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+101,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+102,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+103,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+104,FALSE,FALSE,TRUE,FALSE,No evidence,Angry with Christianity/Christian God,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+105,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+106,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+107,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+108,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+109,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+110,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+111,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+112,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+113,FALSE,FALSE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+114,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+115,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+116,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+117,FALSE,FALSE,FALSE,FALSE,"Yes, targeting white people",No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+118,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,No evidence
+119,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+120,FALSE,TRUE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+121,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+122,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Symptoms of psychosis may have played a minor role in the crime
+123,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+124,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+125,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+126,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+127,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Islamophobia,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+128,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+129,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+130,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+131,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+132,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+133,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+134,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+135,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+136,TRUE,TRUE,FALSE,FALSE,No evidence,No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+137,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+138,TRUE,FALSE,TRUE,TRUE,"Yes, targeting people of color",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+139,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+140,TRUE,TRUE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+141,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+142,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+143,FALSE,FALSE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+144,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+147,TRUE,TRUE,TRUE,FALSE,No evidence,No evidence,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,No evidence
+148,TRUE,FALSE,FALSE,TRUE,"Yes, targeting white people",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+149,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+150,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+151,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+152,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+153,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+154,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+155,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+156,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+157,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+158,TRUE,FALSE,TRUE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,No evidence
+159,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,No evidence
+160,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,"Symptoms of psychosis played a major role in the crime, no other known motive"
+161,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+162,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+163,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,No evidence
+164,TRUE,TRUE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+165,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,No evidence
+166,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+167,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+168,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+169,TRUE,FALSE,FALSE,FALSE,"Yes, targeting people of color",No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+170,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+171,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Symptoms of psychosis may have played a minor role in the crime
+172,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+173,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+174,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,Symptoms of psychosis may have played a minor role in the crime
+175,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+176,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,No evidence
+177,FALSE,TRUE,FALSE,FALSE,"Yes, targeting people of color",No evidence,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+178,FALSE,FALSE,TRUE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+179,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+180,TRUE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+181,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+182,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+183,TRUE,TRUE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,Symptoms of psychosis may have played a minor role in the crime
+184,TRUE,FALSE,FALSE,TRUE,"Yes, targeting people of color",Antisemitism,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence
+185,FALSE,TRUE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,No evidence
+186,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+187,FALSE,FALSE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+188,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+189,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,TRUE,No evidence
+190,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,"Symptoms of psychosis played a moderate role in the crime, but there was an additional motive"
+191,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+192,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,No evidence
+193,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence
+194,FALSE,FALSE,FALSE,FALSE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,No evidence
+195,TRUE,TRUE,FALSE,TRUE,No evidence,No evidence,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,No evidence

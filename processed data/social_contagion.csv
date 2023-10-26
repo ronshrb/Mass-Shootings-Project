@@ -1,0 +1,194 @@
+CASE #,Social Media Use,Leakage,Leakage How,Leakage Who,Leakage Specific/Nonspecific,Interest in Past Mass Violence,Relationship with Other Shooting(s),Specify Relationship to Other Shooting(s),Legacy Token,Pop Culture Connection,Specify Pop Culture Connection,Planning,Performance
+1,FALSE,TRUE,In person,Mental health professional,TRUE,FALSE,TRUE,Robert Smith killed 5 people a few months after this shooting and said he was inspired by Whitman.,TRUE,FALSE,NA,TRUE,FALSE
+2,FALSE,FALSE,,,,TRUE,TRUE,"Happened a few months after the Charles Whitman mass shooting, which Smith appeared to emulate.",FALSE,FALSE,NA,TRUE,TRUE
+3,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+4,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+5,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+6,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+7,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+8,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+9,FALSE,TRUE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+10,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+11,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+12,FALSE,TRUE,In person,Coworker/supervisor,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+13,FALSE,TRUE,In person,Waitress/Bartender/Clerk,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+14,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+15,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+16,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+17,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+18,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+19,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+20,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+21,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+22,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+23,FALSE,TRUE,In person,Immediate family,TRUE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+24,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+25,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+26,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+27,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+28,FALSE,TRUE,In person,Friend/neighbor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+29,FALSE,TRUE,In person,Wife/girlfriend,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+30,FALSE,TRUE,In person,Waitress/Bartender/Clerk,FALSE,FALSE,TRUE,3rd mass shooting in a bar/restaurant in a month.,FALSE,FALSE,NA,FALSE,FALSE
+31,FALSE,TRUE,In person,Other,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+32,FALSE,TRUE,In person,Coworker/supervisor,FALSE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+33,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+34,FALSE,TRUE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+35,FALSE,TRUE,In person,Police,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+36,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+37,FALSE,TRUE,In person,Waitress/Bartender/Clerk,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+38,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,TRUE,He had a magazine which prominently covered the recent Stockton mass shooting. ,FALSE,FALSE,NA,TRUE,FALSE
+39,FALSE,TRUE,In person,Friend/neighbor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+40,FALSE,FALSE,,,,TRUE,TRUE,He referenced the 1986 post office mass shooting where Patrick Sherrill killed 14 people.,TRUE,FALSE,NA,TRUE,FALSE
+41,FALSE,TRUE,In person,Waitress/Bartender/Clerk,FALSE,TRUE,TRUE,He studied the mass shooting carried out by James Huberty in a fast-food restaurant in 1984.,FALSE,TRUE,"""He was obsessed with the Steely Dan song ""Don't Take Me Alive,"" which is about a violent confrontation with police.""",TRUE,FALSE
+42,FALSE,FALSE,,,,FALSE,TRUE,Occurred 2 weeks after the then-deadliest mass shooting in America.,TRUE,TRUE,"""He referenced the movies No Way Out, Die Hard, Indiana Jones, and unspecified Clint Eastwood films where a single ""cowboy"" fights against a group of bad guys who pick on him and cover for each other. This mirrors his dispute with the university physics department, which he believed was working against him.""",TRUE,TRUE
+43,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+44,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,TRUE,Occurred 1 month after another postal worker (Joseph Harris) committed a mass shooting.,FALSE,FALSE,NA,FALSE,FALSE
+45,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+46,FALSE,TRUE,In person,Friend/neighbor,TRUE,TRUE,FALSE,NA,TRUE,TRUE,"Fascinated with the Terminator movies. Saw The Terminator 23 times, including the night before the shooting, and talked about attacking the school in a similar manner to scenes from the movies.",TRUE,FALSE
+47,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+48,FALSE,TRUE,In person,Other,FALSE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+49,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+50,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,TRUE,Earlier in the day he watched the movie The Unforgiven and imitated the drinking and shooting going on. He called several people and then did the mass shooting that night.,FALSE,FALSE
+51,FALSE,TRUE,Other writing,Teacher/school staff,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+52,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+53,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+54,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+55,FALSE,TRUE,In person,Mental health professional,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+56,FALSE,TRUE,In person,Immediate family,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+57,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+58,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+59,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+60,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+61,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+62,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+63,FALSE,TRUE,Phone / text,Coworker/supervisor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+64,FALSE,TRUE,In person,Other,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+65,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+66,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+67,FALSE,TRUE,In person,Classmate,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+68,FALSE,TRUE,In person,Classmate,TRUE,FALSE,FALSE,NA,FALSE,TRUE,"""He loved the song ""Crept and We Came"" by Bone Thugs-n-Harmony, which is about massacre killings. Picked up a pose from the Oliver Stone movie ''Natural Born Killers,'' telling a friend it would be ''pretty cool'' to go on a killing spree just like the two lead characters in the film.""",TRUE,FALSE
+69,FALSE,TRUE,In person,Classmate,FALSE,TRUE,TRUE,This was the 4th American school shooting in the 1997-1998 school year.,TRUE,FALSE,NA,FALSE,FALSE
+70,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+71,FALSE,TRUE,Other writing,Classmate,TRUE,TRUE,TRUE,They wanted the attack to fall on the anniversary of the Oklahoma City bombing. Many shooters have since admired or imitated the Columbine shooting.,TRUE,TRUE,Inspired by the movie Natural Born Killers.,TRUE,TRUE
+72,TRUE,TRUE,Other writing,Classmate,TRUE,TRUE,TRUE,They wanted the attack to fall on the anniversary of the Oklahoma City bombing. Many shooters have since admired or imitated the Columbine shooting.,TRUE,TRUE,Inspired by the movie Natural Born Killers.,TRUE,TRUE
+73,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+74,FALSE,TRUE,In person,Wife/girlfriend,FALSE,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+75,FALSE,FALSE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+76,FALSE,TRUE,In person,Coworker/supervisor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+77,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+78,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+79,TRUE,FALSE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+80,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+81,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+82,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+83,FALSE,TRUE,In person,Waitress/Bartender/Clerk,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+84,FALSE,TRUE,Other,Coworker/supervisor,FALSE,TRUE,TRUE,He wanted to outdo a recent incident where a man killed 6 people and he mentioned the Oklahoma City bombing.,TRUE,FALSE,NA,FALSE,TRUE
+85,FALSE,FALSE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+86,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+87,FALSE,TRUE,In person,Coworker/supervisor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+88,FALSE,TRUE,Phone / text,Coworker/supervisor,FALSE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+89,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+90,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+91,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+92,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,TRUE,"He was obsessed with the band Pantera and targeted their lead singer at the shooting, blaming him for the band breaking up.",FALSE,FALSE
+93,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+94,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+95,TRUE,TRUE,Internet / social media,Classmate,FALSE,TRUE,FALSE,NA,FALSE,TRUE,"He watched the movie Elephant two weeks before the shooting, which portrays a Columbine-like school shooting.",FALSE,FALSE
+96,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+97,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+98,TRUE,FALSE,,,,TRUE,FALSE,NA,TRUE,TRUE,"""He spray-painted the word ""NOW"" outside of the shooting site, referencing the Nirvana song ""I Want to Know Now.""",TRUE,TRUE
+99,FALSE,TRUE,In person,Wife/girlfriend,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+100,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+101,FALSE,TRUE,In person,Wife/girlfriend,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+102,TRUE,TRUE,Other writing,Teacher/school staff,FALSE,TRUE,TRUE,He referenced Columbine and did the shooting in the same week of April (8 years after Columbine).,TRUE,TRUE,"Images from his manifesto appeared to reference movies like Heathers, Terminator 2, Basketball Diaries, Old Boy, and The Matrix. He also emulates Jesus Christ on the cross.",TRUE,TRUE
+103,FALSE,TRUE,In person,Other,FALSE,FALSE,TRUE,This was the 2nd mass shooting at a mall in 2007.,TRUE,FALSE,NA,FALSE,TRUE
+104,FALSE,TRUE,Letter,Other,FALSE,TRUE,TRUE,"He studied previous mass shootings, including the Westroads Mall shooting a week earlier, Columbine and Virginia Tech.",TRUE,TRUE,He used lyrics from the song Anarchy by KMFDM in his manifesto.,TRUE,FALSE
+105,FALSE,TRUE,In person,Other,FALSE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+106,TRUE,TRUE,Phone / text,Wife/girlfriend,FALSE,TRUE,FALSE,NA,TRUE,TRUE,He loved the Saw movies and got a tattoo of the villain on his arm and dressed up as him for Halloween.,TRUE,FALSE
+107,FALSE,TRUE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+108,TRUE,TRUE,Phone / text,Wife/girlfriend,TRUE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+109,FALSE,TRUE,In person,Friend/neighbor,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+110,FALSE,TRUE,,Wife/girlfriend,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+111,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+112,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+113,TRUE,TRUE,In person,Other,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+114,FALSE,TRUE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+115,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+116,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+117,TRUE,TRUE,In person,Immediate family,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+118,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+119,FALSE,TRUE,In person,Wife/girlfriend,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+120,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,TRUE
+121,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+122,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+123,FALSE,TRUE,In person,Wife/girlfriend,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+124,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+125,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,FALSE
+126,FALSE,TRUE,In person,Classmate,TRUE,FALSE,TRUE,Arcan Cetin planned to imitate this shooting.,TRUE,FALSE,N/A (despite rumors he was emulating the Joker from Batman),TRUE,TRUE
+127,TRUE,FALSE,In person,Friend/neighbor,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+128,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+129,TRUE,TRUE,In person,,TRUE,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+130,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+131,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+132,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+133,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+134,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+135,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+136,TRUE,TRUE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,TRUE
+137,TRUE,TRUE,Internet / social media,Wife/girlfriend,TRUE,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+138,TRUE,TRUE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,TRUE
+139,TRUE,TRUE,In person,,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+140,TRUE,FALSE,,,,TRUE,TRUE,"His manifesto referenced the mass shooters Elliot Rodger, Adam Lanza, Eric Harris and Dylan Klebold, and Seung-Hui Cho. He also mentions Vester Flanagan, who killed 2 people in response to Dylann Roof's mass shooting.",TRUE,FALSE,NA,TRUE,TRUE
+141,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+142,TRUE,FALSE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+143,TRUE,FALSE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+144,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+147,TRUE,TRUE,In person,Wife/girlfriend,TRUE,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,TRUE
+148,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,FALSE,NA,FALSE,TRUE,"His Facebook had a photo with a member of the music group Public Enemy, which features radically pro-black messages and violent imagery.",TRUE,FALSE
+149,TRUE,FALSE,,,,TRUE,TRUE,Initially tried to emulate James Holmes by shooting at a movie theater.,FALSE,FALSE,NA,FALSE,FALSE
+150,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+151,FALSE,FALSE,,,,FALSE,TRUE,In 2016 he killed Justin Porter at a nightclub. In 2017 Porter's father shot two men he believed to be connected to his son's death.,FALSE,FALSE,NA,FALSE,FALSE
+152,FALSE,TRUE,In person,Wife/girlfriend,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+153,TRUE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+154,FALSE,TRUE,In person,Friend/neighbor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+155,TRUE,TRUE,Phone / text,Immediate family,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+156,FALSE,TRUE,In person,Immediate family,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+157,TRUE,TRUE,Internet / social media,Wife/girlfriend,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+158,TRUE,TRUE,Internet / social media,Other,TRUE,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,TRUE
+159,FALSE,TRUE,In person,Friend/neighbor,FALSE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+160,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+161,TRUE,TRUE,Internet / social media,Other,FALSE,FALSE,FALSE,NA,FALSE,TRUE,"""Wore a shirt with the phrase ""Born to Kill"" on it, referencing the movie Full Metal Jacket.""",TRUE,FALSE
+162,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,TRUE,He referenced the French Charlie Hebdo mass shooting. ,TRUE,FALSE,NA,TRUE,FALSE
+163,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+164,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+165,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,TRUE
+166,TRUE,TRUE,In person,Wife/girlfriend,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+167,FALSE,TRUE,In person,Coworker/supervisor,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+168,FALSE,FALSE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+169,TRUE,TRUE,Internet / social media,Other,TRUE,FALSE,FALSE,NA,TRUE,FALSE,NA,FALSE,TRUE
+170,TRUE,FALSE,,,,TRUE,TRUE,Occurred 12 hours after the mass shooting in an El Paso Walmart.,FALSE,FALSE,NA,FALSE,FALSE
+171,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+172,TRUE,FALSE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+173,FALSE,FALSE,,,,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+174,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+175,TRUE,FALSE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+176,TRUE,TRUE,,,TRUE,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,TRUE
+177,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+178,TRUE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+179,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+180,TRUE,FALSE,,,,FALSE,FALSE,NA,TRUE,TRUE,"""Less than 40 minutes before the shooting, he wrote a Facebook post saying ""I hope that I can be with Applejack in the afterlife, my life has no meaning without her"" (Applejack is a character from the My Little Pony cartoon).""",FALSE,FALSE
+181,FALSE,TRUE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+182,TRUE,TRUE,,,,TRUE,FALSE,NA,FALSE,FALSE,NA,TRUE,FALSE
+183,TRUE,TRUE,Other writing,Other,TRUE,TRUE,FALSE,NA,TRUE,TRUE,Connection with science fiction novels and dystopia,TRUE,TRUE
+184,TRUE,TRUE,,,,TRUE,TRUE,Stated that he was inspired by the 2019 New Zealand mosque shootings as well as Dylann Roof and Robert Bowers.,TRUE,FALSE,NA,TRUE,TRUE
+185,TRUE,TRUE,,,TRUE,TRUE,TRUE,10 days after Buffalo shooting,FALSE,FALSE,NA,TRUE,FALSE
+186,FALSE,FALSE,,,,FALSE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+187,TRUE,TRUE,Internet / social media,Other,TRUE,TRUE,FALSE,NA,FALSE,TRUE,"""saying only that Crimo ""had some type of affinity towards the number four and seven and inverse was 7/4,"" the date of July Fourth""",TRUE,FALSE
+188,FALSE,FALSE,,,,FALSE,FALSE,NA,FALSE,TRUE,was a real life play out of his trilogy and movie he created,FALSE,FALSE
+189,FALSE,TRUE,In person,Immediate family,FALSE,TRUE,FALSE,NA,FALSE,FALSE,NA,FALSE,FALSE
+190,FALSE,FALSE,,,FALSE,FALSE,TRUE,Two days after Club Q shooting ,TRUE,FALSE,NA,TRUE,FALSE
+191,FALSE,FALSE,,,,,FALSE,NA,FALSE,TRUE,"""Occurred the evening of the Lunar New Year- ""The friend, meanwhile, says he is not surprised by what happened and believes Tran chose Lunar New Year because, in Chinese culture, the date represents the closure of an era. He said: 'Chinese New Year is the end of a period and I think he chose this time to make it complete. 'He had accumulated so much hatred and I think he wanted to end it there.""",,FALSE
+192,FALSE,FALSE,,,,FALSE,TRUE,Two days after Star Dance Studio shooting,FALSE,FALSE,NA,FALSE,FALSE
+193,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,FALSE,NA,TRUE,FALSE,NA,TRUE,FALSE
+194,TRUE,TRUE,,,TRUE,FALSE,TRUE,"""Sturgeon reportedly hoped to showcase how easy it was to buy a gun in Kentucky and wanted to highlight the mental health crisis in America.""",TRUE,TRUE,"""Sturgeon reportedly hoped to showcase how easy it was to buy a gun in Kentucky and wanted to highlight the mental health crisis in America."", ""earlier making a series of ominous Instagram post including one that said: 'They won't listen to words or protests. Let's see if they hear this.'""",TRUE,TRUE
+195,TRUE,TRUE,Internet / social media,Other,FALSE,TRUE,FALSE,NA,TRUE,TRUE,"""At the time of his death, officials say Garcia was wearing a patch with the acronym ""RWDS"" — which stands for ""Right Wing Death Squad."" The same patch was worn by a Proud Boys member who pleaded guilty to seditious conspiracy during the Jan. 6 attack on the U.S. Capitol.""",TRUE,FALSE

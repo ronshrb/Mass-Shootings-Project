@@ -1,0 +1,194 @@
+CASE #,Suicidality,Prior Hospitalization,Voluntary or Involuntary Hospitalization,Prior Counseling,Voluntary or Mandatory Counseling,Psychiatric Medication,Psychiatric Medication Specified,Medication Category,Treatment 6 Months Prior to Shooting,Mental Illness,FASD,Known Family Mental Health History,Autism Spectrum,Substance Use,Health Issues,Health Issues - Specify,Head Injury / Possible TBI
+1,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,TRUE,Mood disorder,FALSE,No evidence,FALSE,Other drugs,TRUE,brain tumor,FALSE
+2,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+3,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+4,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+5,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+6,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,,No evidence,FALSE,No evidence,TRUE,stomach problems,FALSE
+7,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+8,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+9,TRUE,FALSE,Involuntary,FALSE,Involuntary,TRUE,unspecified sleep aid,sedative hypnotic,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+10,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+11,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,Other close relatives had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+12,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+13,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,,TRUE,unspecified,FALSE
+14,FALSE,TRUE,Voluntary,TRUE,,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,orthopedic disorder,FALSE
+15,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+16,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,TRUE
+17,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+18,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+19,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,Other close relatives had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+20,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,"arthritis, high blood pressure",FALSE
+21,FALSE,TRUE,,FALSE,Involuntary,TRUE,Thorazine,antipsychotic,TRUE,Thought disorder,FALSE,Parents had mental health issues,FALSE,,TRUE,venereal disease,FALSE
+22,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+23,FALSE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+24,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+25,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Other psychiatric disorder,FALSE,No evidence,FALSE,No evidence,TRUE,"""unspecified """"poor health""""""",FALSE
+26,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+27,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+28,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,organic brain disease,TRUE
+29,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,polio and spastic paralysis,FALSE
+30,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+31,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+32,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+33,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,TRUE
+34,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+35,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+36,FALSE,FALSE,Involuntary,FALSE,Involuntary,TRUE,unspecified depression medication,antidepressant,TRUE,,FALSE,No evidence,FALSE,Marijuana,TRUE,brain damage (causing seizures) from being shot in the head,TRUE
+37,TRUE,TRUE,,TRUE,,TRUE,unspecified ,unspecified,FALSE,Mood disorder,FALSE,Parents had mental health issues,FALSE,,TRUE,extreme dependence on drugs and alcohol,FALSE
+38,TRUE,TRUE,Voluntary,FALSE,Involuntary,TRUE,Prozac,SSRI ,TRUE,Mood disorder,FALSE,No evidence,FALSE,No evidence,TRUE,debilitating mental health issues,FALSE
+39,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+40,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+41,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+42,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+43,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,TRUE,Other psychiatric disorder,FALSE,No evidence,FALSE,No evidence,TRUE,"back injury, war flashbacks, presumably PTSD",FALSE
+44,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+45,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+46,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,,FALSE,Other close relatives had mental health issues,FALSE,No evidence,TRUE,brain damage,TRUE
+47,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+48,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,leg cancer,FALSE
+49,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+50,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,Parents had mental health issues,FALSE,Problem with alcohol,FALSE,NA,FALSE
+51,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,TRUE,Mood disorder,FALSE,No evidence,FALSE,Other drugs,TRUE,knee injury,FALSE
+52,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+53,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,TRUE,"head, back, and neck injuries ",TRUE
+54,TRUE,TRUE,,TRUE,Voluntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,Parents had mental health issues,FALSE,No evidence,TRUE,brain damage,TRUE
+55,FALSE,TRUE,,TRUE,Voluntary,FALSE,NA,NA,TRUE,Thought disorder,FALSE,No evidence,TRUE,No evidence,FALSE,NA,FALSE
+56,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Other psychiatric disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+57,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+58,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+59,FALSE,TRUE,Voluntary,TRUE,Voluntary,TRUE,"Haldol, Cogentin","antipsychotic, anticholinergic",TRUE,Thought disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+60,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+61,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+62,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+63,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+64,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+65,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,back injury,FALSE
+66,TRUE,TRUE,,TRUE,Voluntary,TRUE,unspecified anxiety/depression/OCD medications,"anxiolytic, antidepressant, SSRI",TRUE,Mood disorder,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,stress-related medical leave,FALSE
+67,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+68,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+69,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,Prozac,SSRI,FALSE,,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+70,TRUE,TRUE,,TRUE,Voluntary,TRUE,"Elavil, Trazodone","tricyclic antidepressant, serotonin modulator",TRUE,Other psychiatric disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+71,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,TRUE,Mood disorder,FALSE,No evidence,FALSE,,TRUE,pyloric stenosis ,FALSE
+72,TRUE,FALSE,Involuntary,TRUE,,TRUE,Luvox,SSRI,TRUE,Mood disorder,FALSE,No evidence,FALSE,Marijuana,TRUE,pectus excavatum,FALSE
+73,TRUE,FALSE,Involuntary,FALSE,Involuntary,TRUE,Ritalin,stimulant,FALSE,Other psychiatric disorder,FALSE,No evidence,FALSE,,FALSE,NA,TRUE
+74,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+75,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+76,FALSE,TRUE,,TRUE,,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,TRUE,brain injury,TRUE
+77,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+78,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+79,TRUE,TRUE,Voluntary,TRUE,Voluntary,TRUE,19 unspecified medications,unspecified,TRUE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+80,TRUE,TRUE,,TRUE,Voluntary,TRUE,"Prozac, Trazodone","SSRI, serotonin modulator",TRUE,,FALSE,Other close relatives had mental health issues,FALSE,Other drugs,TRUE,"hyperactive thyroid, high blood pressure",FALSE
+81,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+82,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+83,FALSE,TRUE,,TRUE,Voluntary,TRUE,unspecified,unspecified,TRUE,,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+84,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+85,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+86,FALSE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+87,TRUE,FALSE,Involuntary,TRUE,,TRUE,unspecified,unspecified,FALSE,Mood disorder,FALSE,No evidence,FALSE,No evidence,TRUE,high blood pressure,FALSE
+88,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+89,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+90,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+91,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+92,FALSE,FALSE,Involuntary,FALSE,Involuntary,TRUE,unspecified,unspecified,TRUE,Thought disorder,TRUE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+93,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+94,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,"thyroid condition, heart abnormality, parts of fingers missing from injury",FALSE
+95,TRUE,TRUE,,TRUE,Voluntary,TRUE,Prozac,SSRI,TRUE,Mood disorder,FALSE,Parents had mental health issues,FALSE,Marijuana,FALSE,NA,FALSE
+96,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,TRUE,born with only a partial right arm and used a prosthetic,FALSE
+97,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+98,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,,FALSE,Parents had mental health issues,FALSE,,FALSE,NA,FALSE
+99,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,Marijuana,TRUE,brain damage,TRUE
+100,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Mood disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+101,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,Other psychiatric disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+102,TRUE,TRUE,,TRUE,,TRUE,"Paroxetine, Ativan","SSRI, benzodiazepine",FALSE,,FALSE,Other close relatives had mental health issues,TRUE,No evidence,TRUE,serious early childhood health problems,FALSE
+103,TRUE,TRUE,,TRUE,,TRUE,"Ritalin, Zoloft, Mellaril, Pamelor, Effexor XR","stimulant, SSRI, antipsychotic, tricylic antidepressant, & SNRI (antidepressant)",FALSE,,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+104,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,Prozac,SSRI,TRUE,Mood disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+105,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+106,TRUE,TRUE,,TRUE,Voluntary,TRUE,"Prozac, Zyprexa, Depakote, Paxil, Cogentin, Risperdal, Lithium, Cylert, Seroquil, Clozaril, Xanax","SSRI, antipsychotic, anticonvulsant, SSRI, anticholinergic, antipsychotic, antimanic agent, stimulant, antipsychotic, & benzodiazepine",TRUE,,FALSE,Parents had mental health issues,FALSE,Other drugs,FALSE,NA,FALSE
+107,FALSE,FALSE,Involuntary,TRUE,Voluntary,TRUE,unspecified,unspecified,TRUE,Thought disorder,FALSE,,FALSE,No evidence,FALSE,NA,FALSE
+108,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+109,TRUE,TRUE,,FALSE,Involuntary,TRUE,unspecified,unspecified,TRUE,,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+110,TRUE,FALSE,Involuntary,FALSE,Involuntary,TRUE,"Lexapro, Xanax, Ambien","SSRI, benzodiazepine, & sedative hypnotic",TRUE,Mood disorder,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,"breathing problems, leg injury",FALSE
+111,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+112,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+113,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+114,FALSE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,TRUE,Thought disorder,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+115,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+116,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+117,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+118,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+119,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,TRUE,on disability,FALSE
+120,TRUE,TRUE,,TRUE,Voluntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,Other close relatives had mental health issues,FALSE,,FALSE,NA,FALSE
+121,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+122,FALSE,TRUE,,FALSE,Involuntary,TRUE,unspecified,unspecified,TRUE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+123,TRUE,FALSE,Involuntary,TRUE,,TRUE,unspecified,unspecified,TRUE,Mood disorder,FALSE,Parents had mental health issues,FALSE,Other drugs,TRUE,debilitating leg injury and chronic pain,FALSE
+124,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+125,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,TRUE,No evidence,TRUE,"head injury, hearing loss",TRUE
+126,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,Zoloft,SSRI,TRUE,,FALSE,Other close relatives had mental health issues,TRUE,Other drugs,FALSE,NA,FALSE
+127,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+128,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,"Trazodone, Mirtazapine, Temazepam, Wellbutrin","serotonin modulator, tetracyclic antidepressant, benzodiazepine, & NDRI (antidepressant)",TRUE,,FALSE,Other close relatives had mental health issues,FALSE,,FALSE,NA,FALSE
+129,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Other psychiatric disorder,FALSE,No evidence,TRUE,No evidence,TRUE,"malnutrition and possible brain damage, seizures as a child",TRUE
+130,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+131,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+132,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+133,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+134,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,Trazodone ,serotonin modulator,TRUE,Thought disorder,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+135,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+136,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,unspecified,unspecified,TRUE,Mood disorder,FALSE,No evidence,TRUE,Problem with alcohol,FALSE,NA,FALSE
+137,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,diabetes,FALSE
+138,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,"Xanax, Prozac, Paxil","benzodiazepine, SSRI, & SSRI",FALSE,,FALSE,No evidence,TRUE,,FALSE,NA,FALSE
+139,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,unspecified,unspecified,TRUE,Mood disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+140,TRUE,TRUE,,FALSE,Involuntary,TRUE,unspecified,unspecified,FALSE,Other psychiatric disorder,FALSE,No evidence,TRUE,No evidence,FALSE,NA,FALSE
+141,TRUE,TRUE,,FALSE,Involuntary,TRUE,unspecified,unspecified,FALSE,,FALSE,No evidence,FALSE,Problem with alcohol,TRUE,brain damage,TRUE
+142,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+143,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+144,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+147,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,Parents had mental health issues,FALSE,,FALSE,NA,FALSE
+148,FALSE,FALSE,Involuntary,FALSE,Involuntary,TRUE,unspecified,unspecified,FALSE,Other psychiatric disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+149,TRUE,TRUE,,TRUE,,TRUE,"Prozac, Guanfacine, Concerta","SSRI, adrenergic agonist, & stimulant",TRUE,Mood disorder,FALSE,No evidence,TRUE,,TRUE,"injury at birth, kidney failure",FALSE
+150,FALSE,TRUE,,TRUE,Voluntary,FALSE,NA,NA,TRUE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+151,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+152,TRUE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+153,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+154,TRUE,FALSE,Involuntary,FALSE,Involuntary,TRUE,Valium,benzodiazepine,TRUE,Mood disorder,FALSE,Parents had mental health issues,FALSE,No evidence,TRUE,"significant allergies, arm injury, high blood pressure",FALSE
+155,TRUE,TRUE,,TRUE,Voluntary,TRUE,"Clonazepam, Celexa, Ambien, Atomexitine, Strattera, Wellbutrin ","benzodiazepine, SSRI, sedative hypnotic, SNRI (antidepressant), SNRI (antidepressant), & NDRI (antidepressant)",FALSE,Mood disorder,FALSE,No evidence,FALSE,Other drugs,TRUE,chronic head and neck pain from a motorcycle accident,TRUE
+156,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+157,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+158,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,"Clonidine, Focalin, Risperidone","antihyperintensive, stimulant, & antipsychotic",FALSE,,FALSE,Parents had mental health issues,TRUE,Other drugs,FALSE,NA,FALSE
+159,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+160,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+161,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,Other close relatives had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+162,FALSE,FALSE,Involuntary,TRUE,,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,TRUE,No evidence,TRUE,narcolepsy,FALSE
+163,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+164,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+165,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+166,TRUE,TRUE,,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+167,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+168,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+169,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+170,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,Xanax,benzodiazepine,TRUE,Mood disorder,FALSE,No evidence,FALSE,,FALSE,NA,FALSE
+171,TRUE,TRUE,,TRUE,,TRUE,unspecified,unspecified,FALSE,Thought disorder,FALSE,Other close relatives had mental health issues,FALSE,,FALSE,NA,FALSE
+172,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+173,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,back injury,FALSE
+174,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,TRUE,"chronic back pain, rotator cuff injury at work",FALSE
+175,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,Marijuana,FALSE,NA,FALSE
+176,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,Other drugs,FALSE,NA,FALSE
+177,TRUE,FALSE,Involuntary,TRUE,Voluntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+178,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+179,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,0,"SSRI, adrenergic agonist",FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,0,FALSE
+180,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,"Lexapro, Intuniv",SSRI,FALSE,Mood disorder,FALSE,Parents had mental health issues,FALSE,No evidence,FALSE,NA,FALSE
+181,TRUE,FALSE,Involuntary,FALSE,Involuntary,TRUE,unspecified,NA,FALSE,,FALSE,No evidence,FALSE,Problem with alcohol,FALSE,NA,FALSE
+182,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+183,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,,TRUE,"""""""It also features medical photos from McLeod, who suffered a neck injury from a motorcycle crash in his mid-20s""""""",FALSE
+184,TRUE,TRUE,,TRUE,,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+185,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+186,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,TRUE,Back pain - underwent surgery ,FALSE
+187,TRUE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,Parents had mental health issues,FALSE,,FALSE,NA,FALSE
+188,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+189,FALSE,FALSE,Involuntary,,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,Parents had mental health issues,FALSE,,FALSE,NA,FALSE
+190,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Thought disorder,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+191,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+192,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,No evidence,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE
+193,TRUE,FALSE,Involuntary,TRUE,Involuntary,,,,TRUE,Mood disorder,FALSE,No evidence,TRUE,No evidence,FALSE,NA,FALSE
+194,TRUE,FALSE,Involuntary,TRUE,Voluntary,TRUE,unspecified,unspecified,TRUE,Mood disorder,FALSE,No evidence,FALSE,No evidence,TRUE,"""""""Specialists are testing the killer’s brain for chronic traumatic encephalopathy (CTE) — brain deterioration caused by repeated head trauma — after it was revealed he suffered numerous sports-related concussions.""""""",TRUE
+195,FALSE,FALSE,Involuntary,FALSE,Involuntary,FALSE,NA,NA,FALSE,Indication of psychiatric disorder but no diagnosis,FALSE,No evidence,FALSE,No evidence,FALSE,NA,FALSE

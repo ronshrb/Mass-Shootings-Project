@@ -1,0 +1,194 @@
+CASE #,Shooter Full Name,Age,Gender,Race,Height,Weight,Immigrant,Heterosexual,Religion,Education,School Performance,School Performance Specified,Birth Order,Number of Siblings,Older Siblings,Younger Siblings,Relationship Status,Has Children?,Unemployed,Employment Type,Military Service,Military Branch,Community Involvement,Community Involvement Specified
+1,Charles Whitman,25,Male,White,72,200,FALSE,TRUE,Christian,Some college/trade school,Poor,1.9 GPA,Oldest child,2,0,2,Married,FALSE,TRUE,,TRUE,Marines,Formerly involved but recently withdrawn,formerly an altar boy and Eagle Scout
+2,Robert Smith,18,Male,White,,,FALSE,TRUE,None,Less than high school,Good,"good grades, on student council",Oldest child,1,0,1,Single,FALSE,TRUE,,FALSE,,No evidence,
+3,Leo Held,39,Male,White,72,200,FALSE,TRUE,Christian,Some college/trade school,,,,2,,,Married,TRUE,FALSE,In between,TRUE,Army,Heavily involved,"school board member, director of the local Boy Scout troop, hunted with friends"
+4,Eric Pearson,56,Male,White,,,FALSE,TRUE,,,,,,,,,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+5,Donald Lambright,31,Male,Black,,,FALSE,TRUE,Christian,Some college/trade school,Good,"brilliant, attended several colleges",Only child,0,0,0,Married,TRUE,TRUE,In between,TRUE,Air Force,Heavily involved,part of Black groups
+6,Joseph White,25,Male,Black,,,FALSE,TRUE,,Graduate school/advanced degree,Good,"completed university with a scholarship, master's degree",,,,,Single,FALSE,FALSE,White collar,FALSE,,No evidence,
+7,Harvey Glenn McLeod,22,Male,Black,,,FALSE,TRUE,,High school/GED,Poor,"average grades, failed a lot of courses",,,,,Married,FALSE,FALSE,Blue collar,FALSE,,Formerly involved but recently withdrawn,"varsity sports in high school, no involvement as an adult"
+8,Edwin Grace,33,Male,White,,,FALSE,TRUE,Christian,Some college/trade school,,,Oldest child,1,0,1,,,FALSE,Blue collar,TRUE,Army,Somewhat involved,church
+9,Mark Essex,23,Male,Black,64,135,FALSE,TRUE,Christian,Some college/trade school,Average,average,Middle child,4,1,3,Single,FALSE,TRUE,Blue collar,TRUE,Navy,Heavily involved,"Cub Scouts, band"
+10,Robert Sander,21,Male,White,,,FALSE,TRUE,,,,,,,,,Single,FALSE,TRUE,Blue collar,FALSE,,,
+11,Edward Allaway,37,Male,White,,,FALSE,TRUE,Christian,,,,Youngest child,3,3,0,Divorced/separated/widowed,FALSE,FALSE,Blue collar,TRUE,Marines,Formerly involved but recently withdrawn,"former Sunday School teacher, no recent involvement"
+12,Fred Cowan,33,Male,White,72,250,FALSE,TRUE,Christian,Some college/trade school,Good,"brilliant, top quarter of his class",,2,,,Single,FALSE,FALSE,Blue collar,TRUE,Army,Heavily involved,neighborhood community
+13,Dewitt Henry,26,Male,White,75,230,FALSE,TRUE,None,Some college/trade school,Good,honor student,,,,,Divorced/separated/widowed,FALSE,TRUE,Blue collar,TRUE,Navy,No evidence,
+14,Emile Pierre Benoist,20,Male,White,,,FALSE,TRUE,Christian,High school/GED,,,Middle child,3,1,2,Single,FALSE,FALSE,Blue collar,FALSE,Marines,Somewhat involved,boxing tournaments
+15,Gan Fong Chin,48,Male,Asian,,,TRUE,TRUE,,,,,,2,,,Married,TRUE,FALSE,Blue collar,FALSE,,No evidence,
+16,Barry Chvarak,21,Male,White,74,,FALSE,TRUE,,Less than high school,,,Twin,1,,,,,,,FALSE,,,
+17,Alvin King,45,Male,White,,,FALSE,TRUE,Christian,Graduate school/advanced degree,Good,PhD,,,,,Married,TRUE,TRUE,White collar,FALSE,,Formerly involved but recently withdrawn,"former church member, became reclusive"
+18,Victor Belmonte,23,Male,White,,,FALSE,TRUE,,Some college/trade school,Poor,unsuccessful in college,,,,,Single,FALSE,FALSE,In between,TRUE,Army,No evidence,
+19,Lawrence Moore,25,Male,White,,,FALSE,TRUE,,,,,,,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+20,William Bevins,70,Male,White,,,FALSE,TRUE,,,,,,,,,Single,FALSE,TRUE,Blue collar,FALSE,,,
+21,Charles Meach,34,Male,White,84,,FALSE,TRUE,Christian,Some college/trade school,Poor,"flunking out, but very intelligent",,,,,Single,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,"friendly with customers, engaged in college classes, joined Alcoholics Anonymous"
+22,John Parish,46,Male,Black,,,FALSE,TRUE,,,,,Middle child,2,1,1,Divorced/separated/widowed,TRUE,FALSE,Blue collar,FALSE,,,
+23,Carl Brown,51,Male,White,,,FALSE,TRUE,None,Graduate school/advanced degree,Good,"teaching degree, assumed good grades",,,,,Divorced/separated/widowed,TRUE,TRUE,White collar,TRUE,Navy,No evidence,
+24,Alban Leacock,41,Male,,,,FALSE,TRUE,,,,,,,,,Single,,FALSE,Blue collar,FALSE,,,
+25,Louis Hastings,39,Male,White,,,FALSE,TRUE,,,Good,"computer programmer at Stanford, assumed good grades",,1,,,Divorced/separated/widowed,FALSE,TRUE,In between,TRUE,Air Force,Formerly involved but recently withdrawn,"formerly volunteered rescuing birds, became reclusive"
+26,Eliseo Moreno,24,Male,Latinx,69,155,FALSE,TRUE,Christian,Less than high school,Poor,high school dropout,,10,,,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,,
+27,Michael Silka,25,Male,White,,,FALSE,TRUE,,High school/GED,,,,2,,,Single,FALSE,TRUE,Blue collar,TRUE,Army,No evidence,
+28,Abdelkrim Belachheb,39,Male,,,,TRUE,TRUE,Muslim,Less than high school,Poor,very poor student,Middle child,11,3,8,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+29,James Huberty,41,Male,White,,,FALSE,TRUE,Christian,Bachelors degree,Poor,"51st out of 77 in high school, failed at least one course",Youngest child,1,1,0,Married,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+30,Wayne Crossley,33,Male,White,,,FALSE,TRUE,,,,,,,,,Single,FALSE,,,FALSE,,,
+31,Mansel Hammett,39,Male,,,,FALSE,TRUE,,High school/GED,,,,,,,Married,TRUE,FALSE,Blue collar,FALSE,,,
+32,Patrick Sherrill,44,Male,White,72,200,FALSE,TRUE,Christian,Some college/trade school,Average,"barely passable grades, went to college on a wrestling scholarship and dropped out after a year",Youngest child,2,2,0,Single,FALSE,FALSE,Blue collar,TRUE,Marines,No evidence,
+33,William Cruse,60,Male,White,,,FALSE,TRUE,,Graduate school/advanced degree,Average,master's degree,,,,,Married,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+34,Richard Farley,39,Male,White,,,FALSE,TRUE,,Some college/trade school,Good,"very good grades, graduated 61st out of 520",Oldest child,5,0,5,Boyfriend/girlfriend,FALSE,FALSE,In between,TRUE,Navy,No evidence,
+35,Michael Hayes,24,Male,White,,,FALSE,TRUE,,,,,,,,,Divorced/separated/widowed,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+36,Clemmie Henderson,40,Male,Black,,,FALSE,TRUE,Christian,,,,,,,,Married,TRUE,TRUE,Blue collar,TRUE,Army,No evidence,
+37,Patrick Purdy,24,Male,White,70,150,FALSE,FALSE,None,Some college/trade school,Poor,"able to pass classes but unable to retain information, repeated 5th grade, dropped out of school at age 14",Middle child,2,1,1,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+38,Joseph Wesbecker,47,Male,White,,,FALSE,TRUE,,High school/GED,Poor,"poor student, dropped out in 9th grade",Only child,0,0,0,Boyfriend/girlfriend,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+39,James Pough,42,Male,Black,,,FALSE,TRUE,,,,,Oldest child,8,0,8,Divorced/separated/widowed,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+40,Joseph Harris,35,Male,Black,74,175,FALSE,TRUE,,,,,Middle child,9,1,8,Single,FALSE,TRUE,Blue collar,TRUE,Navy,No evidence,
+41,George Hennard,35,Male,White,72,,FALSE,TRUE,,High school/GED,,,Oldest child,2,0,2,Single,FALSE,TRUE,Blue collar,TRUE,Navy,No evidence,
+42,Gang Lu,28,Male,Asian,,,TRUE,TRUE,Christian,Graduate school/advanced degree,Good,"PhD candidate, very gifted",Youngest child,2,2,0,Single,FALSE,TRUE,White collar,FALSE,,Somewhat involved,"involved in physics department, regularly went to bars"
+43,Robert Daigneau,45,Male,,,,FALSE,TRUE,,,,,,,,,Divorced/separated/widowed,TRUE,,,TRUE,,,
+44,Thomas McIlvane,31,Male,White,,,FALSE,TRUE,Christian,High school/GED,,,Youngest child,2,2,0,Single,FALSE,TRUE,Blue collar,TRUE,Marines,Heavily involved,"nice neighbor, regularly went to restaurants and talked to the staff and customers, participated in martial arts competitions"
+45,Pete Rogovich,26,Male,White,74,240,FALSE,TRUE,,,,,,,,,Single,FALSE,FALSE,Blue collar,FALSE,,,
+46,Eric Houston,20,Male,White,,,FALSE,FALSE,,Less than high school,Poor,"did not graduate high school due to failed classes, previously had to repeat grades and was on an IEP",Youngest child,2,2,0,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+47,John Miller,50,Male,,,,FALSE,TRUE,,,,,,2,,,Single,TRUE,FALSE,Blue collar,TRUE,Army,No evidence,
+48,Lynwood Drake III,43,Male,White,,,FALSE,TRUE,Christian,,,,,1,,,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,Somewhat involved,"church, gambling at a card room"
+49,Gian Ferri,55,Male,White,,,TRUE,TRUE,Christian,Graduate school/advanced degree,,,,1,,,Divorced/separated/widowed,FALSE,FALSE,White collar,FALSE,,,
+50,Kenneth French,22,Male,White,,,FALSE,TRUE,,,,,Middle child,2,1,1,Boyfriend/girlfriend,FALSE,FALSE,Blue collar,TRUE,Army,No evidence,
+51,James Buquet,19,Male,White,,,FALSE,TRUE,Christian,Some college/trade school,Good,dean's list,Oldest child,1,0,1,Single,FALSE,TRUE,,FALSE,,No evidence,
+52,Alan Winterbourne,33,Male,White,72,,FALSE,TRUE,Christian,Bachelors degree,Poor,"barely maintained a C average and repeated many courses due to untreated dyslexia, took 7 years to complete his degree",Youngest child,1,1,0,Single,FALSE,TRUE,In between,FALSE,,Heavily involved,"involved in neighborhood, environmental causes, local politics"
+53,Colin Ferguson,35,Male,Black,72,170,TRUE,TRUE,Christian,Some college/trade school,Good,dean's list,,4,,,Divorced/separated/widowed,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+54,Nathan Dunlap,19,Male,Black,,,FALSE,TRUE,Christian,High school/GED,Average,not notable,Middle child,2,1,1,Boyfriend/girlfriend,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+55,Dean Mellberg,20,Male,White,,,FALSE,TRUE,,Some college/trade school,Average,B and C student,Youngest child,1,1,0,Single,FALSE,TRUE,In between,TRUE,Air Force,No evidence,
+56,Rodriguez Ferguson,18,Male,Black,,,FALSE,TRUE,,Less than high school,,,Middle child,2,1,1,Single,FALSE,TRUE,,FALSE,,,
+57,James Simpson,28,Male,,,,FALSE,TRUE,,Some college/trade school,Good,"studious, nearly completed an engineering degree",,,,,Single,FALSE,TRUE,In between,FALSE,,,
+58,Willie Woods,42,Male,Black,,,FALSE,TRUE,,,,,,,,,Boyfriend/girlfriend,TRUE,FALSE,Blue collar,TRUE,Marines,,
+59,Michael Vernon,22,Male,Black,,,FALSE,TRUE,,Less than high school,Poor,high school dropout,,2,,,Single,TRUE,TRUE,,FALSE,,Somewhat involved,therapy group
+60,Clifton McCree,41,Male,Black,,,FALSE,TRUE,Christian,,,,,,,,Married,TRUE,TRUE,Blue collar,TRUE,Marines,Somewhat involved,church
+61,Kenneth Tornes,32,Male,Black,,,FALSE,TRUE,,,,,,,,,Married,TRUE,FALSE,Blue collar,FALSE,,,
+62,Carl Drega,62,Male,White,75,240,FALSE,TRUE,Christian,Less than high school,,,Youngest child,6,6,0,Boyfriend/girlfriend,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+63,Hastings Arthur Wise,43,Male,Black,76,250,FALSE,TRUE,Christian,Some college/trade school,,,,,,,Single,FALSE,TRUE,Blue collar,FALSE,,Somewhat involved,church
+64,Nelson Serrano,59,Male,Latinx,,,TRUE,TRUE,Christian,Bachelors degree,,,,,,,Married,TRUE,FALSE,White collar,FALSE,,,
+65,Arturo Torres,41,Male,Latinx,,,TRUE,TRUE,,High school/GED,,,Middle child,5,1,4,Married,FALSE,TRUE,Blue collar,TRUE,Army,Somewhat involved,involved in neighborhood community
+66,Matthew Beck,35,Male,White,68,,FALSE,TRUE,,Bachelors degree,Good,genius,Youngest child,3,3,0,Single,FALSE,FALSE,White collar,FALSE,,No evidence,
+67,Andrew Golden,11,Male,White,,,FALSE,TRUE,,Less than high school,Average,did just enough to get by,Youngest child,2,2,0,Single,FALSE,TRUE,,FALSE,,Somewhat involved,band
+68,Mitchell Johnson,13,Male,White,,,FALSE,TRUE,Christian,Less than high school,Good,mostly A's and B's,Oldest child,2,0,2,Single,FALSE,TRUE,,FALSE,,Heavily involved,"church, youth group volunteering"
+69,Kipland Kinkel,15,Male,White,,,FALSE,TRUE,,Less than high school,Average,maintained adequate grades,Youngest child,1,1,0,Single,FALSE,TRUE,,FALSE,,No evidence,
+70,Shon Miller,22,Male,Black,,,FALSE,TRUE,,,,,,9,,,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+71,Dylan Klebold,17,Male,White,75,,FALSE,TRUE,Christian,Less than high school,Good,A's,Youngest child,1,1,0,Single,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,school events
+72,Eric Harris,18,Male,White,69,,FALSE,TRUE,None,Less than high school,Good,A's,Youngest child,1,1,0,Single,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,school events
+73,Zane Floyd,23,Male,White,,,FALSE,TRUE,,Some college/trade school,Poor,had difficulties in school ,Only child,0,0,0,Boyfriend/girlfriend,FALSE,FALSE,Blue collar,TRUE,Marines,Somewhat involved,helpful in neighborhood
+74,Mark Barton,44,Male,White,,,FALSE,TRUE,Christian,Bachelors degree,Good,"excelled, especially in math and science",Only child,0,0,0,Divorced/separated/widowed,TRUE,TRUE,White collar,FALSE,,Somewhat involved,Boy Scouts
+75,Larry Ashbrook,47,Male,White,,,FALSE,TRUE,None,Some college/trade school,Poor,"spotty, remedial classes",Youngest child,3,3,0,Single,FALSE,TRUE,In between,TRUE,Navy,No evidence,
+76,Byran Uyesugi,40,Male,Asian,,,FALSE,TRUE,Buddhist,Some college/trade school,,,Youngest child,1,1,0,Single,FALSE,FALSE,In between,FALSE,,No evidence,
+77,Silvio Izquierdo-Leyva,36,Male,Latinx,,,TRUE,TRUE,Cultural spirituality/other,,,,,,,,Single,TRUE,FALSE,Blue collar,FALSE,,,
+78,Robert Harris,28,Male,Black,,,FALSE,TRUE,Christian,Less than high school,Average,"mostly good grades, got a GED at 18",Youngest child,1,1,0,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+79,Richard Baumhammers,34,Male,White,,,FALSE,TRUE,,Graduate school/advanced degree,Good,top third of class,Youngest child,1,1,0,Single,FALSE,TRUE,White collar,FALSE,,No evidence,
+80,Michael McDermott,42,Male,Latinx,,,FALSE,TRUE,None,Some college/trade school,Poor,"high intelligence, bad grades",Middle child,3,1,2,Boyfriend/girlfriend,FALSE,FALSE,In between,TRUE,Navy,No evidence,
+81,Ki Yung Park,54,Male,Asian,,,FALSE,TRUE,,,,,,,,,Married,TRUE,FALSE,Blue collar,FALSE,,No evidence,
+82,William Baker,66,Male,Black,,,FALSE,TRUE,,High school/GED,,,,,,,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+83,Steven Stagner,42,Male,White,,,FALSE,TRUE,Christian,High school/GED,,,,,,,Single,FALSE,TRUE,,TRUE,Army,No evidence,
+84,Joseph Ferguson,20,Male,White,,,FALSE,TRUE,,High school/GED,Good,excelled in school,Oldest child,2,0,2,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+85,William Lockey,54,Male,,,,FALSE,TRUE,Christian,,,,,,,,Married,TRUE,FALSE,Blue collar,FALSE,,No evidence,
+86,Emanuel Burl Patterson,23,Male,Black,,,FALSE,TRUE,,,,,,,,,,FALSE,TRUE,Blue collar,FALSE,,,
+87,Doug Williams,48,Male,White,,,FALSE,TRUE,Christian,,,,,,,,Boyfriend/girlfriend,TRUE,FALSE,Blue collar,FALSE,,,
+88,Salvador Tapia,36,Male,Latinx,,,TRUE,TRUE,,,,,,5,,,Single,FALSE,TRUE,Blue collar,FALSE,,,
+89,Ralph Reeves,53,Male,White,,,FALSE,TRUE,,,,,,,,,Divorced/separated/widowed,TRUE,TRUE,,FALSE,,Somewhat involved,frequent customer at tavern
+90,Elijah Brown,21,Male,,,,FALSE,TRUE,,Some college/trade school,Good,good student,,,,,Single,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,construction school
+91,Chai Vang,36,Male,Asian,,,TRUE,TRUE,Cultural spirituality/other,High school/GED,Average,B's in English,Middle child,5,1,4,Married,TRUE,FALSE,Blue collar,TRUE,National Guard,Heavily involved,very involved in cultural activities
+92,Nathan Gale,25,Male,White,75,260,FALSE,TRUE,,Some college/trade school,Poor,"special education plan, missed 33 days of 10th grade",Youngest child,2,2,0,Single,FALSE,TRUE,Blue collar,TRUE,Marines,Somewhat involved,"played football, frequent customer at a restaurant and talked to staff, talked to tattoo parlor employees"
+93,Brian Nichols,33,Male,Black,,,FALSE,TRUE,Christian,Some college/trade school,Average,some college,Youngest child,1,1,0,Boyfriend/girlfriend,TRUE,TRUE,In between,FALSE,,No evidence,
+94,Terry Ratzmann,44,Male,White,,,FALSE,TRUE,Christian,High school/GED,Average,average grades,Oldest child,3,0,3,Single,FALSE,FALSE,In between,TRUE,Coast Guard,Somewhat involved,church
+95,Jeffrey Weise,16,Male,Native American,,,FALSE,TRUE,,Less than high school,Poor,"struggling, held back",Oldest child,2,0,2,Single,FALSE,TRUE,,FALSE,,No evidence,
+96,Freddy Cranshaw,54,Male,,,,FALSE,TRUE,,,,,,,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+97,Jennifer San Marco,44,Female,White,,,FALSE,TRUE,Christian,,,,,2,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+98,Kyle Aaron Huff,28,Male,White,77,280,FALSE,TRUE,,Some college/trade school,Good,"good student, smart",Twin,1,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+99,Anthony Bell,25,Male,Black,,,FALSE,TRUE,None,Less than high school,Poor,"poor study habits, below grade level",,1,,,Married,TRUE,FALSE,Blue collar,FALSE,,No evidence,
+100,Charles Roberts,32,Male,White,,,FALSE,TRUE,Christian,High school/GED,,,Oldest child,3,0,3,Married,TRUE,FALSE,Blue collar,FALSE,,Heavily involved,"church, soccer dad, well-liked by neighbors"
+101,Sulejman Talovic,18,Male,,,,TRUE,TRUE,Muslim,Less than high school,Poor,"did less than half his schoolwork, dropped out to get a GED",Oldest child,5,0,5,Boyfriend/girlfriend,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,mosque
+102,Seung-Hui Cho,23,Male,Asian,,,TRUE,TRUE,None,Some college/trade school,Average,2.32 GPA in college,Youngest child,1,1,0,Single,FALSE,TRUE,,FALSE,,No evidence,
+103,Robert Hawkins,19,Male,White,,,FALSE,TRUE,,High school/GED,Poor,high school dropout,Middle child,3,1,2,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+104,Matthew Murray,24,Male,White,,,FALSE,TRUE,None,Some college/trade school,,,Middle child,2,1,1,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+105,Charles Thornton,52,Male,Black,,,FALSE,TRUE,Christian,Bachelors degree,Average,college degree on athletic scholarship,Middle child,8,,,Married,TRUE,FALSE,In between,FALSE,,Formerly involved but recently withdrawn,"formerly involved in community, ran for city council, headed volunteer groups"
+106,Steven Kazmierczak,27,Male,White,72,300,FALSE,FALSE,None,Graduate school/advanced degree,Good,award-winning student,Youngest child,1,1,0,Boyfriend/girlfriend,FALSE,TRUE,Blue collar,FALSE,Army,Formerly involved but recently withdrawn,formerly very involved in NIU campus community
+107,Lee Leeds,31,Male,White,,,FALSE,TRUE,,High school/GED,Good,good student,,3,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+108,Wesley Higdon,25,Male,White,,,FALSE,TRUE,,High school/GED,,,,,,,Boyfriend/girlfriend,TRUE,FALSE,Blue collar,FALSE,,No evidence,
+109,Isaac Zamora,28,Male,Latinx,,,FALSE,TRUE,Christian,,,,Youngest child,1,1,0,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+110,Robert Stewart,45,Male,White,,,FALSE,TRUE,Christian,,,,,,,,Divorced/separated/widowed,FALSE,TRUE,Blue collar,TRUE,National Guard,No evidence,
+111,Jiverly Wong,41,Male,Asian,68,135,TRUE,TRUE,Buddhist,,,,Middle child,3,1,2,Divorced/separated/widowed,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+112,Marcos Gonzalez,29,Male,Latinx,,,TRUE,TRUE,,,,,,,,,Boyfriend/girlfriend,,,Blue collar,FALSE,,,
+113,Nidal Hasan,39,Male,Middle Eastern,,,FALSE,TRUE,Muslim,Graduate school/advanced degree,Good,graduated with honors,Oldest child,2,0,2,Single,FALSE,FALSE,White collar,TRUE,Army,Heavily involved,"mosque, friendly with neighbors"
+114,Maurice Clemmons,37,Male,Black,,,FALSE,TRUE,Christian,Less than high school,Poor,expelled at 16 for bringing a gun to school,Middle child,5,1,,Married,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+115,Nerses Galstyan,28,Male,Asian,,,TRUE,TRUE,,,,,Oldest child,1,0,1,Single,FALSE,TRUE,Blue collar,FALSE,,,
+116,Gerardo Regalado,38,Male,Latinx,,,TRUE,TRUE,,,,,Youngest child,1,1,0,Divorced/separated/widowed,FALSE,TRUE,Blue collar,FALSE,,Somewhat involved,involved in neighborhood community
+117,Omar Thornton,34,Male,Black,,,FALSE,TRUE,,Some college/trade school,,,Youngest child,2,2,0,Boyfriend/girlfriend,FALSE,TRUE,Blue collar,FALSE,,Somewhat involved,sports
+118,Riccardo McCray,23,Male,Black,,,FALSE,TRUE,,High school/GED,Poor,high school dropout,,1,,,Boyfriend/girlfriend,TRUE,,,FALSE,,No evidence,
+119,Stanley Neace,47,Male,White,,,FALSE,TRUE,,,,,,1,,,Married,TRUE,TRUE,,FALSE,,No evidence,
+120,Jared Loughner,22,Male,White,,,FALSE,TRUE,None,Some college/trade school,Average,unremarkable student,Only child,0,0,0,Single,FALSE,TRUE,Blue collar,FALSE,,Formerly involved but recently withdrawn,formerly volunteered at an animal shelter
+121,Michael Hance,51,Male,White,,,FALSE,TRUE,,High school/GED,,,,1,,,Boyfriend/girlfriend,FALSE,TRUE,,FALSE,,Somewhat involved,helpful to neighbors
+122,Eduardo Sencion,32,Male,Latinx,,,TRUE,TRUE,Christian,High school/GED,,,Youngest child,3,3,0,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+123,Scott Dekraai,41,Male,White,,,FALSE,TRUE,,High school/GED,,,Only child,0,0,0,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,Formerly involved but recently withdrawn,formerly active in community
+124,One Goh,43,Male,Asian,,,TRUE,TRUE,None,Some college/trade school,Good,good student,Youngest child,2,2,0,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+125,Ian Stawicki,40,Male,White,72,150,FALSE,TRUE,,High school/GED,Poor,"struggled in high school, went to alternative school for GED",Oldest child,2,0,2,Boyfriend/girlfriend,FALSE,TRUE,Blue collar,FALSE,Army,Somewhat involved,"regular at businesses, tried to join musician crowd"
+126,James Holmes,24,Male,White,69,,FALSE,TRUE,Christian,Graduate school/advanced degree,Good,"top 1% of class, 3.949 GPA",Oldest child,1,0,1,Single,FALSE,TRUE,White collar,FALSE,,Somewhat involved,involved in college community
+127,Wade Page,40,Male,White,,,FALSE,TRUE,,High school/GED,,,,2,,,Single,FALSE,TRUE,Blue collar,TRUE,Army,Somewhat involved,white power music groups
+128,Andrew Engeldinger,36,Male,White,,,FALSE,TRUE,,High school/GED,,,Middle child,2,1,1,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+129,Adam Lanza,20,Male,White,72,112,FALSE,TRUE,Christian,Some college/trade school,Average,3.26 GPA,Youngest child,1,1,0,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+130,Kurt Myers,64,Male,White,,,FALSE,TRUE,,Some college/trade school,,,,2,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+131,Dennis Clark III,27,Male,Black,,,FALSE,TRUE,,Some college/trade school,,,,,,,Boyfriend/girlfriend,FALSE,,,FALSE,,,
+132,John Zawahri,23,Male,Middle Eastern,,,TRUE,TRUE,,Some college/trade school,Poor,low grades and truancy,Youngest child,1,1,0,Single,FALSE,TRUE,,FALSE,,No evidence,
+133,Pedro Vargas,42,Male,Latinx,,,TRUE,TRUE,,Bachelors degree,Good,3.5 gpa,Only child,0,0,0,Boyfriend/girlfriend,FALSE,TRUE,In between,FALSE,,No evidence,
+134,Aaron Alexis,34,Male,Black,,,FALSE,TRUE,Buddhist,Some college/trade school,Good,Embry-Riddle Aeronautical University ,Oldest child,2,0,2,Single,FALSE,FALSE,In between,TRUE,Navy,Heavily involved,"Buddhist temple, helped at friend's restaurant"
+135,Cherie Lash Rhoades,44,Female,Native American,,,FALSE,TRUE,,,,,,2,,,Single,TRUE,FALSE,Blue collar,FALSE,,Heavily involved,tribal chairwoman
+136,Elliot Rodger,22,Male,Asian,,,TRUE,TRUE,None,Some college/trade school,Good,good grades in high school,Oldest child,2,0,2,Single,FALSE,TRUE,,FALSE,,No evidence,
+137,Jaylen Fryberg,15,Male,Native American,66,125,FALSE,TRUE,Cultural spirituality/other,Less than high school,Good,"good grades, though slipping",,4,,,Boyfriend/girlfriend,FALSE,TRUE,,FALSE,,Heavily involved,"cultural involvement, football team, wrestling, homecoming prince"
+138,Dylann Roof,21,Male,White,69,120,FALSE,TRUE,Christian,High school/GED,Poor,repeated 9th grade,Middle child,2,1,1,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+139,Mohammad Abdulazeez,24,Male,Middle Eastern,,,TRUE,TRUE,Muslim,Bachelors degree,Good,high grades and awards ,Middle child,4,3,1,Single,FALSE,FALSE,Blue collar,FALSE,,Formerly involved but recently withdrawn,"former MMA fighter, occasional mosque"
+140,Chris Harper-Mercer,26,Male,Black,,,FALSE,TRUE,None,Some college/trade school,Poor,"1.75 gpa, academic probation",Youngest child,1,1,0,Single,FALSE,TRUE,,FALSE,Army,No evidence,
+141,William Hudson,33,Male,White,67,240,FALSE,TRUE,Christian,High school/GED,Poor,high school dropout,,1,,,Divorced/separated/widowed,TRUE,TRUE,Blue collar,FALSE,,No evidence,
+142,Syed Rizwan Farook,28,Male,Middle Eastern,,,FALSE,TRUE,Muslim,Graduate school/advanced degree,Average,grad school,Middle child,3,2,1,Married,TRUE,FALSE,In between,FALSE,,No evidence,
+143,Tashfeen Malik,29,Female,Middle Eastern,,,TRUE,TRUE,Muslim,Bachelors degree,Good,top grades,,5,,,Married,TRUE,TRUE,,FALSE,,No evidence,
+144,Jason Dalton,45,Male,White,66,220,FALSE,TRUE,,Some college/trade school,Average,average student,Only child,0,0,0,Married,TRUE,FALSE,In between,FALSE,,No evidence,
+147,Omar Mateen,29,Male,Middle Eastern,71,245,FALSE,FALSE,Muslim,Some college/trade school,Average,"top half of class, though formerly a very poor student",Middle child,3,1,2,Married,TRUE,FALSE,Blue collar,FALSE,,Somewhat involved,mosque
+148,Micah Johnson,25,Male,Black,,,FALSE,TRUE,Christian,High school/GED,Poor,1.98 GPA,Oldest child,2,0,2,Single,FALSE,FALSE,Blue collar,TRUE,Army,Somewhat involved,"attended protests and events, went to self-defense classes"
+149,Arcan Cetin,20,Male,Middle Eastern,,,TRUE,TRUE,Muslim,High school/GED,,,Only child,0,0,0,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+150,Esteban Santiago,26,Male,Latinx,,,FALSE,TRUE,Christian,Some college/trade school,,,Youngest child,5,5,0,Boyfriend/girlfriend,TRUE,TRUE,Blue collar,TRUE,National Guard,No evidence,
+151,Briddell Barber,27,Male,Black,,,FALSE,TRUE,,,,,,,,,Boyfriend/girlfriend,,,,FALSE,,,
+152,Nengmy Vang,45,Male,Asian,,,TRUE,TRUE,Cultural spirituality/other,,,,Youngest child,1,1,0,Divorced/separated/widowed,TRUE,FALSE,Blue collar,FALSE,,Somewhat involved,Hmong cultural community
+153,John Neumann,45,Male,White,,,FALSE,TRUE,,High school/GED,,,,1,,,Single,FALSE,TRUE,Blue collar,TRUE,Army,No evidence,
+154,Stephen Paddock,64,Male,White,74,198,FALSE,TRUE,None,Bachelors degree,Average,2.97 GPA,Oldest child,3,0,3,Boyfriend/girlfriend,FALSE,TRUE,White collar,FALSE,,No evidence,
+155,Devin Patrick Kelley,26,Male,White,69,165,FALSE,TRUE,None,High school/GED,Average,"2.32 GPA, 260th out of 393 students",Middle child,2,1,1,Married,TRUE,FALSE,In between,TRUE,Air Force,No evidence,
+156,Kevin Janson Neal,44,Male,White,,,FALSE,TRUE,,Some college/trade school,,,Youngest child,1,1,0,Married,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+157,Timothy O'Brien Smith,28,Male,White,,,FALSE,TRUE,,Some college/trade school,,,Youngest child,2,2,0,Single,FALSE,FALSE,Blue collar,FALSE,,,
+158,Nikolas Cruz,19,Male,White,67,131,FALSE,TRUE,,Less than high school,Poor,failed out of high school,Oldest child,1,0,1,Single,FALSE,FALSE,Blue collar,FALSE,,Formerly involved but recently withdrawn,formerly on high school JROTC rifle team
+159,George Davis,27,Male,Black,,,FALSE,TRUE,,,,,,,,,,TRUE,,,FALSE,,,
+160,Travis Reinking,29,Male,White,68,150,FALSE,FALSE,Christian,High school/GED,,,,3,,,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+161,Dimitrios Pagourtzis,17,Male,White,67,134,FALSE,TRUE,None,Less than high school,Good,All A's,Oldest child,1,0,1,Single,FALSE,TRUE,,FALSE,,Heavily involved,"football team, church dance troupe"
+162,Jarrod Ramos,38,Male,Latinx,70,170,FALSE,TRUE,,Bachelors degree,Good,"NSA internship in high school, BS in computer engineering",Oldest child,1,0,1,Single,FALSE,TRUE,In between,FALSE,,No evidence,
+163,Javier Casarez,54,Male,Latinx,,,TRUE,TRUE,,,,,,,,,Divorced/separated/widowed,TRUE,FALSE,Blue collar,FALSE,,,
+164,Robert Bowers,46,Male,White,67,174,FALSE,TRUE,Christian,Less than high school,Poor,high school dropout,Only child,0,0,0,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,
+165,Ian David Long,28,Male,White,68,149,FALSE,TRUE,,Some college/trade school,,,Only child,0,0,0,Divorced/separated/widowed,FALSE,TRUE,Blue collar,TRUE,Marines,No evidence,
+166,Zephen Xaver,21,Male,White,,,FALSE,TRUE,,Some college/trade school,,,Oldest child,2,0,2,Single,FALSE,TRUE,Blue collar,FALSE,Army,No evidence,
+167,Gary Martin,45,Male,Black,,,FALSE,TRUE,,,,,,2,,,Boyfriend/girlfriend,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+168,DeWayne Craddock,40,Male,Black,,,FALSE,TRUE,,Bachelors degree,,,,,,,Divorced/separated/widowed,,FALSE,In between,TRUE,National Guard,No evidence,
+169,Patrick Crusius,21,Male,White,72,220,FALSE,TRUE,,Some college/trade school,,,Twin,2,1,,,FALSE,TRUE,Blue collar,FALSE,,No evidence,
+170,Connor Betts,24,Male,White,69,154,FALSE,TRUE,None,Some college/trade school,,,Oldest child,1,0,1,Single,FALSE,FALSE,Blue collar,FALSE,,Somewhat involved,"played in bands, attended protests"
+171,Seth Ator,36,Male,White,70,154,FALSE,TRUE,,Some college/trade school,,,Youngest child,1,1,0,,,TRUE,Blue collar,FALSE,,No evidence,
+172,David Anderson,47,Male,Black,,,FALSE,TRUE,Cultural spirituality/other,,,,Youngest child,1,1,0,Boyfriend/girlfriend,FALSE,TRUE,Blue collar,TRUE,Army,No evidence,
+173,Francine Graham,50,Female,Black,,,FALSE,TRUE,Cultural spirituality/other,,,,,2,,,Boyfriend/girlfriend,FALSE,TRUE,In between,FALSE,,Formerly involved but recently withdrawn,formerly very active in neighborhood community
+174,Anthony Ferrill,51,Male,Black,,,FALSE,TRUE,,Some college/trade school,,,,2,,,Married,TRUE,FALSE,Blue collar,TRUE,Coast Guard,Somewhat involved,helpful in neighborhood community
+175,Joaquin Roman,31,Male,White,,,FALSE,TRUE,,Some college/trade school,,,,,,,Single,FALSE,FALSE,White collar,FALSE,,No evidence,
+176,Jason Nightengale,32,Male,Black,70,,FALSE,TRUE,,High school/GED,,,,,,,Boyfriend/girlfriend,,,Blue collar,FALSE,,No evidence,NA
+177,Robert Long,21,Male,White,70,160,FALSE,TRUE,Christian,Some college/trade school,Good,"""described as ""really smart"" by a former classmate, was involved with student organizations""",Oldest child,1,0,1,Single,FALSE,FALSE,Blue collar,FALSE,,Formerly involved but recently withdrawn,Used to be very active in the church community but felt his faith slipping because of 'sex addiction'
+178,Ahmad Al Aliwi Alissa,21,Male,Middle Eastern,66,200,TRUE,TRUE,Muslim,High school/GED,,bullied in high school for being Muslim,,6,,,Single,FALSE,FALSE,Blue collar,FALSE,,Formerly involved but recently withdrawn,"Wrestled in high school, became more isolated after graduation"
+179,Aminadab Gaxiola Gonzalez,44,Male,Latinx,76,,FALSE,TRUE,,,,,,,,,Divorced/separated/widowed,TRUE,FALSE,Blue collar,FALSE,,,
+180,Brandon Scott Hole,19,Male,White,68,138,FALSE,TRUE,,Less than high school,,,Youngest child,1,1,0,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,NA
+181,Samuel Cassidy,57,Male,White,73,200,FALSE,TRUE,,Some college/trade school,,,Oldest child,1,0,1,Divorced/separated/widowed,FALSE,TRUE,In between,FALSE,,No evidence,NA
+182,Ethan Crumbley,15,Male,White,62,121,FALSE,TRUE,,Less than high school,,,Youngest child,1,1,0,Single,FALSE,TRUE,,FALSE,,No evidence,NA
+183,Lyndon McLeod,47,Male,White,77,,FALSE,TRUE,None,Bachelors degree,,,,,,,Single,FALSE,,,FALSE,,Formerly involved but recently withdrawn,"Became more isolated, used to be part of the tattoo community"
+186,Michael Louis,45,Male,Black,66,149,TRUE,TRUE,Christian,Bachelors degree,,,Youngest child,1,1,0,Divorced/separated/widowed,TRUE,,,FALSE,,No evidence,NA
+187,Robert Crimo,21,Male,White,71,120,FALSE,TRUE,,Less than high school,,,Middle child,2,1,1,Single,FALSE,TRUE,,FALSE,,No evidence,NA
+188,Austin Thompson,15,Male,White,,,FALSE,TRUE,Christian,Less than high school,,,Middle child,1,1,0,Single,FALSE,TRUE,,FALSE,,Somewhat involved,Attended high school
+189,Anderson  Aldrich,22,Transgender,White,76,260,FALSE,,Christian,,,,Oldest child,1,0,1,Single,FALSE,,,FALSE,,No evidence,NA
+190,Andre Bing,31,Male,Black,,,FALSE,TRUE,Christian,,,,,,,,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,NA
+191,Huu Can Tran,72,Male,Asian,70,150,TRUE,TRUE,,,,,,,,,Divorced/separated/widowed,FALSE,TRUE,,FALSE,,Formerly involved but recently withdrawn,"Used to dance and teach lessons in the same dance studio every night where the attacks occurred. Eventually, stopped attending classes"
+192,Chunli  Zhao,66,Male,Asian,,,TRUE,TRUE,,,,,,,,,Married,TRUE,FALSE,Blue collar,FALSE,,No evidence,NA
+193,Audrey Hale,28,,White,,,FALSE,,Christian,Bachelors degree,Good,"""""While at our school, she was a talented artist and a good student,"" ""A post on the school's Facebook that has since been removed indicated that Hale earned at least one award for strong academic performance.""""",,,,,Single,FALSE,FALSE,White collar,FALSE,,Somewhat involved,Attended Nashville's Nossi College of Art & Design in 2022 and was a freelance graphic designer 
+194,Connor Sturgeon,25,Male,White,76,,FALSE,,,Graduate school/advanced degree,,,Oldest child,1,0,1,,FALSE,FALSE,White collar,FALSE,,Somewhat involved,Worked at Old National Bank
+195,Mauricio Garcia,33,Male,Latinx,,,,,,,,,,,,,Single,FALSE,FALSE,Blue collar,FALSE,Army,No evidence,
+184,Payton Gendron,18,Male,White,71,165,FALSE,TRUE,,Some college/trade school,Good,"""""He was always very quiet and never much said anything, said Ms. Williams, who added that Mr. Gendron was book smart but had grown more reclusive over the years since she met him in elementary school."" School records show that he was a good student and made high honors in his senior year""",Oldest child,2,0,2,Single,FALSE,TRUE,Blue collar,FALSE,,No evidence,NA
+185,Salvador Ramos,18,Male,Latinx,67,145,FALSE,TRUE,,Less than high school,Poor,"""Dropped out of school when best friend moved and sister graduated, ""He missed long periods of high school, classmates said, and was not on track to graduate with them this year."" ""He had dyslexia at an early age, but neither the school nor him saught treatment"" ""4th grade was his least favorite, likely from bullying according to witnesses (however his personal notes say the bullying started when he was in middle school) ""  School records show that he was a good student and made high honors in his senior year""",Youngest child,1,1,0,Single,FALSE,FALSE,Blue collar,FALSE,,No evidence,NA

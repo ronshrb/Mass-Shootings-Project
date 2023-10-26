@@ -1,0 +1,194 @@
+CASE #,Number Killed,Number Injured,Family Member Victim,Romantic Partner Victim,Kidnapping or Hostage Situation,On-Scene Outcome,Who Killed Shooter On Scene,Attempt to Flee,Insanity Defense,Criminal Sentence
+1,15,31,TRUE,TRUE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+2,5,2,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Death penalty
+3,6,6,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+4,7,2,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+5,4,17,FALSE,TRUE,,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+6,4,0,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+7,4,5,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+8,6,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+9,7,8,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+10,5,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,N/A
+11,7,2,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Hospitalization
+12,5,5,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+13,6,2,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life without parole
+14,6,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+15,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life imprisonment (with possibility of parole)
+16,5,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+17,5,11,FALSE,FALSE,TRUE,"Apprehended, then suicide before trial",Alive,No attempt,N/A (dead before trial),N/A
+18,4,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life imprisonment (with possibility of parole)
+19,4,20,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life imprisonment (with possibility of parole)
+20,5,3,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+21,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life without parole
+22,6,4,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+23,8,3,FALSE,FALSE,FALSE,Killed on scene,Killed by armed civilian,No attempt,N/A (dead before trial),N/A
+24,4,1,FALSE,TRUE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+25,6,2,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life without parole
+26,6,0,TRUE,FALSE,TRUE,Apprehended,Alive,Tried to escape,No,Death penalty
+27,8,1,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+28,6,1,FALSE,TRUE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life imprisonment (with possibility of parole)
+29,21,19,FALSE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+30,5,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+31,4,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+32,14,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+33,6,14,FALSE,FALSE,TRUE,Apprehended,Alive,Tried to escape,Yes,Death penalty
+34,7,4,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Death penalty
+35,4,5,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Hospitalization
+36,4,2,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+37,5,30,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+38,9,12,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+39,11,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+40,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Death penalty
+41,23,22,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+42,5,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+43,4,0,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+44,4,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+45,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Death penalty
+46,4,10,FALSE,FALSE,TRUE,Apprehended,Alive,No attempt,Yes,Death penalty
+47,4,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+48,6,1,FALSE,FALSE,TRUE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+49,8,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+50,4,7,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+51,4,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+52,4,5,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+53,6,19,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+54,4,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+55,4,23,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+56,5,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+57,5,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+58,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+59,5,3,FALSE,FALSE,TRUE,Apprehended,Alive,Tried to escape,Yes,Life imprisonment (with possibility of parole)
+60,5,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+61,5,3,FALSE,TRUE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+62,4,4,FALSE,FALSE,FALSE,Killed on scene,Killed by police,Tried to escape,N/A (dead before trial),N/A
+63,4,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Death penalty
+64,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+65,4,3,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+66,4,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+67,5,10,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Juvenile detention
+68,5,10,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Juvenile detention
+69,4,25,TRUE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+70,4,4,TRUE,TRUE,TRUE,Apprehended,Alive,No attempt,Yes,Life without parole
+71,13,23,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+72,13,23,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+73,4,1,FALSE,FALSE,TRUE,Apprehended,Alive,No attempt,No,Death penalty
+74,12,13,TRUE,TRUE,FALSE,Killed self,Killed self,Tried to escape,N/A (dead before trial),N/A
+75,7,7,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+76,7,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life without parole
+77,5,3,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life without parole
+78,5,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+79,5,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Death penalty
+80,7,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life without parole
+81,4,0,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+82,4,4,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+83,4,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Hospitalization
+84,5,2,FALSE,TRUE,,Killed self,Killed by police,No attempt,N/A (dead before trial),N/A
+85,4,5,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+86,4,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+87,6,8,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+88,6,0,FALSE,FALSE,FALSE,Killed on scene,Killed self,No attempt,N/A (dead before trial),N/A
+89,4,0,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+90,5,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+91,6,2,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Life without parole
+92,4,2,FALSE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+93,4,3,FALSE,FALSE,TRUE,Apprehended,Alive,Tried to escape,Yes,Life imprisonment (with possibility of parole)
+94,7,4,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+95,9,7,TRUE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+96,4,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+97,7,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+98,6,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+99,5,1,TRUE,TRUE,TRUE,Apprehended,Alive,Tried to escape,No,Death penalty
+100,5,5,FALSE,FALSE,TRUE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+101,5,4,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+102,32,26,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+103,8,5,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+104,4,5,FALSE,FALSE,FALSE,Killed self,Killed by armed civilian,No attempt,N/A (dead before trial),N/A
+105,6,1,FALSE,FALSE,,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+106,5,21,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+107,4,0,TRUE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Yes,Life imprisonment (with possibility of parole)
+108,5,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+109,6,4,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Hospitalization
+110,8,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life imprisonment (with possibility of parole)
+111,13,4,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+112,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Life without parole
+113,13,32,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Death penalty
+114,4,0,FALSE,FALSE,FALSE,Killed on scene,Alive,Tried to escape,N/A (dead before trial),N/A
+115,4,2,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Life without parole
+116,4,3,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+117,8,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+118,4,4,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Life without parole
+119,5,0,TRUE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+120,6,13,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+121,7,1,FALSE,TRUE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+122,4,7,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+123,8,1,FALSE,TRUE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+124,7,3,FALSE,FALSE,TRUE,Apprehended,Alive,No attempt,No,Life without parole
+125,5,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+126,12,70,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life without parole
+127,6,3,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+128,6,2,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+129,27,1,TRUE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+130,4,2,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+131,4,0,FALSE,TRUE,FALSE,Killed on scene,Killed by police,Tried to escape,N/A (dead before trial),N/A
+132,5,3,TRUE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+133,6,0,FALSE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+134,12,8,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+135,4,2,TRUE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Death penalty
+136,6,14,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+137,4,3,TRUE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+138,9,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,Death penalty
+139,5,2,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+140,9,8,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+141,6,0,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Death penalty
+142,14,24,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+143,14,24,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+144,6,2,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+147,49,53,FALSE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+148,5,11,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+149,5,0,FALSE,FALSE,FALSE,"Apprehended, then suicide before trial",Alive,No attempt,N/A (dead before trial),N/A
+150,5,43,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life imprisonment (with possibility of parole)
+151,4,0,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Trial pending,Life without parole
+152,4,0,FALSE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+153,5,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+154,60,867,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+155,25,20,FALSE,FALSE,TRUE,Killed self,Killed self,Tried to escape,N/A (dead before trial),N/A
+156,5,18,FALSE,TRUE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+157,4,1,FALSE,TRUE,FALSE,Killed self,Killed by police,No attempt,N/A (dead before trial),N/A
+158,17,17,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Trial pending,Life without parole
+159,4,0,TRUE,TRUE,FALSE,Killed self,Killed self,Tried to escape,N/A (dead before trial),N/A
+160,4,4,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life without parole
+161,10,13,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,Life imprisonment (with possibility of parole)
+162,5,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Yes,Life without parole
+163,5,0,FALSE,TRUE,TRUE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+164,11,6,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Trial pending,
+165,12,21,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+166,5,0,FALSE,FALSE,TRUE,Apprehended,Alive,No attempt,No,
+167,5,7,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+168,12,4,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+169,23,26,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,Life without parole
+170,9,27,TRUE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+171,7,23,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+172,4,3,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+173,4,3,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+174,5,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+175,4,3,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+176,5,3,FALSE,FALSE,TRUE,Killed on scene,Killed by police,Tried to escape,N/A (dead before trial),N/A
+177,8,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,No,Life without parole
+178,10,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,
+179,4,1,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,Hospitalization
+180,8,7,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),
+181,9,1,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),
+182,4,7,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,
+183,5,2,FALSE,FALSE,FALSE,Killed on scene,Killed by police,Tried to escape,N/A (dead before trial),N/A
+184,10,3,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,Life without parole
+185,21,17,TRUE,FALSE,TRUE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+186,4,0,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+187,7,46,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,No,
+188,5,2,TRUE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Trial pending,
+189,5,19,FALSE,FALSE,FALSE,Apprehended,Alive,No attempt,Trial pending,
+190,6,6,FALSE,FALSE,FALSE,Killed self,Killed self,No attempt,N/A (dead before trial),N/A
+191,11,9,FALSE,FALSE,FALSE,,Alive,Escaped and killed self,N/A (dead before trial),N/A
+192,7,1,FALSE,FALSE,FALSE,Apprehended,Alive,Tried to escape,Trial pending,N/A
+193,6,0,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+194,5,8,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
+195,8,7,FALSE,FALSE,FALSE,Killed on scene,Killed by police,No attempt,N/A (dead before trial),N/A
