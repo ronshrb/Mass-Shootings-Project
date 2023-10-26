@@ -1,0 +1,226 @@
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."Case_Results" (
+  "CASE #" INT,
+  "Number Killed" INT,
+  "Number Injured" INT,
+  "Family Member Victim" STRING,
+  "Romantic Partner Victim" STRING,
+  "Kidnapping or Hostage Situation" STRING,
+  "On-Scene Outcome" STRING,
+  "Who Killed Shooter On Scene" STRING,
+  "Attempt to Flee" STRING,
+  "Insanity Defense" STRING,
+  "Criminal Sentence" STRING);
+
+
+
+-- criminal record schema
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."criminal_record" (
+  "CASE #" INT,
+  "Known to Police or FBI" STRING,
+  "Criminal Record" STRING,
+  "Part I Crimes" STRING,
+  "Part II Crimes" STRING,
+  "Highest Level of Justice System Involvement" STRING,
+  "History of Physical Altercations" STRING,
+  "History of Animal Abuse" STRING,
+  "History of Domestic Abuse" STRING,
+  "Domestic Abuse Specified" STRING,
+  "History of Sexual Offenses" STRING,
+  "Gang Affiliation" STRING,
+  "Terror Group Affiliation" STRING,
+  "Known Hate Group or Chat Room Affiliation" STRING,
+  "Violent Video Games" STRING,
+  "Bully" STRING,
+  "Bullied" STRING);
+
+-- health record
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."health_record" (
+  "CASE #" INT,
+  "Suicidality" STRING,
+  "Prior Hospitalization" STRING,
+  "Voluntary or Involuntary Hospitalization" STRING,
+  "Prior Counseling" STRING,
+  "Voluntary or Mandatory Counseling" STRING,
+  "Psychiatric Medication" STRING,
+  "Psychiatric Medication Specified" STRING,
+  "Medication Category" STRING,
+  "Treatment 6 Months Prior to Shooting" STRING,
+  "Mental Illness" STRING,
+  "FASD" STRING,
+  "Known Family Mental Health History" STRING,
+  "Autism Spectrum" STRING,
+  "Substance Use" STRING,
+  "Health Issues" STRING,
+  "Health Issues - Specify" STRING,
+  "Head Injury / Possible TBI" STRING);
+
+  -- victims
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."victims" (
+  "CASE #" INT,
+  "Shooter Last Name" STRING,
+  "Shooter First Name" STRING,
+  "Full Date" DATE,
+  "Victim Name" STRING,
+  "Age" INT,
+  "Gender" STRING,
+  "Race" STRING,
+  "Knew Shooter" STRING,
+  "If Known, Relationship to Shooter" STRING,
+  "Relationship to Shooter" STRING,
+  "Life Expectancy" DOUBLE,
+  "Years Lost" DOUBLE);
+
+    -- trauma and childhood
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."trauma_and_childhood" (
+  "CASE #" INT,
+  "Raised by Single Parent" STRING,
+  "Parental Divorce / Separation" STRING,
+  "Parental Death in Childhood" STRING,
+  "Parental Suicide" STRING,
+  "Childhood Trauma" STRING,
+  "Physically Abused" STRING,
+  "Sexually Abused" STRING,
+  "Emotionally Abused" STRING,
+  "Neglected" STRING,
+  "Childhood SES" STRING,
+  "Mother Violent Treatment" STRING,
+  "Parental Substance Abuse" STRING,
+  "Parent Criminal Record" STRING,
+  "Family Member Incarcerated" STRING,
+  "Adult Trauma" STRING);
+
+ -- social_contagion
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."social_contagion" (
+  "CASE #" INT,
+  "Social Media Use" STRING,
+  "Leakage" STRING,
+  "Leakage How" STRING,
+  "Leakage Who" STRING,
+  "Leakage Specific/Nonspecific" STRING,
+  "Interest in Past Mass Violence" STRING,
+  "Relationship with Other Shooting(s)" STRING,
+  "Specify Relationship to Other Shooting(s)" STRING,
+  "Legacy Token" STRING,
+  "Pop Culture Connection" STRING,
+  "Specify Pop Culture Connection" STRING,
+  "Planning" STRING,
+  "Performance" STRING);
+
+   -- signs_of_a_crisis
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."signs_of_a_crisis" (
+  "CASE #" INT,
+  "Recent or Ongoing Stressor" STRING,
+  "Signs of Being in Crisis" STRING,
+  "Timeline of Signs of Crisis" STRING,
+  "Signs of Crisis Expanded" STRING,
+  "Inability to Perform Daily Tasks" STRING,
+  "Notably Depressed Mood" STRING,
+  "Rapid Mood Swings" STRING,
+  "Unusually Calm or Happy" STRING,
+  "Increased Agitation" STRING,
+  "Abusive Behavior" STRING,
+  "Isolation" STRING,
+  "Losing Touch with Reality" STRING,
+  "Paranoia" STRING);
+
+     -- weapons
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."weapons" (
+  "CASE #" INT,
+  "Interest in Firearms" STRING,
+  "Firearm Proficiency" STRING,
+  "Total Firearms Brought to the Scene" INT,
+  "Other Weapons or Gear" STRING,
+  "Specify Other Weapons or Gear" STRING);
+
+     -- date and location
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."date_and_location" (
+  "CASE #" INT,
+  "Full Date" DATE,
+  "Day of Week" STRING,
+  "Day" INT,
+  "Month" INT,
+  "Year" INT,
+  "Street Number" STRING,
+  "Street Name" STRING,
+  "City" STRING,
+  "State" STRING,
+  "County" STRING,
+  "Zip Code" STRING,
+  "Latitude" DOUBLE,
+  "Longitude" DOUBLE,
+  "State Code" INT,
+  "Region" STRING,
+  "Urban/Suburban/Rural" STRING,
+  "Metro/Micro Statistical Area Type" STRING,
+  "Location" STRING,
+  "Workplace Shooting" STRING,
+  "Multiple Locations" STRING,
+  "Other Location" STRING);
+
+       -- firearms
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."firearms" (
+  "CASE #" INT,
+  "Shooter Last Name" STRING,
+  "Shooter First Name" STRING,
+  "Full Date" STRING,
+  "Make and Model" STRING,
+  "Classification" STRING,
+  "Caliber" STRING,
+  "Used in Shooting?" STRING,
+  "Modified" STRING,
+  "Large Capacity Magazine" STRING,
+  "Extended Magazine" STRING,
+  "When Obtained" STRING,
+  "Legal Purchase" STRING,
+  "Illegal Purchase" STRING,
+  "Assembled with Legal Parts" STRING,
+  "Gifted" STRING,
+  "Theft" STRING,
+  "Unknown" STRING);
+
+-- offenders
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."offenders" (
+  "CASE #" INT,
+  "Shooter Last Name" STRING,
+  "Shooter First Name" STRING,
+  "Age" INT,
+  "Gender" STRING,
+  "Race" STRING,
+  "Height" INT,
+  "Weight" INT,
+  "Immigrant" STRING,
+  "Sexual Orientation" STRING,
+  "Religion" STRING,
+  "Education" STRING,
+  "School Performance" STRING,
+  "School Performance Specified" STRING,
+  "Birth Order" INT,
+  "Number of Siblings" INT,
+  "Older Siblings" INT,
+  "Younger Siblings" INT,
+  "Relationship Status" STRING,
+  "Children" STRING,
+  "Employment Status" STRING,
+  "Employment Type" STRING,
+  "Military Service" STRING,
+  "Military Branch" STRING,
+  "Community Involvement" STRING,
+  "Community Involvement Specified" STRING);
+
+  -- motives
+CREATE OR REPLACE TABLE "RAW_MSDB"."PUBLIC"."motives" (
+  "CASE #" INT,
+  "Known Prejudices" STRING,
+  "Motive: Racism/Xenophobia" STRING,
+  "Motive: Religious Hate" STRING,
+  "Motive: Misogyny" STRING,
+  "Motive: Homophobia" STRING,
+  "Motive: Employment Issue" STRING,
+  "Motive: Economic Issue" STRING,
+  "Motive: Legal Issue" STRING,
+  "Motive: Relationship Issue" STRING,
+  "Motive: Interpersonal Conflict " STRING,
+  "Motive: Fame-Seeking" STRING,
+  "Motive: Other" STRING,
+  "Motive: Unknown" STRING,
+  "Role of Psychosis in the Shooting" STRING);
