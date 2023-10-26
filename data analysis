@@ -1,0 +1,90 @@
+-- locations of shootings and the average precent of shooters that had childhood trauma
+-- we can see that shooters in schools had the highest precentage of childhood traumas
+
+WITH new_table as (SELECT 
+"CASE #",
+(CASE WHEN "Raised by Single Parent" = TRUE THEN 1 ELSE 0 END) AS "Raised by Single Parent",
+(CASE WHEN "Childhood Trauma" = TRUE THEN 1 ELSE 0 END) AS "Childhood Trauma",
+(CASE WHEN "Physically Abused" = TRUE THEN 1 ELSE 0 END) AS "Physically Abused",
+(CASE WHEN "Sexually Abused" = TRUE THEN 1 ELSE 0 END) AS "Sexually Abused",
+(CASE WHEN "Emotionally Abused" = TRUE THEN 1 ELSE 0 END) AS "Emotionally Abused",
+(CASE WHEN "Neglected" = TRUE THEN 1 ELSE 0 END) AS "Neglected",
+(CASE WHEN "Childhood socioeconomic status" = TRUE THEN 1 ELSE 0 END) AS "Childhood socioeconomic status",
+(CASE WHEN "Mother Violent Treatment" = TRUE THEN 1 ELSE 0 END) AS "Mother Violent Treatment",
+(CASE WHEN "Parental Substance Abuse" = TRUE THEN 1 ELSE 0 END) AS "Parental Substance Abuse",
+(CASE WHEN "Parent Criminal Record" = TRUE THEN 1 ELSE 0 END) AS "Parent Criminal Record"
+FROM "MSDB"."PUBLIC"."trauma_and_childhood"), locations as(
+SELECT "CASE #", "Location"
+FROM "MSDB"."PUBLIC"."date_and_location"
+WHERE "Location" IS NOT NULL
+UNION
+SELECT "CASE #", "Other Location" Location
+FROM "MSDB"."PUBLIC"."date_and_location"
+WHERE "Other Location" IS NOT NULL)
+
+SELECT 
+"Location",
+ROUND(100*((sum("Raised by Single Parent")/COUNT("Location")+sum("Childhood Trauma")/COUNT("Location")+sum("Physically Abused")/COUNT("Location")+sum("Sexually Abused")/COUNT("Location") +sum("Emotionally Abused")/COUNT("Location")+sum("Neglected")/COUNT("Location")+sum("Childhood socioeconomic status")/COUNT("Location")+sum("Mother Violent Treatment")/COUNT("Location")+sum("Parental Substance Abuse")/COUNT("Location")+sum("Parent Criminal Record")/COUNT("Location"))/10),2) AS "Average Precent of Number of Shooters with Childhood Traumas"
+FROM new_table
+RIGHT JOIN locations ON locations."CASE #" = new_table."CASE #"
+GROUP BY "Location"
+ORDER BY "Average Precent of Number of Shooters with Childhood Traumas" desc;
+
+----
+
+-- average killed and injured for shooters grouped by firearm proficiency, and what percentage of the shooters were caught alive
+
+SELECT "Firearm Proficiency", ROUND(SUM("Number Killed")/COUNT(case_results."CASE #"),2) "Average Kills", ROUND(SUM("Number Injured")/COUNT(case_results."CASE #"),2) "Average Injured", ROUND(100*(SUM(IFF("On-Scene Outcome"='Killed self' OR "On-Scene Outcome"='Fled', 1, 0))/COUNT(case_results."CASE #")),2) "Percentage of Shooters Who Were Caught Alive"
+FROM "MSDB"."PUBLIC"."Case_Results" case_results
+LEFT JOIN "MSDB"."PUBLIC"."weapons" weapons ON weapons."CASE #" = case_results."CASE #"
+LEFT JOIN "MSDB"."PUBLIC"."offenders" offenders ON offenders."CASE #" = case_results."CASE #"
+WHERE "Firearm Proficiency" IS NOT NULL
+GROUP BY "Firearm Proficiency";
+
+----
+-- has certain attributes had an effect on if the shooter performed?
+
+WITH a AS(
+SELECT
+ROUND(100*(SUM(IFF("Social Media Use" = TRUE,1,0))/COUNT(social."CASE #")),2) "Social Media Use",
+ROUND(100*(SUM(IFF("Interest in Past Mass Violence" = TRUE,1,0))/COUNT(social."CASE #")),2) "Interest in Past Mass Violence", 
+ROUND(100*(SUM(IFF("Leakage" = TRUE,1,0))/COUNT(social."CASE #")),2) "Leakage",
+ROUND(100*(SUM(IFF("Relationship with Other Shooting(s)" = TRUE,1,0))/COUNT(social."CASE #")),2) "Relationship with Other Shooting(s)",
+ROUND(100*(SUM(IFF("Planning" = TRUE,1,0))/COUNT(social."CASE #")),2) "Planning",
+ROUND(100*(SUM(IFF("Interest in Firearms" = TRUE,1,0))/COUNT(social."CASE #")),2) "Interest in Firearms",
+ROUND(100*(SUM(IFF("Gang Affiliation" = TRUE,1,0))/COUNT(social."CASE #")),2) "Gang Affiliation",
+ROUND(100*(SUM(IFF("Terror Group Affiliation" = TRUE,1,0))/COUNT(social."CASE #")),2) "Terror Group Affiliation",
+ROUND(100*(SUM(IFF("Violent Video Games" = TRUE,1,0))/COUNT(social."CASE #")),2) "Violent Video Games"
+FROM "MSDB"."PUBLIC"."social_contagion" social
+LEFT JOIN "MSDB"."PUBLIC"."weapons" weapons ON weapons."CASE #" = social."CASE #"
+LEFT JOIN "MSDB"."PUBLIC"."criminal_record" criminal ON criminal."CASE #" = social."CASE #"
+GROUP BY "Performance"
+HAVING "Performance" = TRUE),
+b AS(
+SELECT
+ROUND(100*(SUM(IFF("Social Media Use" = TRUE,1,0))/COUNT(social."CASE #")),2) "Social Media Use",
+ROUND(100*(SUM(IFF("Interest in Past Mass Violence" = TRUE,1,0))/COUNT(social."CASE #")),2) "Interest in Past Mass Violence", 
+ROUND(100*(SUM(IFF("Leakage" = TRUE,1,0))/COUNT(social."CASE #")),2) "Leakage",
+ROUND(100*(SUM(IFF("Relationship with Other Shooting(s)" = TRUE,1,0))/COUNT(social."CASE #")),2) "Relationship with Other Shooting(s)",
+ROUND(100*(SUM(IFF("Planning" = TRUE,1,0))/COUNT(social."CASE #")),2) "Planning",
+ROUND(100*(SUM(IFF("Interest in Firearms" = TRUE,1,0))/COUNT(social."CASE #")),2) "Interest in Firearms",
+ROUND(100*(SUM(IFF("Gang Affiliation" = TRUE,1,0))/COUNT(social."CASE #")),2) "Gang Affiliation",
+ROUND(100*(SUM(IFF("Terror Group Affiliation" = TRUE,1,0))/COUNT(social."CASE #")),2) "Terror Group Affiliation",
+ROUND(100*(SUM(IFF("Violent Video Games" = TRUE,1,0))/COUNT(social."CASE #")),2) "Violent Video Games"
+FROM "MSDB"."PUBLIC"."social_contagion" social
+LEFT JOIN "MSDB"."PUBLIC"."weapons" weapons ON weapons."CASE #" = social."CASE #"
+LEFT JOIN "MSDB"."PUBLIC"."criminal_record" criminal ON criminal."CASE #" = social."CASE #"
+GROUP BY "Performance"
+HAVING "Performance" = FALSE)
+
+SELECT 'Has an effect on performance?' as "-",
+IFF(a."Social Media Use" - b."Social Media Use" > 30 AND a."Social Media Use" > 50, TRUE, FALSE) "Social Media Use",
+IFF(a."Interest in Past Mass Violence" - b."Interest in Past Mass Violence" > 30 AND a."Interest in Past Mass Violence" > 50, TRUE, FALSE) "Interest in Past Mass Violence",
+IFF(a."Leakage" - b."Leakage" > 30 AND a."Leakage" > 50, TRUE, FALSE) "Leakage",
+IFF(a."Relationship with Other Shooting(s)" - b."Relationship with Other Shooting(s)" > 30 AND a."Relationship with Other Shooting(s)" > 50, TRUE, FALSE) "Relationship with Other Shooting(s)",
+IFF(a."Planning" - b."Planning" > 30 AND a."Planning" > 50, TRUE, FALSE) "Planning",
+IFF(a."Interest in Firearms" - b."Interest in Firearms" > 30 AND a."Interest in Firearms" > 50, TRUE, FALSE) "Interest in Firearms",
+IFF(a."Gang Affiliation" - b."Gang Affiliation" > 30 AND a."Gang Affiliation" > 50, TRUE, FALSE) "Gang Affiliation",
+IFF(a."Terror Group Affiliation" - b."Terror Group Affiliation" > 30 AND a."Terror Group Affiliation" > 50, TRUE, FALSE) "Terror Group Affiliation",
+IFF(a."Violent Video Games" - b."Violent Video Games" > 30 AND a."Violent Video Games" > 50, TRUE, FALSE) "Violent Video Games"
+FROM a, b
